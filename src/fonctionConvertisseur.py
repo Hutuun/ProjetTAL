@@ -20,6 +20,7 @@ def FonctionConvertion(temp,convertion):
 def FonctionDecoupagePhrase(entree):
 	temp = []
 	for ligne in entree:
+		print(len(ligne.split()))
 		if len(ligne.split())==2:
 			temp += [ligne.split()]
 		else:
@@ -41,7 +42,7 @@ def convertisseur(source,entree):
 	
 	temp = FonctionDecoupagePhrase(entree)
 	
-	#print(pandas.DataFrame({'temp':temp}))
+	print(pandas.DataFrame({'temp':temp}))
 
 	temp = FonctionConvertion(temp,convertion)
 
