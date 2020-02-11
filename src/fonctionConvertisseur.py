@@ -8,3 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import pandas
+
+def convertisseur(source,sortie):
+  source 
