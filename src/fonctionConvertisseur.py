@@ -56,11 +56,11 @@ def convertisseur(source,entree):
 	
 	temp = FonctionDecoupagePhrase(entree)
 	
-	print(pandas.DataFrame({'temp':temp}))
+	#print(pandas.DataFrame({'temp':temp}))
 	
 	temp = FonctionRemiseNiv(temp)
 	
-	print(pandas.DataFrame({'temp':temp}))
+	#print(pandas.DataFrame({'temp':temp}))
 
 	temp = FonctionConvertion(temp,convertion)
 
