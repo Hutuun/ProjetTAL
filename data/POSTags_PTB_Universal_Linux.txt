@@ -1,4 +1,5 @@
 CC  CONJ
+SCONJ	CONJ
 CD  NUM
 DT  DET
 EX  DT
@@ -34,6 +35,9 @@ WDT DET
 WP  PRON
 WP$ PRON
 WRB ADV
+SENT	.
+COMMA	.
+COLON	.
 .   .
 ,   .
 :   .
