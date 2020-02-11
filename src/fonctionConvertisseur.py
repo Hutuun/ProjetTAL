@@ -43,6 +43,8 @@ def FonctionRemiseNiv(temp):
 				if j==len(temp[i])-1:
 					temp2[1]+=temp[i][j]
 				else:
+					if j!=0:
+						temp2[0]+=" "
 					temp2[0]+=temp[i][j]
 			temp[i] = temp2
 	return temp
