@@ -9,39 +9,45 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import pandas
 
-def FonctionConvertion(temp3,convertion):
-	for i in temp3:
+def FonctionConvertion(temp,convertion):
+	for i in temp:
 		for j in convertion:
-			if i[1]==j[0]:
-				i[1]=j[1]
-	return temp3
+			if len(i)==2:
+				if i[1]==j[0]:
+					i[1]=j[1]
+	return temp
 
 def FonctionDecoupagePhrase(entree):
 	temp = []
 	for ligne in entree:
-    if len(ligne.split())==2:
-		  temp += [ligne.split()]
-
+		if len(ligne.split())==2:
+			temp += [ligne.split()]
+		else:
+			temp += []
 	return temp
 
-def ChoixAffiche(temp3):
+def ChoixAffiche(temp):
 	resultat = ""
-	for i in temp3:
-		resultat += i[0] + "	" + i[1] + "\n"
+	for i in temp:
+		if len(i)==2:
+			resultat += i[0] + "	" + i[1] 
+		resultat += "\n"
 	return resultat
 
-def convertisseur(source,sortie):
-	temp3 = FonctionDecoupagePhrase(entree)
+def convertisseur(source,entree):
+	convertion = []
+	for ligne in source:
+		convertion += [ligne.split()]
 	
-	#print(pandas.DataFrame({'temp3':temp3}))
+	temp = FonctionDecoupagePhrase(entree)
+	
+	#print(pandas.DataFrame({'temp':temp}))
 
-	temp3 = FonctionConvertion(temp3,convertion)
+	temp = FonctionConvertion(temp,convertion)
 
-	resultat = ChoixAffiche(temp3)
+	resultat = ChoixAffiche(temp)
 
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)
-  
-  numpy.savetxt("../data/pos_reference.txt.univ",[resultat],fmt='%s')
-  
-  
+	
+	numpy.savetxt("..\data\pos_reference.txt.univ",[resultat],fmt='%s')
