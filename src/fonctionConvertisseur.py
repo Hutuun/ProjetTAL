@@ -20,11 +20,11 @@ def FonctionConvertion(temp,convertion):
 def FonctionDecoupagePhrase(entree):
 	temp = []
 	for ligne in entree:
-		print(len(ligne.split()))
-		if len(ligne.split())==2:
+		#print(len(ligne.split()))
+		if len(ligne.split())>=2:
 			temp += [ligne.split()]
 		else:
-			temp += []
+			temp += [""]
 	return temp
 
 def ChoixAffiche(temp):
@@ -35,12 +35,28 @@ def ChoixAffiche(temp):
 		resultat += "\n"
 	return resultat
 
+def FonctionRemiseNiv(temp):
+	for i in range(len(temp)):
+		if len(temp[i])>2:
+			temp2=["",""]
+			for j in range(len(temp[i])):
+				if j==len(temp[i])-1:
+					temp2[1]+=temp[i][j]
+				else:
+					temp2[0]+=temp[i][j]
+			temp[i] = temp2
+	return temp
+
 def convertisseur(source,entree):
 	convertion = []
 	for ligne in source:
 		convertion += [ligne.split()]
 	
 	temp = FonctionDecoupagePhrase(entree)
+	
+	print(pandas.DataFrame({'temp':temp}))
+	
+	temp = FonctionRemiseNiv(temp)
 	
 	print(pandas.DataFrame({'temp':temp}))
 
