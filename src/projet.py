@@ -12,6 +12,8 @@ import fonctionConvertisseur as fctConv
 import fonctionRetabli as fctRet
 import nltk
 
+open("..\data\ne_reference.txt.conll","r")
+
 print("Debut du programme")
 
 print("Etape 1")
