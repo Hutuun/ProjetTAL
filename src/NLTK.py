@@ -6,11 +6,14 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 from nltk import pos_tag
-from nltk import RegexpParser as RP
 
 entree = open("../data/pos_test.txt","r")
 
 text = []
+
+for ligne in entree:
+	#print(ligne)
+	text += ligne.split()
 
 token_tag = pos_tag(text)
 
