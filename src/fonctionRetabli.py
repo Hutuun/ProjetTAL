@@ -31,6 +31,7 @@ def ChoixAffiche(temp):
 				resultat += temp[i][j]
 		else:
 			resultat += "\n"
+			resultat += "\n"
 	return resultat
 
 def retablissement(entree,sortie):
