@@ -33,7 +33,7 @@ def ChoixAffiche(temp):
 			resultat += "\n"
 	return resultat
 
-def retablissement(entree):
+def retablissement(entree,sortie):
 	temp = FonctionDecoupagePhrase(entree)
 	
 	resultat = ChoixAffiche(temp)
@@ -41,4 +41,4 @@ def retablissement(entree):
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)
 	
-	numpy.savetxt("..\data\pos_reference.txt",[resultat],fmt='%s')
+	numpy.savetxt(sortie,[resultat],fmt='%s')

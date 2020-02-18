@@ -49,7 +49,7 @@ def FonctionRemiseNiv(temp):
 			temp[i] = temp2
 	return temp
 
-def convertisseur(source,entree):
+def convertisseur(source,entree,sortie):
 	convertion = []
 	for ligne in source:
 		convertion += [ligne.split()]
@@ -69,4 +69,4 @@ def convertisseur(source,entree):
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)
 	
-	numpy.savetxt("..\data\pos_reference.txt.univ",[resultat],fmt='%s')
+	numpy.savetxt(sortie,[resultat],fmt='%s')

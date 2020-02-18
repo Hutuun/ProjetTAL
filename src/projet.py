@@ -12,11 +12,37 @@ import fonctionConvertisseur as fctConv
 import fonctionRetabli as fctRet
 import nltk
 
+print("Debut du programme")
+
+print("Etape 1")
+
 source = open("..\data\POSTags_PTB_Universal_Linux.txt","r")
 entree = open("..\data\pos_reference.txt.lima","r")
 
-fctConv.convertisseur(source,entree)
+sortie = "..\data\pos_reference.txt.univ"
+
+fctConv.convertisseur(source,entree,sortie)
+
+print("Etape 1 finie")
+
+print("Etape 2")
 
 entree = open("..\data\pos_reference.txt.univ","r")
 
-fctRet.retablissement(entree)
+sortie = "..\data\pos_test.txt"
+
+fctRet.retablissement(entree,sortie)
+
+print("Etape 2 finie")
+
+print("Etape 3")
+
+entree = open("..\data\ne_reference.txt.conll","r")
+
+sortie = "..\data\ne_test.txt"
+
+fctRet.retablissement(entree,sortie)
+
+print("Etape 3 finie")
+
+print("Fin du programme")
