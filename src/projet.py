@@ -12,8 +12,6 @@ import fonctionConvertisseur as fctConv
 import fonctionRetabli as fctRet
 import nltk
 
-open("..\data\ne_reference.txt.conll","r")
-
 print("Debut du programme")
 
 print("Etape 1")
@@ -39,9 +37,9 @@ print("Etape 2 finie")
 
 print("Etape 3")
 
-entree = open("..\data\ne_reference.txt.conll","r")
+entree = open("..\data\eference.txt.conll","r")
 
-sortie = "..\data\ne_test.txt"
+sortie = "..\data\est.txt"
 
 fctRet.retablissement(entree,sortie)
 
