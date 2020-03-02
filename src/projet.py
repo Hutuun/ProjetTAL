@@ -12,6 +12,7 @@ import fonctionConvertisseur as fctConv
 import fonctionRetabli as fctRet
 import fonctionFormatage as fctForm
 import fonctionFinalize as fctFin
+import fonctionDecoupage as fctDec
 import nltk
 
 print("Debut du programme")
@@ -132,7 +133,7 @@ entree = open("..\data\pos_test.txt.pos.stanford.univ","r")
 sortie = "..\data\pos_test.txt.pos.stanford.univ2"
 sortie2 = "..\data\pos_reference.txt.univ2"
 
-fctFin.finalize(source,entree,sortie,sortie2)
+#fctFin.finalize(source,entree,sortie,sortie2)
 
 source.close()
 entree.close()
@@ -151,12 +152,70 @@ entree = open("..\data\pos_test.txt.pos.nltk.univ","r")
 sortie = "..\data\pos_test.txt.pos.nltk.univ2"
 sortie2 = "..\data\pos_reference.txt.univ3"
 
-fctFin.finalize(source,entree,sortie,sortie2)
+#fctFin.finalize(source,entree,sortie,sortie2)
 
 source.close()
 entree.close()
 
 print("Etape 8 finie")
+
+
+
+print("Etape 9")
+
+entree = open("..\data\pos_reference.txt.univ","r")
+
+sortie = "..\data\pos_reference.txt.univ"
+
+fctDec.decoupe(entree,sortie)
+
+entree.close()
+
+print("Etape 9 finie")
+
+
+
+print("Etape 10")
+
+entree = open("..\data\pos_reference.txt.univ","r")
+
+sortie = "..\data\pos_reference.txt.univ.stanford"
+
+fctDec.decoupe2(entree,sortie)
+
+entree.close()
+
+print("Etape 10 finie")
+
+
+
+
+print("Etape 11")
+
+entree = open("..\data\pos_test.txt.pos.stanford.univ","r")
+
+sortie = "..\data\pos_test.txt.pos.stanford.univ"
+
+fctDec.decoupe3(entree,sortie)
+
+entree.close()
+
+print("Etape 11 finie")
+
+
+
+
+print("Etape 12")
+
+entree = open("..\data\pos_reference.txt.univ.stanford","r")
+
+sortie = "..\data\pos_reference.txt.univ.stanford"
+
+fctDec.decoupe3(entree,sortie)
+
+entree.close()
+
+print("Etape 12 finie")
 
 
 
