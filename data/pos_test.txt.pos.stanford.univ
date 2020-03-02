@@ -5182,9 +5182,9 @@ and	CONJ
 inventiveness	NOUN
 of	ADP
 an	DET
--LCB-	-LRB-
+-LCB-	.
 offending	VERB
--RCB-	-RRB-
+-RCB-	.
 country	NOUN
 's	PRT
 own	ADJ
@@ -5804,7 +5804,7 @@ the	DET
 debt	NOUN
 forgiven	VERB
 .	.
--LRB-	-LRB-
+-LRB-	.
 During	ADP
 its	PRON
 centennial	NOUN
@@ -5830,7 +5830,7 @@ American	ADJ
 business	NOUN
 history	NOUN
 .	.
--RRB-	-RRB-
+-RRB-	.
 THREE	NUM
 COMPUTERS	NOUN
 that	DET
@@ -6875,11 +6875,11 @@ of	ADP
 16.125	NUM
 Canadian	ADJ
 dollars	NOUN
--LRB-	-LRB-
+-LRB-	.
 US	NOUN
 $	$
 13.73	NUM
--RRB-	-RRB-
+-RRB-	.
 .	.
 On	ADP
 the	DET
@@ -10069,7 +10069,7 @@ A	DET
 Wild	NOUN
 Sheep	NOUN
 Chase	NOUN
--LRB-	-LRB-
+-LRB-	.
 Kodansha	NOUN
 ,	.
 320	NUM
@@ -10077,7 +10077,7 @@ pages	NOUN
 ,	.
 $	$
 18.95	NUM
--RRB-	-RRB-
+-RRB-	.
 ,	.
 baby	NOUN
 boomers	NOUN
@@ -10398,7 +10398,7 @@ novel	NOUN
 ,	.
 Norwegian	ADJ
 Wood	NOUN
--LRB-	-LRB-
+-LRB-	.
 every	DET
 Japanese	NOUN
 under	ADP
@@ -10410,7 +10410,7 @@ fluent	ADJ
 in	ADP
 Beatles	NOUN
 lyrics	NOUN
--RRB-	-RRB-
+-RRB-	.
 ,	.
 has	VERB
 sold	VERB
@@ -10476,7 +10476,7 @@ You	PRON
 Got	VERB
 Have	VERB
 Wa	.
--LRB-	-LRB-
+-LRB-	.
 Macmillan	NOUN
 ,	.
 339	NUM
@@ -10484,7 +10484,7 @@ pages	NOUN
 ,	.
 $	$
 17.95	NUM
--RRB-	-RRB-
+-RRB-	.
 ,	.
 the	DET
 Beatles	NOUN
@@ -10732,7 +10732,7 @@ home	NOUN
 .	.
 Funny	NOUN
 Business	NOUN
--LRB-	-LRB-
+-LRB-	.
 Soho	NOUN
 ,	.
 228	NUM
@@ -10740,7 +10740,7 @@ pages	NOUN
 ,	.
 $	$
 17.95	NUM
--RRB-	-RRB-
+-RRB-	.
 by	ADP
 Gary	NOUN
 Katzenstein	NOUN

@@ -124,7 +124,7 @@ def decoupe3(entree,sortie):
 		#else:
 		#	print(i[0])
 	
-	print(pandas.DataFrame({'Resultat':temp3}))
+	#print(pandas.DataFrame({'Resultat':temp3}))
 	
 	resultat = ""
 	
