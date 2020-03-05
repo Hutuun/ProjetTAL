@@ -43,3 +43,47 @@ def retablissement(entree,sortie):
 	#print(resultat)
 	
 	numpy.savetxt(sortie,[resultat],fmt='%s')
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+def FonctionDecoupagePhrase2(entree):
+	temp = []
+	for ligne in entree:
+		#print(len(ligne.split()))
+		if len(ligne.split())>=2:
+			temp += [ligne.split()]
+		else:
+			temp += [""]
+	return temp
+	
+def ChoixAffiche2(temp):
+	resultat = ""
+	for i in range(len(temp)):
+		if len(temp[i])>=2:
+			if i != 0:
+				resultat += temp[i][0]
+				resultat += " "
+		else:
+			resultat += "\n"
+			resultat += "\n"
+	return resultat
+	
+def retablissement2(entree,sortie):
+	temp = FonctionDecoupagePhrase2(entree)
+	
+	resultat = ChoixAffiche2(temp)
+
+	# print(pandas.DataFrame({'Resultat':resultat}))
+	#print(resultat)
+	
+	numpy.savetxt(sortie,[resultat],fmt='%s')

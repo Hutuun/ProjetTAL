@@ -61,7 +61,7 @@ entree = open("..\data\eference.txt.conll","r")
 
 sortie = "..\data\est.txt"
 
-fctRet.retablissement(entree,sortie)
+fctRet.retablissement2(entree,sortie)
 
 entree.close()
 
