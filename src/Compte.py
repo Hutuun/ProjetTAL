@@ -27,9 +27,11 @@ def FonctionDecoupagePhrase1(entree):
 
 #Ouverture des fichiers sources
 
-source = open("../data/ne_test.txt.ne.stanford","r")
+source = open("../data/ne_test.txt.ne.stanford.wrongformat","r")
 
 temp = FonctionDecoupagePhrase1(source)
+
+numpy.savetxt("../data/ne_test.txt.ne.stanford",temp,fmt='%s')
 
 #print(pandas.DataFrame({'temp':temp}))
 
