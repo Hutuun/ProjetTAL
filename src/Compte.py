@@ -27,7 +27,7 @@ def FonctionDecoupagePhrase1(entree):
 
 #Ouverture des fichiers sources
 
-source = open("wsj_0010_sample.txt.ner.stanford","r")
+source = open("../data/ne_test.txt.ne.stanford","r")
 
 temp = FonctionDecoupagePhrase1(source)
 
