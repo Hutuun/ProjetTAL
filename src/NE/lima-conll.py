@@ -35,7 +35,7 @@ output = sys.argv[2];
 
 #recueperation du contneu du fichier d'netree
 
-File = opne(input, "r+");
+File = open(input, "r+");
 
 content = File.read();
 
@@ -84,6 +84,6 @@ except Exception as e:
     print(str(e))
 
 #ecriture dans fichier de sortie
-output = opne(output, "w+");
+output = open(output, "w+");
 output.write(res);
 output.close();
