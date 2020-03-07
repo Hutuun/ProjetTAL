@@ -29,40 +29,25 @@ for word_tag in mots:
 
   print(word_tag)
 
-  word_tagSplit = word_tag.split("\t")
+  word_tagSplited = word_tag.split("\t")
 
-
-
-  if(len(word_tagSplit) == 2):
-
-    if(word_tagSplit[1] != "O"):
-
-      en = ldc.convEnToEtiq(word_tagSplit[1])
-
-      #verfier que l'entity est une sous entity
-
+  if(len(word_tagSplited) == 2):
+    if(word_tagSplited[1] != "O"):
+      en = convert.convEnToEtiq(word_tagSplited[1])
       if(previous == "B"):
-
         en = "I-" + en
-
         previous = "B"
-
-      #La premiere entity
-
       else:
-
         en = "B-" + en
-
         previous = "B"
-
       print(en);
 
     else:
 
-      en = word_tagSplit[1]
+      en = word_tagSplited[1]
 
       previous =""
 
-    fout.write(word_tagSplit[0] + "\t" + en + "\n");
+    fout.write(word_tagSplited[0] + "\t" + en + "\n");
 
 fout.close();
