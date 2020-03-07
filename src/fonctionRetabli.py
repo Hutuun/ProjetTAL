@@ -70,9 +70,8 @@ def ChoixAffiche2(temp):
 	resultat = ""
 	for i in range(len(temp)):
 		if len(temp[i])>=2:
-			if i != 0:
-				resultat += temp[i][0]
-				resultat += " "
+			resultat += temp[i][0]
+			resultat += " "
 		else:
 			resultat += "\n"
 			resultat += "\n"
