@@ -138,3 +138,51 @@ def decoupe3(entree,sortie):
 	#print(resultat)
 	
 	numpy.savetxt(sortie,[resultat],fmt='%s')
+	
+	
+def decoupe4(entree,sortie):
+	
+	#print("Coucou")
+	
+	temp = []
+	
+	for ligne in entree:
+		temp2 = ligne.split()
+		temp += [temp2]
+		
+	#print(pandas.DataFrame({'Resultat':temp}))
+	
+	temp2 = []
+	
+	for i in temp:
+		if len(i)%2==0:
+			for j in range(0,len(i),2):
+				temp3 = [i[j],i[j+1]]
+				temp2 += [temp3]
+		else:
+			print("Probleme dans le fichier")
+	
+	#print(pandas.DataFrame({'Resultat':temp2}))
+	
+	#temp3 = []
+	
+	#for i in temp2:
+	#	if i[0] != "'" and i[0] != "``" and i[0] != "\"" and i[0] != "''":
+	#		temp3 += [[i[0],i[1]]]
+		#else:
+		#	print(i[0])
+	
+	#print(pandas.DataFrame({'Resultat':temp3}))
+	
+	resultat = ""
+	
+	for i in temp2:
+		resultat += i[0]
+		resultat += "	"
+		resultat += i[1]
+		resultat += "\n"
+	
+	#print(pandas.DataFrame({'Resultat':resultat}))
+	#print(resultat)
+	
+	numpy.savetxt(sortie,[resultat],fmt='%s')

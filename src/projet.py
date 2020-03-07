@@ -220,4 +220,21 @@ print("Etape 12 finie")
 
 
 
+
+print("Etape 13")
+
+entree = open("..\data\est.txt.ne.nltk","r")
+
+sortie = "..\data\est.txt.ne.nltk.conll"
+
+fctDec.decoupe4(entree,sortie)
+
+entree.close()
+
+print("Etape 13 finie")
+
+
+
+
+
 print("Fin du programme")
