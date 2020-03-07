@@ -3,51 +3,99 @@ import os
 import re
 import limaConll as convert
 
+
 input = sys.argv[1];
 
 output = sys.argv[2];
 
+
 text = open(input, "r+");
+
 content = text.read();
-text.close()
+
+text.close();
 
 
+#traitement
 
-lines = content.split("\n")
+res = "";
 
-mots = []
-
-for line in lines:
-
-  mots += line.split(" ")
-
-fout = open(output, "w+")
+lines = content.split("\n"); #extraction ligne par ligne
 
 previous = ""
 
-for word_tag in mots:
 
-  print(word_tag)
+try:
 
-  word_tagSplited = word_tag.split("\t")
+	for line in lines:
+		if(line != ""):
 
-  if(len(word_tagSplited) == 2):
-    if(word_tagSplited[1] != "O"):
-      en = convert.convEnToEtiq(word_tagSplited[1])
-      if(previous == "B"):
-        en = "I-" + en
-        previous = "B"
-      else:
-        en = "B-" + en
-        previous = "B"
-      print(en);
+		  #si ligne non vide
+			# print(len(line))
+			if(line[0] != ""):
 
-    else:
+			#si pas ligne de commentaire
+			
+			#extraction du mot et de son entity nomme
 
-      en = word_tagSplited[1]
+				colonne = line.split(" ");
 
-      previous =""
+				# print(colonne)
 
-    fout.write(word_tagSplited[0] + "\t" + en + "\n");
+			  #print(colonne[9].split("."))
 
-fout.close();
+				if(colonne[1] != "O"):
+
+					en = colonne[1]
+					en = convert.convEnToEtiq(en)
+
+			  #verfier que l'entity est une sous entity
+
+					if(previous == "B"):
+
+						en = "I-" + en
+
+						previous = "B"
+
+				  #La premiere entity
+
+					else:
+
+						en = "B-" + en
+
+						previous = "B"
+
+					# print(en);
+
+				else:
+
+					en = colonne[1]
+
+					previous =""
+
+				  
+
+			res += colonne[0] + "\t" + en + "\n";
+
+			# print(res)
+
+		else :
+
+			res += "\n"
+
+except Exception as e:
+
+    print(str(e))
+	
+
+
+
+#ecriture dans fichier de sortie
+
+outputFile = open(output, "w");
+
+# print(res)
+
+outputFile.write(res);
+
+outputFile.close();
