@@ -1,7 +1,7 @@
 import sys
 import os
 import re
-import lima-conll as convert
+import limaConll as convert
 
 input = sys.argv[1];
 
