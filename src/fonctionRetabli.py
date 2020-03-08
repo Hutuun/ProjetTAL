@@ -86,3 +86,24 @@ def retablissement2(entree,sortie):
 	#print(resultat)
 	
 	numpy.savetxt(sortie,[resultat],fmt='%s')
+	
+	
+	
+	
+	
+	
+
+	
+def retablissement3(entree,sortie):
+
+	resultat = ""
+
+	for i in entree:
+		temp = i.split()
+		if len(temp)!=0:
+			resultat += i
+
+	# print(pandas.DataFrame({'Resultat':resultat}))
+	#print(resultat)
+	
+	numpy.savetxt(sortie,[resultat],fmt='%s')

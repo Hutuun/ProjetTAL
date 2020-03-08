@@ -237,4 +237,36 @@ print("Etape 13 finie")
 
 
 
+
+print("Etape 14")
+
+entree = open("..\data\eference.txt.conll","r")
+
+sortie = "..\data\eference.txt.conll.final"
+
+fctRet.retablissement3(entree,sortie)
+
+entree.close()
+
+print("Etape 14 finie")
+
+
+
+
+
+
+print("Etape 15")
+
+entree = open("..\data\est.txt.ne.stanford.conll","r")
+
+sortie = "..\data\est.txt.ne.stanford.conll.final"
+
+fctRet.retablissement3(entree,sortie)
+
+entree.close()
+
+print("Etape 15 finie")
+
+
+
 print("Fin du programme")
