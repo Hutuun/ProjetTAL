@@ -164,16 +164,6 @@ def decoupe4(entree,sortie):
 	
 	#print(pandas.DataFrame({'Resultat':temp2}))
 	
-	#temp3 = []
-	
-	#for i in temp2:
-	#	if i[0] != "'" and i[0] != "``" and i[0] != "\"" and i[0] != "''":
-	#		temp3 += [[i[0],i[1]]]
-		#else:
-		#	print(i[0])
-	
-	#print(pandas.DataFrame({'Resultat':temp3}))
-	
 	resultat = ""
 	
 	for i in temp2:
