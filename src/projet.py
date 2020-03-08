@@ -383,7 +383,7 @@ print("Etape 18 finie")
 
 print("Etape 19")
 
-entree = open("../data/est.txt.ne.lima.conll","r")
+entree = open("../data/est.txt.ne.lima","r")
 
 sortie = "../data/est.txt.ne.lima.conll"
 
