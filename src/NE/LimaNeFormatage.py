@@ -46,9 +46,6 @@ def limaNEformat(input,output):
 
 				#print(res)
 
-				'''else:
-
-					res += "\n";'''
 
 	except Exception as e:
 

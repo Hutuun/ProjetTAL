@@ -39,7 +39,7 @@ def limaCo(input,output):
 
 				  #print(colonne[9].split("."))
 
-					if(colonne[1] != "O" and colonne[1] != "DATE"):
+					if(colonne[1] != "O" and colonne[1] != "DATE" and colonne != "NUMEX" ):
 
 						en = colonne[1]
 						en = convert.convEnToEtiq(en)
