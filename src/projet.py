@@ -269,4 +269,61 @@ print("Etape 15 finie")
 
 
 
+
+
+
+
+print("Etape 16")
+
+source = open("..\data\PosTag_CONLL.txt","r")
+entree = open("..\data\est.txt.ne.nltk.bis","r")
+
+sortie = "..\data\est.txt.ne.nltk.bis.conll"
+
+fctConv.convertisseur(source,entree,sortie)
+
+source.close()
+entree.close()
+
+print("Etape 16 finie")
+
+
+
+
+
+
+
+print("Etape 17")
+
+entree = open("..\data\est.txt.ne.nltk.bis.conll","r")
+
+sortie = "..\data\est.txt.ne.nltk.bis.conll.final"
+
+fctDec.decoupe5(entree,sortie)
+
+entree.close()
+
+print("Etape 17 finie")
+
+
+
+
+
+
+
+
+
+print("Etape 18")
+
+entree = open("..\data\eference.txt.conll.final","r")
+
+sortie = "..\data\eference.txt.conll.final.nltk"
+
+fctDec.decoupe5(entree,sortie)
+
+entree.close()
+
+print("Etape 18 finie")
+
+
 print("Fin du programme")
