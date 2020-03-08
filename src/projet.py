@@ -196,7 +196,7 @@ entree = open("..\data\pos_test.txt.pos.stanford.univ","r")
 
 sortie = "..\data\pos_test.txt.pos.stanford.univ"
 
-fctDec.decoupe3(entree,sortie)
+fctDec.decoupe6(entree,sortie)
 
 entree.close()
 

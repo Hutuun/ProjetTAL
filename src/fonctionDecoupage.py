@@ -237,3 +237,57 @@ def decoupe5(entree,sortie):
 	#print(resultat)
 	
 	numpy.savetxt(sortie,[resultat],fmt='%s')
+	
+	
+	
+	
+	
+	
+	
+def decoupe6(entree,sortie):
+	
+	#print("Coucou")
+	
+	temp = []
+	
+	for ligne in entree:
+		temp2 = ligne.split()
+		temp += [temp2]
+		
+	#print(pandas.DataFrame({'Resultat':temp}))
+	
+	temp2 = []
+	
+	for i in temp:
+		for j in range(len(i)-1):
+			temp3 = [i[j],i[-1]]
+			temp2 += [temp3]
+	
+	#print(pandas.DataFrame({'Resultat':temp2}))
+	
+	temp3 = []
+	
+	for i in temp2:
+		if i[0] != "'" and i[0] != "``" and i[0] != "\"" and i[0] != "''":
+			temp3 += [[i[0],i[1]]]
+		#else:
+		#	print(i[0])
+	
+	#print(pandas.DataFrame({'Resultat':temp3}))
+	
+	resultat = ""
+	
+	k = 0
+	
+	for i in temp3:
+		if k != 7807 and k != 9629 and k != 10477 and k != 10680 :
+			k+=1
+			resultat += i[0]
+			resultat += "	"
+			resultat += i[1]
+			resultat += "\n"
+	
+	#print(pandas.DataFrame({'Resultat':resultat}))
+	#print(resultat)
+	
+	numpy.savetxt(sortie,[resultat],fmt='%s')
