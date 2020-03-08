@@ -8,7 +8,7 @@
 5	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=25|Len=7
 6	Motors	motor	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=33|Len=6
 7	chief	chief	NOUN	_	_	2	CPL_V	_	Pos=40|Len=5
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=46|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=46|Len=1
 
 # sent_id = 2
 # text = December 10 , 2013 
@@ -16,7 +16,7 @@
 2	10	10	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=57|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=60|Len=1
 4	2013	2013	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=62|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=67|Len=1
+5	 		SENT	_	_	_	_	_	Pos=67|Len=1
 
 # sent_id = 3
 # text = The United States 's largest car manufacturer General Motors today named Mary Barra as its new chief executive 
@@ -43,7 +43,7 @@
 
 # sent_id = 4
 # text = Barra , 51 , will be the first woman to lead a firm in the American auto industry 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=182|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=182|Len=1
 2	Barra	Barra	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=184|Len=5
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=190|Len=1
 4	51	51	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=192|Len=2
@@ -66,7 +66,7 @@
 
 # sent_id = 5
 # text = She has been with General Motors for 33 years , and is currently the global head of product development 
-1	\x0a		SENT	_	_	_	_	_	Pos=268|Len=1
+1	 		SENT	_	_	_	_	_	Pos=268|Len=1
 2	She	she	PRON	_	_	2	SUJ_V	_	Pos=270|Len=3
 3	has	have	VERB	_	_	_	_	_	Pos=274|Len=3
 4	been	be	VERB	_	_	2	COD_V	_	Pos=278|Len=4
@@ -90,7 +90,7 @@
 
 # sent_id = 6
 # text = She said in a statement 
-1	\x0a		SENT	_	_	_	_	_	Pos=376|Len=1
+1	 		SENT	_	_	_	_	_	Pos=376|Len=1
 2	She	she	PRON	_	_	2	SUJ_V	_	Pos=378|Len=3
 3	said	said	VERB	_	_	_	_	_	Pos=382|Len=4
 4	in	in	ADP	_	_	5	PREPSUB	_	Pos=387|Len=2
@@ -133,7 +133,7 @@
 
 # sent_id = 8
 # text = I' m honored to lead the best team in the business and to keep our momentum at full speed 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=558|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=558|Len=1
 2	I	I	PRON	_	_	2	Dummy	_	Pos=560|Len=1|SpaceAfter=No
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=561|Len=1
 4	m	m	SYM	_	_	4	Dummy	_	Pos=563|Len=1
@@ -160,7 +160,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=652|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=653|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=655|Len=1
+3	 		SENT	_	_	_	_	_	Pos=655|Len=1
 
 # sent_id = 10
 # text = She replaces Daniel Akerson , who was appointed by the government as both chief executive and chairman in 2009 during the company 's bankruptcy 
@@ -193,7 +193,7 @@
 
 # sent_id = 11
 # text = Akerson plans to stand down on January 15 following his wife 's advanced cancer diagnosis 
-1	\x0a		SENT	_	_	_	_	_	Pos=803|Len=1
+1	 		SENT	_	_	_	_	_	Pos=803|Len=1
 2	Akerson	Akerson	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=805|Len=7
 3	plans	plan	NOUN	_	_	_	_	_	Pos=813|Len=5
 4	to	to	ADP	_	_	4	PREPSUB	_	Pos=819|Len=2
@@ -214,7 +214,7 @@
 
 # sent_id = 12
 # text = In a message to employees , he said 
-1	\x0a		SENT	_	_	_	_	_	Pos=897|Len=1
+1	 		SENT	_	_	_	_	_	Pos=897|Len=1
 2	In	in	ADP	_	_	3	PREPSUB	_	Pos=899|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=902|Len=1
 4	message	message	NOUN	_	_	8	CPL_V	_	Pos=904|Len=7
@@ -272,7 +272,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=1155|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=1156|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=1158|Len=1
+3	 		SENT	_	_	_	_	_	Pos=1158|Len=1
 
 # sent_id = 15
 # text = Akerson will also relinquish his chairman role , to be replaced by current director Theodore Solso 
@@ -296,7 +296,7 @@
 
 # sent_id = 16
 # text = The company also announced head of finance Daniel Ammann as its new president 
-1	\x0a		SENT	_	_	_	_	_	Pos=1261|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1261|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=1263|Len=3
 3	company	company	NOUN	_	_	4	SUJ_V	_	Pos=1267|Len=7
 4	also	also	ADV	_	_	4	AdvVerbe	_	Pos=1275|Len=4
@@ -314,7 +314,7 @@
 
 # sent_id = 17
 # text = The appointment comes just days after the US government sold the last of its shares in the company , losing around $ 9 billion on its initial bailout in 2008 that saw 61 % of the firm coming under public ownership 
-1	\x0a		SENT	_	_	_	_	_	Pos=1343|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1343|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=1345|Len=3
 3	appointment	appointment	NOUN	_	_	3	SUJ_V	_	Pos=1349|Len=11
 4	comes	come	VERB	_	_	_	_	_	Pos=1361|Len=5
@@ -360,7 +360,7 @@
 
 # sent_id = 18
 # text = General Motors recovered from their bankruptcy a year after the appointment of Akerson , and re-entered the stock market in November 2010 
-1	\x0a		SENT	_	_	_	_	_	Pos=1561|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1561|Len=1
 2	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=1563|Len=7
 3	Motors	motor	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=1571|Len=6
 4	recovered	recover	VERB	_	_	3	Dummy	_	Pos=1578|Len=9
@@ -387,7 +387,7 @@
 
 # sent_id = 19
 # text = It remains the largest car manufacturer in the United States , posting sales figures of $ 152 billion in 2012 
-1	\x0a		SENT	_	_	_	_	_	Pos=1703|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1703|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=1705|Len=2
 3	remains	remain	VERB	_	_	_	_	_	Pos=1708|Len=7
 4	the	the	DET	_	_	6	det	_	Pos=1716|Len=3
@@ -412,7 +412,7 @@
 
 # sent_id = 20
 # text = It currently produces fifteen brands of vehicle in 37 countries 
-1	\x0a		SENT	_	_	_	_	_	Pos=1817|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1817|Len=1
 2	It	it	PRON	_	_	3	SUJ_V	_	Pos=1819|Len=2
 3	currently	currently	ADV	_	_	3	AdvVerbe	_	Pos=1822|Len=9
 4	produces	produce	VERB	_	_	_	_	_	Pos=1832|Len=8
@@ -427,7 +427,7 @@
 
 # sent_id = 21
 # text = Barra holds a bachelor 's degree in electrical engineering from Kettering University in Flint , Michigan , and was recently listed by Forbes as the 35th most powerful woman in the world 
-1	\x0a		SENT	_	_	_	_	_	Pos=1885|Len=1
+1	 		SENT	_	_	_	_	_	Pos=1885|Len=1
 2	Barra	Barra	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=1887|Len=5
 3	holds	hold	VERB	_	_	_	_	_	Pos=1893|Len=5
 4	a	a	DET	_	_	4	det	_	Pos=1899|Len=1
@@ -465,7 +465,7 @@
 
 # sent_id = 22
 # text = US automaker bailout deal fails to pass Senate 
-1	\x0a		SENT	_	_	_	_	_	Pos=2075|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2075|Len=1
 2	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=2077|Len=2
 3	automaker	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=2080|Len=9
 4	bailout	bailout	NOUN	_	_	4	ADJPRENSUB	_	Pos=2090|Len=7
@@ -474,7 +474,7 @@
 7	to	to	ADP	_	_	7	PrepInf	_	Pos=2109|Len=2
 8	pass	pass	VERB	_	_	5	CPLV_V	_	Pos=2112|Len=4
 9	Senate	senate	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=2117|Len=6
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=2124|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=2124|Len=1
 
 # sent_id = 23
 # text = December 12 , 2008 
@@ -482,7 +482,7 @@
 2	12	12	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=2135|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=2138|Len=1
 4	2008	2008	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=2140|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=2145|Len=1
+5	 		SENT	_	_	_	_	_	Pos=2145|Len=1
 
 # sent_id = 24
 # text = A US$ 14 billion bailout package deal for the `` Big Three '' United States automakers -- Chrysler , Ford , and General Motors -- has been rejected in the United States Senate after failing a procedural vote 
@@ -530,7 +530,7 @@
 
 # sent_id = 25
 # text = The bill was rejected after bipartisan discussions on the bailout broke down when Republican Party leaders insisted that the United Auto Workers ( UAW ) union agree to increase wage cuts by next year in order to bring their pay into line with those of Japanese automobile companies in the United States 
-1	\x0a		SENT	_	_	_	_	_	Pos=2357|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2357|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=2359|Len=3
 3	bill	bill	NOUN	_	_	4	SUJ_V	_	Pos=2363|Len=4
 4	was	be	VERB	_	_	4	auxpass	_	Pos=2368|Len=3
@@ -585,7 +585,7 @@
 
 # sent_id = 26
 # text = The UAW refused to meet the demands 
-1	\x0a		SENT	_	_	_	_	_	Pos=2664|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2664|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=2666|Len=3
 3	UAW	uaw	PROPN	_	_	3	SUJ_V	_	Pos=2670|Len=3
 4	refused	refuse	VERB	_	_	_	_	_	Pos=2674|Len=7
@@ -597,7 +597,7 @@
 
 # sent_id = 27
 # text = The final vote count in the Senate was 52-35 , eight short of the 60 needed to pass 
-1	\x0a		SENT	_	_	_	_	_	Pos=2704|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2704|Len=1
 2	The	the	DET	_	_	4	det	_	Pos=2706|Len=3
 3	final	final	ADJ	_	_	4	ADJPRENSUB	_	Pos=2710|Len=5
 4	vote	vote	NOUN	_	_	4	ADJPRENSUB	_	Pos=2716|Len=4
@@ -622,7 +622,7 @@
 
 # sent_id = 28
 # text = Only ten Republicans joined forty Democrats and two independents in voting for the bill 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=2792|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=2792|Len=1
 2	Only	only	ADV	_	_	2	Dummy	_	Pos=2794|Len=4
 3	ten	ten	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=2799|Len=3
 4	Republicans	republican	NOUN	_	_	4	SUJ_V	_	Pos=2803|Len=11
@@ -641,7 +641,7 @@
 
 # sent_id = 29
 # text = Three Democrats voted with thirty-one Republicans against it 
-1	\x0a		SENT	_	_	_	_	_	Pos=2884|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2884|Len=1
 2	Three	three	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=2886|Len=5
 3	Democrats	democrat	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=2892|Len=9
 4	voted	vote	VERB	_	_	4	Dummy	_	Pos=2902|Len=5
@@ -654,7 +654,7 @@
 
 # sent_id = 30
 # text = Senate Majority leader Harry Reid said that he was `` terribly disappointed '' by the failure of the bill to pass 
-1	\x0a		SENT	_	_	_	_	_	Pos=2949|Len=1
+1	 		SENT	_	_	_	_	_	Pos=2949|Len=1
 2	Senate	senate	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=2951|Len=6
 3	Majority	majority	NOUN	_	_	3	ADJPRENSUB	_	Pos=2958|Len=8
 4	leader	leader	NOUN	_	_	4	ADJPRENSUB	_	Pos=2967|Len=6
@@ -681,7 +681,7 @@
 
 # sent_id = 31
 # text = `` I dread looking at Wall Street tomorrow 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=3067|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=3067|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=3069|Len=2
 3	I	I	PRON	_	_	3	det	_	Pos=3072|Len=1
 4	dread	dread	NOUN	_	_	4	ADJPRENSUB	_	Pos=3074|Len=5
@@ -694,7 +694,7 @@
 
 # sent_id = 32
 # text = It 's not going to be a pleasant sight , '' Reid said 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=3114|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=3114|Len=1
 2	It	it	PRON	_	_	2	Dummy	_	Pos=3116|Len=2
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=3119|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=3120|Len=1
@@ -714,7 +714,7 @@
 
 # sent_id = 33
 # text = `` Millions of Americans , not only the auto workers but people who sell cars , car dealerships , people who work on cars are going to be directly impacted and affected 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=3172|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=3172|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=3174|Len=2
 3	Millions	million	NOUN	_	_	25	SUJ_V	_	Pos=3177|Len=8
 4	of	of	ADP	_	_	4	PREPSUB	_	Pos=3186|Len=2
@@ -753,7 +753,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=3345|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=3346|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=3348|Len=1
+3	 		SENT	_	_	_	_	_	Pos=3348|Len=1
 
 # sent_id = 35
 # text = Republican Senator Bob Corker was also unhappy about the rejection 
@@ -771,7 +771,7 @@
 
 # sent_id = 36
 # text = `` We were about three words away from a deal 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=3419|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=3419|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=3421|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=3424|Len=2
 4	were	be	VERB	_	_	_	_	_	Pos=3427|Len=4
@@ -786,7 +786,7 @@
 
 # sent_id = 37
 # text = We solved everything substantively and about three words keep us from reaching a conclusion , '' he said 
-1	\x0a		SENT	_	_	_	_	_	Pos=3469|Len=1
+1	 		SENT	_	_	_	_	_	Pos=3469|Len=1
 2	We	we	PRON	_	_	2	SUJ_V	_	Pos=3471|Len=2
 3	solved	solve	VERB	_	_	_	_	_	Pos=3474|Len=6
 4	everything	everything	NOUN	_	_	4	ADJPRENSUB	_	Pos=3481|Len=10
@@ -810,7 +810,7 @@
 
 # sent_id = 38
 # text = Some Democrats now want U.S. President Bush to reserve a portion of the $ 700 billion bailout package earmarked for Wall Street to assist the flagging car industry 
-1	\x0a		SENT	_	_	_	_	_	Pos=3578|Len=1
+1	 		SENT	_	_	_	_	_	Pos=3578|Len=1
 2	Some	some	DET	_	_	2	det	_	Pos=3580|Len=4
 3	Democrats	democrat	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=3585|Len=9
 4	now	now	ADV	_	_	4	AdvVerbe	_	Pos=3595|Len=3
@@ -843,7 +843,7 @@
 
 # sent_id = 39
 # text = Stock markets worldwide fell dramatically on the news , with Japan 's Nikkei average losing 484.68 points , or 5.6 percent , reaching a level of 8253.87 points 
-1	\x0a		SENT	_	_	_	_	_	Pos=3746|Len=1
+1	 		SENT	_	_	_	_	_	Pos=3746|Len=1
 2	Stock	Stock	ADJ	_	_	2	ADJPRENSUB	_	Pos=3748|Len=5
 3	markets	market	NOUN	_	_	_	_	_	Pos=3754|Len=7
 4	worldwide	worldwide	ADJ	_	_	2	SUBADJPOST	_	Pos=3762|Len=9
@@ -877,7 +877,7 @@
 
 # sent_id = 40
 # text = Shares in the auto companies Toyota , Nissan and Honda all dropped by no less than 10 percent apiece 
-1	\x0a		SENT	_	_	_	_	_	Pos=3910|Len=1
+1	 		SENT	_	_	_	_	_	Pos=3910|Len=1
 2	Shares	share	NOUN	_	_	_	_	_	Pos=3912|Len=6
 3	in	in	ADP	_	_	6	PREPSUB	_	Pos=3919|Len=2
 4	the	the	DET	_	_	6	det	_	Pos=3922|Len=3
@@ -901,7 +901,7 @@
 
 # sent_id = 41
 # text = European stocks , such as those in the United Kingdom and Germany , also lost ground , with the FTSE-100 index of leading shares falling 176.3 points to a level of 4,211 at midday 
-1	\x0a		SENT	_	_	_	_	_	Pos=4015|Len=1
+1	 		SENT	_	_	_	_	_	Pos=4015|Len=1
 2	European	European	ADJ	_	_	2	ADJPRENSUB	_	Pos=4017|Len=8
 3	stocks	stock	NOUN	_	_	13	CPL_V	_	Pos=4026|Len=6
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=4033|Len=1
@@ -941,14 +941,14 @@
 
 # sent_id = 42
 # text = White House considering auto rescue plan 
-1	\x0a		SENT	_	_	_	_	_	Pos=4199|Len=1
+1	 		SENT	_	_	_	_	_	Pos=4199|Len=1
 2	White	white	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=4201|Len=5
 3	House	house	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=4207|Len=5
 4	considering	consider	VERB	_	_	3	ADJPRENSUB	_	Pos=4213|Len=11
 5	auto	auto	NOUN	_	_	4	ADJPRENSUB	_	Pos=4225|Len=4
 6	rescue	rescue	NOUN	_	_	5	ADJPRENSUB	_	Pos=4230|Len=6
 7	plan	plan	NOUN	_	_	2	COD_V	_	Pos=4237|Len=4
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=4242|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=4242|Len=1
 
 # sent_id = 43
 # text = December 13 , 2008 
@@ -956,7 +956,7 @@
 2	13	13	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=4253|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=4256|Len=1
 4	2008	2008	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=4258|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=4263|Len=1
+5	 		SENT	_	_	_	_	_	Pos=4263|Len=1
 
 # sent_id = 44
 # text = After a plan to bail out three large American auto companies failed to pass the Senate this week , the White House has said that it is considering using some of the US$ 700 billion earmarked to rescue the banking industry to bail out the automakers 
@@ -1011,7 +1011,7 @@
 
 # sent_id = 45
 # text = The White House says that the collapse of the automakers would be a terrible setback that could destroy the economy 
-1	\x0a		SENT	_	_	_	_	_	Pos=4516|Len=1
+1	 		SENT	_	_	_	_	_	Pos=4516|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=4518|Len=3
 3	White	white	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=4522|Len=5
 4	House	house	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=4528|Len=5
@@ -1036,7 +1036,7 @@
 
 # sent_id = 46
 # text = `` Under normal economic conditions we would prefer that markets determine the ultimate fate of private firms 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=4636|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=4636|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=4638|Len=2
 3	Under	under	ADP	_	_	5	PREPSUB	_	Pos=4641|Len=5
 4	normal	normal	ADJ	_	_	5	ADJPRENSUB	_	Pos=4647|Len=6
@@ -1058,7 +1058,7 @@
 
 # sent_id = 47
 # text = However , given the current weakened state of the US economy , we will consider other options if necessary - including use of the TARP Troubled Assets Relief Program ] programme - to prevent a collapse of troubled automakers , '' said Dana Perino , the White House Press Secretary 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=4750|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=4750|Len=1
 2	However	however	ADV	_	_	2	Dummy	_	Pos=4752|Len=7
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=4760|Len=1
 4	given	give	VERB	_	_	4	Dummy	_	Pos=4762|Len=5
@@ -1114,7 +1114,7 @@
 
 # sent_id = 48
 # text = `` A precipitous collapse of this industry would have a severe impact on our economy , and it would be irresponsible to further weaken and destabilize our economy at this time 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=5035|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=5035|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=5037|Len=2
 3	A	A	NOUN	_	_	4	ADJPRENSUB	_	Pos=5040|Len=1
 4	precipitous	precipitous	ADJ	_	_	4	ADJPRENSUB	_	Pos=5042|Len=11
@@ -1152,7 +1152,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=5215|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=5216|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=5218|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=5218|Len=1
 
 # sent_id = 50
 # text = Earlier this week , the `` Big Three '' automakers - Ford , Chrysler , and General Motors - had pleaded before Congress to be given $ 14 billion in funds so as to prevent collapse 
@@ -1196,7 +1196,7 @@
 
 # sent_id = 51
 # text = Although the House approved the measures , the Senate voted the proposition down with a vote of 52-35 
-1	\x0a		SENT	_	_	_	_	_	Pos=5402|Len=1
+1	 		SENT	_	_	_	_	_	Pos=5402|Len=1
 2	Although	although	ADP	_	_	2	PREPSUB	_	Pos=5404|Len=8
 3	the	the	DET	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=5413|Len=3
 4	House	house	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=5417|Len=5
@@ -1221,7 +1221,7 @@
 
 # sent_id = 52
 # text = Part of the failure of the bill to pass was due to disagreements over labour cuts , which the Republicans insisted reach parity by next year with those of Japanese carmakers 
-1	\x0a		SENT	_	_	_	_	_	Pos=5508|Len=1
+1	 		SENT	_	_	_	_	_	Pos=5508|Len=1
 2	Part	part	NOUN	_	_	_	_	_	NE=Person.PERSON|Pos=5510|Len=4
 3	of	of	ADP	_	_	4	PREPSUB	_	Pos=5515|Len=2
 4	the	the	DET	_	_	4	det	_	Pos=5518|Len=3
@@ -1257,7 +1257,7 @@
 
 # sent_id = 53
 # text = General Motors stated that the company would stop 30 % of its North American production `` in response to rapidly deteriorating market conditions '' . 
-1	\x0a		SENT	_	_	_	_	_	Pos=5686|Len=1
+1	 		SENT	_	_	_	_	_	Pos=5686|Len=1
 2	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=5688|Len=7
 3	Motors	motor	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=5696|Len=6
 4	stated	state	VERB	_	_	_	_	_	Pos=5703|Len=6
@@ -1280,7 +1280,7 @@
 21	conditions	condition	NOUN	_	_	16	COD_V	_	Pos=5823|Len=10
 22	'	'	QUOT	_	_	20	Dummy	_	Pos=5834|Len=1|SpaceAfter=No
 23	' .	'	QUOT	_	_	21	Dummy	_	Pos=5835|Len=3
-24	\x0a		SENT	_	_	_	Dummy	_	Pos=5839|Len=1
+24	 		SENT	_	_	_	Dummy	_	Pos=5839|Len=1
 
 # sent_id = 54
 # text = GM , Chrysler offer buyouts and early retirement to workers 
@@ -1294,7 +1294,7 @@
 8	retirement	retirement	NOUN	_	_	9	Dummy	_	Pos=5879|Len=10
 9	to	to	ADP	_	_	10	PREPSUB	_	Pos=5890|Len=2
 10	workers	worker	NOUN	_	_	8	COMPDUNOM	_	Pos=5893|Len=7
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=5901|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=5901|Len=1
 
 # sent_id = 55
 # text = February 03 , 2009 
@@ -1302,7 +1302,7 @@
 2	03	03	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=5912|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=5915|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=5917|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=5922|Len=1
+5	 		SENT	_	_	_	_	_	Pos=5922|Len=1
 
 # sent_id = 56
 # text = General Motors ( GM ) and Chrysler have both begun to offer layoff packages to their workforces 
@@ -1327,7 +1327,7 @@
 
 # sent_id = 57
 # text = The automobile manufacturers have been hard hit in the recent economic downturn and have been forced to seek federal aid from the U.S. government 
-1	\x0a		SENT	_	_	_	_	_	Pos=6022|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6022|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=6024|Len=3
 3	automobile	automobile	NOUN	_	_	3	ADJPRENSUB	_	Pos=6028|Len=10
 4	manufacturers	manufacturer	NOUN	_	_	5	SUJ_V	_	Pos=6039|Len=13
@@ -1356,7 +1356,7 @@
 
 # sent_id = 58
 # text = Reports say that GM 's package includes a $ 20,000 cash payment and a $ 25,000 new vehicle voucher 
-1	\x0a		SENT	_	_	_	_	_	Pos=6172|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6172|Len=1
 2	Reports	report	NOUN	_	_	2	SUJ_V	_	Pos=6174|Len=7
 3	say	say	VERB	_	_	3	Dummy	_	Pos=6182|Len=3
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=6186|Len=4
@@ -1381,7 +1381,7 @@
 
 # sent_id = 59
 # text = Chrysler will offer a $ 25,000 vehicle voucher and $ 50,000 with healthcare and $ 75,000 without 
-1	\x0a		SENT	_	_	_	_	_	Pos=6275|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6275|Len=1
 2	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=6277|Len=8
 3	will	will	AUX	_	_	_	_	_	Pos=6286|Len=4
 4	offer	offer	NOUN	_	_	2	CPL_V	_	Pos=6291|Len=5
@@ -1403,7 +1403,7 @@
 
 # sent_id = 60
 # text = Both will offer the deal to most United Auto Workers ( UAW ) union members - 62,000 at GM , which is seeking to cut 31,500 jobs by 2012 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=6376|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=6376|Len=1
 2	Both	both	DET	_	_	2	Dummy	_	Pos=6378|Len=4
 3	will	will	AUX	_	_	3	Dummy	_	Pos=6383|Len=4
 4	offer	offer	NOUN	_	_	2	CPL_V	_	Pos=6388|Len=5
@@ -1437,7 +1437,7 @@
 
 # sent_id = 61
 # text = The two companies have received $ 13.4 billion in federal loans to keep them operating , but Congress required them to produce viability plans to demonstrate they were making significant cost cuts and labor concessions in return for the money 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=6516|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=6516|Len=1
 2	The	the	DET	_	_	2	Dummy	_	Pos=6518|Len=3
 3	two	two	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=6522|Len=3
 4	companies	company	NOUN	_	_	5	SUJ_V	_	Pos=6526|Len=9
@@ -1480,7 +1480,7 @@
 
 # sent_id = 62
 # text = UAW workers in Detroit earn $ 28 an hour 
-1	\x0a		SENT	_	_	_	_	_	Pos=6763|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6763|Len=1
 2	UAW	uaw	PROPN	_	_	2	ADJPRENSUB	_	Pos=6765|Len=3
 3	workers	worker	NOUN	_	_	5	SUJ_V	_	Pos=6769|Len=7
 4	in	in	ADP	_	_	4	PREPSUB	_	Pos=6777|Len=2
@@ -1505,7 +1505,7 @@
 
 # sent_id = 64
 # text = The UAW 's `` jobs bank '' , a system where workers without duties are still paid , has stopped at both companies 
-1	\x0a		SENT	_	_	_	_	_	Pos=6855|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6855|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=6857|Len=3
 3	UAW	uaw	PROPN	_	_	3	Dummy	_	Pos=6861|Len=3
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=6865|Len=1|SpaceAfter=No
@@ -1535,7 +1535,7 @@
 
 # sent_id = 65
 # text = GM is also attempting to engineer a debt-for-equity swap , reducing its liabilities from $ 27.5 billion in unsecured debt to $ 9.2 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=6973|Len=1
+1	 		SENT	_	_	_	_	_	Pos=6973|Len=1
 2	GM	gm	NOUN	_	_	4	SUJ_V	_	Pos=6975|Len=2
 3	is	be	VERB	_	_	4	auxpass	_	Pos=6978|Len=2
 4	also	also	ADV	_	_	4	MOD_V	_	Pos=6981|Len=4
@@ -1566,7 +1566,7 @@
 
 # sent_id = 66
 # text = It is also seeking to sell a truck manufacturer , the Delco Electronics parts group and the Hummer and Saab Automobile vehicle brands 
-1	\x0a		SENT	_	_	_	_	_	Pos=7116|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7116|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=7118|Len=2
 3	is	be	VERB	_	_	4	auxpass	_	Pos=7121|Len=2
 4	also	also	ADV	_	_	4	MOD_V	_	Pos=7124|Len=4
@@ -1594,7 +1594,7 @@
 
 # sent_id = 67
 # text = The entire motor manufacturing sector has suffered under the economic downturn , with the Ford Motor Company announcing a $ 14.6 billion annual loss , although it has not sought federal aid 
-1	\x0a		SENT	_	_	_	_	_	Pos=7254|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7254|Len=1
 2	The	the	DET	_	_	5	det	_	Pos=7256|Len=3
 3	entire	entire	ADJ	_	_	5	ADJPRENSUB	_	Pos=7260|Len=6
 4	motor	motor	NOUN	_	_	4	ADJPRENSUB	_	Pos=7267|Len=5
@@ -1630,7 +1630,7 @@
 
 # sent_id = 68
 # text = GM and Chrysler both ran out of operating funds in December , leading to the federal bailout 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=7448|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=7448|Len=1
 2	GM	gm	NOUN	_	_	2	Dummy	_	Pos=7450|Len=2
 3	and	and	CONJ	_	_	3	Dummy	_	Pos=7453|Len=3
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=7457|Len=8
@@ -1652,7 +1652,7 @@
 
 # sent_id = 69
 # text = Automobile sales in the United States down sharply 
-1	\x0a		SENT	_	_	_	_	_	Pos=7545|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7545|Len=1
 2	Automobile	automobile	NOUN	_	_	2	ADJPRENSUB	_	Pos=7547|Len=10
 3	sales	sale	NOUN	_	_	_	_	_	Pos=7558|Len=5
 4	in	in	ADP	_	_	5	PREPSUB	_	Pos=7564|Len=2
@@ -1661,7 +1661,7 @@
 7	States	state	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=7578|Len=6
 8	down	down	ADP	_	_	7	Dummy	_	Pos=7585|Len=4
 9	sharply	sharply	ADV	_	_	8	Dummy	_	Pos=7590|Len=7
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=7598|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=7598|Len=1
 
 # sent_id = 70
 # text = February 03 , 2009 
@@ -1669,7 +1669,7 @@
 2	03	03	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=7609|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=7612|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=7614|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=7619|Len=1
+5	 		SENT	_	_	_	_	_	Pos=7619|Len=1
 
 # sent_id = 71
 # text = Sales of automobiles in the United States fell as much as 35 % in January , compared to the same month a year ago , as manufacturers reported their January sales 
@@ -1706,7 +1706,7 @@
 
 # sent_id = 72
 # text = Ford Motor Company sales dropped 42 % last month from the previous year 
-1	\x0a		SENT	_	_	_	_	_	Pos=7785|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7785|Len=1
 2	Ford Motor	Ford Motor Co.	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=7787|Len=10
 3	Company	company	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=7798|Len=7
 4	sales	sale	NOUN	_	_	3	SUJ_V	_	Pos=7806|Len=5
@@ -1723,7 +1723,7 @@
 
 # sent_id = 73
 # text = General Motors reported a 49 % decline 
-1	\x0a		SENT	_	_	_	_	_	Pos=7861|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7861|Len=1
 2	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=7863|Len=7
 3	Motors	motor	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=7871|Len=6
 4	reported	report	VERB	_	_	_	_	_	Pos=7878|Len=8
@@ -1735,7 +1735,7 @@
 
 # sent_id = 74
 # text = Chrysler was hardest hit among the domestically owned manufacturers with a plunge of 55 % . 
-1	\x0a		SENT	_	_	_	_	_	Pos=7904|Len=1
+1	 		SENT	_	_	_	_	_	Pos=7904|Len=1
 2	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=7906|Len=8
 3	was	be	VERB	_	_	_	_	_	Pos=7915|Len=3
 4	hardest	hardest	NOUN	_	_	4	ADJPRENSUB	_	Pos=7919|Len=7
@@ -1751,7 +1751,7 @@
 14	of	of	ADP	_	_	14	Dummy	_	Pos=7988|Len=2
 15	55	55	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=7991|Len=2
 16	% .		COMMA	_	_	16	Dummy	_	Pos=7994|Len=3
-17	\x0a		SENT	_	_	_	_	_	Pos=7998|Len=1
+17	 		SENT	_	_	_	_	_	Pos=7998|Len=1
 
 # sent_id = 75
 # text = The decline in sales has not been limited to just US manufacturers 
@@ -1771,7 +1771,7 @@
 
 # sent_id = 76
 # text = Japanese automaker Toyota reported a 32 % drop in US sales from a year earlier , Nissan Motors dropped 30 % , and Honda sales dropped 28 % . 
-1	\x0a		SENT	_	_	_	_	_	Pos=8069|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8069|Len=1
 2	Japanese	Japanese	ADJ	_	_	3	ADJPRENSUB	_	Pos=8071|Len=8
 3	automaker	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=8080|Len=9
 4	Toyota	Toyota	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=8090|Len=6
@@ -1800,7 +1800,7 @@
 27	dropped	drop	VERB	_	_	25	Dummy	_	Pos=8197|Len=7
 28	28	28	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=8205|Len=2
 29	% .		COMMA	_	_	27	Dummy	_	Pos=8208|Len=3
-30	\x0a		SENT	_	_	_	_	_	Pos=8212|Len=1
+30	 		SENT	_	_	_	_	_	Pos=8212|Len=1
 
 # sent_id = 77
 # text = Subaru and South Korean Hyundai Motor Company were two of the few auto firms that reported an increase in sales 
@@ -1828,7 +1828,7 @@
 
 # sent_id = 78
 # text = They posted gains of eight and fourteen percent , respectively 
-1	\x0a		SENT	_	_	_	_	_	Pos=8328|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8328|Len=1
 2	They	they	PRON	_	_	2	SUJ_V	_	Pos=8330|Len=4
 3	posted	post	VERB	_	_	_	_	_	Pos=8335|Len=6
 4	gains	gain	NOUN	_	_	2	COD_V	_	Pos=8342|Len=5
@@ -1841,7 +1841,7 @@
 
 # sent_id = 79
 # text = On an annual basis , sales overall have also been plummeting 
-1	\x0a		SENT	_	_	_	_	_	Pos=8395|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8395|Len=1
 2	On	on	ADP	_	_	4	PREPSUB	_	Pos=8397|Len=2
 3	an	a	DET	_	_	4	det	_	Pos=8400|Len=2
 4	annual	annual	ADJ	_	_	4	ADJPRENSUB	_	Pos=8403|Len=6
@@ -1857,7 +1857,7 @@
 
 # sent_id = 80
 # text = Industry-wide US car sales dropped 18 % last year to 13.2 million automobiles 
-1	\x0a		SENT	_	_	_	_	_	Pos=8460|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8460|Len=1
 2	Industry-wide	industry-wide	ADJ	_	_	4	ADJPRENSUB	_	Pos=8462|Len=13
 3	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=8476|Len=2
 4	car	car	NOUN	_	_	4	ADJPRENSUB	_	Pos=8479|Len=3
@@ -1875,7 +1875,7 @@
 
 # sent_id = 81
 # text = GM announced today that it will offer voluntary buyouts to 22,000 employees in the US , in an effort to reduce its expenditures 
-1	\x0a		SENT	_	_	_	_	_	Pos=8542|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8542|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=8544|Len=2
 3	announced	announce	VERB	_	_	_	_	_	Pos=8547|Len=9
 4	today	today	NOUN	_	_	2	COD_V	_	Pos=8557|Len=5
@@ -1903,7 +1903,7 @@
 
 # sent_id = 82
 # text = Last month , GM and Chrysler were given loans worth US$ 17.4 billion from the government after they warned of imminent bankruptcy 
-1	\x0a		SENT	_	_	_	_	_	Pos=8674|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8674|Len=1
 2	Last	last	ADJ	_	_	2	ADJPRENSUB	_	Pos=8676|Len=4
 3	month	month	NOUN	_	_	7	SUJ_V	_	Pos=8681|Len=5
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=8687|Len=1
@@ -1931,7 +1931,7 @@
 
 # sent_id = 83
 # text = US automakers GM and Chrysler seek more government aid 
-1	\x0a		SENT	_	_	_	_	_	Pos=8808|Len=1
+1	 		SENT	_	_	_	_	_	Pos=8808|Len=1
 2	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=8810|Len=2
 3	automakers	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=8813|Len=10
 4	GM	gm	NOUN	_	_	6	SUJ_V	_	Pos=8824|Len=2
@@ -1941,7 +1941,7 @@
 8	more	many	ADV	_	_	6	MOD_V	_	Pos=8845|Len=4
 9	government	government	NOUN	_	_	9	ADJPRENSUB	_	Pos=8850|Len=10
 10	aid	aid	NOUN	_	_	6	COD_V	_	Pos=8861|Len=3
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=8865|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=8865|Len=1
 
 # sent_id = 84
 # text = February 18 , 2009 
@@ -1949,7 +1949,7 @@
 2	18	18	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=8876|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=8879|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=8881|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=8886|Len=1
+5	 		SENT	_	_	_	_	_	Pos=8886|Len=1
 
 # sent_id = 85
 # text = The United States auto manufacturer Chrysler , which has been badly affected by the ongoing recession , has asked the US government for an additional US$ 5 billion in aid on top of the four billion it has already received , saying that it plans to fire three thousand employees 
@@ -2006,7 +2006,7 @@
 
 # sent_id = 86
 # text = At the end of last year , the auto maker had just over 54,000 employees , meaning that the layoffs will equal about six percent of its total workforce 
-1	\x0a		SENT	_	_	_	_	_	Pos=9168|Len=1
+1	 		SENT	_	_	_	_	_	Pos=9168|Len=1
 2	At	at	ADP	_	_	3	PREPSUB	_	Pos=9170|Len=2
 3	the	the	DET	_	_	3	det	_	Pos=9173|Len=3
 4	end	end	NOUN	_	_	11	SUJ_V	_	Pos=9177|Len=3
@@ -2040,7 +2040,7 @@
 
 # sent_id = 87
 # text = In addition , Chrysler will cut the Chrysler Aspen , PT Cruiser , and Durango from production 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=9323|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=9323|Len=1
 2	In addition	in addition	ADV	_	_	2	Dummy	_	Pos=9325|Len=11
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=9337|Len=1
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=9339|Len=8
@@ -2061,7 +2061,7 @@
 
 # sent_id = 88
 # text = Another automaker , General Motors ( GM ) , announced that it seeks $ 16.6 billion in loans from the government , in addition to the $ 13.4 billion that it has already received 
-1	\x0a		SENT	_	_	_	_	_	Pos=9421|Len=1
+1	 		SENT	_	_	_	_	_	Pos=9421|Len=1
 2	Another	another	DET	_	_	2	det	_	Pos=9423|Len=7
 3	automaker	automaker	NOUN	_	_	9	SUJ_V	_	Pos=9431|Len=9
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=9441|Len=1
@@ -2099,7 +2099,7 @@
 
 # sent_id = 89
 # text = GM plans to lay off 47,000 employees and close five factories 
-1	\x0a		SENT	_	_	_	_	_	Pos=9602|Len=1
+1	 		SENT	_	_	_	_	_	Pos=9602|Len=1
 2	GM	gm	NOUN	_	_	2	ADJPRENSUB	_	Pos=9604|Len=2
 3	plans	plan	NOUN	_	_	_	_	_	Pos=9607|Len=5
 4	to	to	ADP	_	_	4	PrepInf	_	Pos=9613|Len=2
@@ -2115,7 +2115,7 @@
 
 # sent_id = 90
 # text = GM says that it might need as much as $ 30 billion from the US Treasury Department , an increase over their previous estimate of $ 18 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=9668|Len=1
+1	 		SENT	_	_	_	_	_	Pos=9668|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=9670|Len=2
 3	says	say	VERB	_	_	3	Dummy	_	Pos=9673|Len=4
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=9678|Len=4
@@ -2145,7 +2145,7 @@
 
 # sent_id = 91
 # text = The company has warned that it might run out of money by March if more aid was not given 
-1	\x0a		SENT	_	_	_	_	_	Pos=9814|Len=1
+1	 		SENT	_	_	_	_	_	Pos=9814|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=9816|Len=3
 3	company	company	NOUN	_	_	4	SUJ_V	_	Pos=9820|Len=7
 4	has	have	VERB	_	_	4	aux	_	Pos=9828|Len=3
@@ -2169,7 +2169,7 @@
 
 # sent_id = 92
 # text = Rick Wagoner , GM 's chief executive , described the firm 's plan as `` comprehensive , responsive , achievable , and flexible '' . 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=9907|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=9907|Len=1
 2	Rick	rick	NOUN	_	_	_	_	_	NE=Person.PERSON|Pos=9909|Len=4
 3	Wagoner	Wagoner	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=9914|Len=7
 4	,	,	COMMA	_	_	3	Dummy	_	Pos=9922|Len=1
@@ -2197,7 +2197,7 @@
 26	flexible	flexible	ADJ	_	_	25	Dummy	_	Pos=10027|Len=8
 27	'	'	QUOT	_	_	26	Dummy	_	Pos=10036|Len=1|SpaceAfter=No
 28	' .	'	QUOT	_	_	27	Dummy	_	Pos=10037|Len=3
-29	\x0a		SENT	_	_	_	Dummy	_	Pos=10041|Len=1
+29	 		SENT	_	_	_	Dummy	_	Pos=10041|Len=1
 
 # sent_id = 93
 # text = `` We have a lot of work in front of us , but I am confident it will result in a profitable General Motors , '' he said , adding that `` today 's plan is significantly more aggressive because it has to be 
@@ -2253,7 +2253,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=10250|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=10251|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=10253|Len=1
+3	 		SENT	_	_	_	_	_	Pos=10253|Len=1
 
 # sent_id = 95
 # text = GM says that it could be profitable in two years ' time , and might be able to repay all its loans by 2017 
@@ -2285,7 +2285,7 @@
 
 # sent_id = 96
 # text = A third US car manufacturer , Ford Motor Company , has said that it can make it through this year without any government aid 
-1	\x0a		SENT	_	_	_	_	_	Pos=10364|Len=1
+1	 		SENT	_	_	_	_	_	Pos=10364|Len=1
 2	A	A	NOUN	_	_	5	ADJPRENSUB	_	Pos=10366|Len=1
 3	third	3	ADJ	_	_	5	ADJPRENSUB	_	Pos=10368|Len=5
 4	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=10374|Len=2
@@ -2313,7 +2313,7 @@
 
 # sent_id = 97
 # text = The US Treasury Department will review the car makers ' survival plans for several weeks before a decision is made on whether or not to extend the loans 
-1	\x0a		SENT	_	_	_	_	_	Pos=10493|Len=1
+1	 		SENT	_	_	_	_	_	Pos=10493|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=10495|Len=3
 3	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=10499|Len=2
 4	Treasury Department	Treasury Department	NOUN	_	_	4	SUJ_V	_	Pos=10502|Len=19
@@ -2345,7 +2345,7 @@
 
 # sent_id = 98
 # text = That decision is due by the end of next month 
-1	\x0a		SENT	_	_	_	_	_	Pos=10650|Len=1
+1	 		SENT	_	_	_	_	_	Pos=10650|Len=1
 2	That	That	ADP	_	_	2	PREPSUB	_	Pos=10652|Len=4
 3	decision	decision	NOUN	_	_	3	SUJ_V	_	Pos=10657|Len=8
 4	is	be	VERB	_	_	_	_	_	Pos=10666|Len=2
@@ -2360,7 +2360,7 @@
 
 # sent_id = 99
 # text = GM and Chrysler receive Canadian loans amid US restructuring ultimata 
-1	\x0a		SENT	_	_	_	_	_	Pos=10700|Len=1
+1	 		SENT	_	_	_	_	_	Pos=10700|Len=1
 2	GM	gm	NOUN	_	_	4	SUJ_V	_	Pos=10702|Len=2
 3	and	and	CONJ	_	_	3	Dummy	_	Pos=10705|Len=3
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=10709|Len=8
@@ -2371,7 +2371,7 @@
 9	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=10746|Len=2
 10	restructuring	restructuring	NOUN	_	_	10	ADJPRENSUB	_	Pos=10749|Len=13
 11	ultimata	ultimatum	NOUN	_	_	6	COMPDUNOM	_	Pos=10763|Len=8
-12	\x0a		SENT	_	_	_	Dummy	_	Pos=10772|Len=1
+12	 		SENT	_	_	_	Dummy	_	Pos=10772|Len=1
 
 # sent_id = 100
 # text = April 03 , 2009 
@@ -2379,7 +2379,7 @@
 2	03	03	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=10780|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=10783|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=10785|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=10790|Len=1
+5	 		SENT	_	_	_	_	_	Pos=10790|Len=1
 
 # sent_id = 101
 # text = General Motors ( GM ) and Chrysler will receive bridge loans from the government of Canada and the provincial government of Ontario , however no more will be forthcoming from either Canadian or US governments unless the companies can reinvent themselves 
@@ -2428,7 +2428,7 @@
 
 # sent_id = 102
 # text = `` This is a regrettable but necessary step to protect the Canadian economy 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=11048|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=11048|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=11050|Len=2
 3	This	this	DET	_	_	3	Dummy	_	Pos=11053|Len=4
 4	is	be	VERB	_	_	4	Dummy	_	Pos=11058|Len=2
@@ -2446,7 +2446,7 @@
 
 # sent_id = 103
 # text = We are doing this on the assumption that we obviously can not afford either in the United States or Canada a catastrophic short-term collapse 
-1	\x0a		SENT	_	_	_	_	_	Pos=11128|Len=1
+1	 		SENT	_	_	_	_	_	Pos=11128|Len=1
 2	We	we	PRON	_	_	2	SUJ_V	_	Pos=11130|Len=2
 3	are	be	VERB	_	_	3	auxpass	_	Pos=11133|Len=3
 4	doing	do	VERB	_	_	2	COD_V	_	Pos=11137|Len=5
@@ -2477,7 +2477,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=11274|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=11275|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=11277|Len=1
+3	 		SENT	_	_	_	_	_	Pos=11277|Len=1
 
 # sent_id = 105
 # text = said Stephen Harper , Prime Minister of Canada 
@@ -2492,7 +2492,7 @@
 
 # sent_id = 106
 # text = `` We can not , we must not , and we will not let our auto industry simply vanish 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=11328|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=11328|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=11330|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=11333|Len=2
 4	can	can	AUX	_	_	_	_	_	Pos=11336|Len=3
@@ -2516,7 +2516,7 @@
 
 # sent_id = 107
 # text = This industry is , like no other , an emblem of the American spirit 
-1	\x0a		SENT	_	_	_	_	_	Pos=11414|Len=1
+1	 		SENT	_	_	_	_	_	Pos=11414|Len=1
 2	This	this	DET	_	_	2	det	_	Pos=11416|Len=4
 3	industry	industry	NOUN	_	_	3	SUJ_V	_	Pos=11421|Len=8
 4	is	be	VERB	_	_	4	Dummy	_	Pos=11430|Len=2
@@ -2561,7 +2561,7 @@
 
 # sent_id = 109
 # text = `` These companies - and this industry - must ultimately stand on their own , not as wards of the state 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=11591|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=11591|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=11593|Len=2
 3	These	these	DET	_	_	3	det	_	Pos=11596|Len=5
 4	companies	company	NOUN	_	_	9	SUJ_V	_	Pos=11602|Len=9
@@ -2589,7 +2589,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=11699|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=11700|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=11702|Len=1
+3	 		SENT	_	_	_	_	_	Pos=11702|Len=1
 
 # sent_id = 111
 # text = Chrysler will receive CA$ 1 billion and may in fact be eligible for as much as CA$ 4 billion 
@@ -2616,7 +2616,7 @@
 
 # sent_id = 112
 # text = If Chrysler succeeds in the next 30 days with a restructuring plan it would be eligible for a US$ 6 billion loan 
-1	\x0a		SENT	_	_	_	_	_	Pos=11799|Len=1
+1	 		SENT	_	_	_	_	_	Pos=11799|Len=1
 2	If	if	ADP	_	_	3	mark	_	Pos=11801|Len=2
 3	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=11804|Len=8
 4	succeeds	succeed	VERB	_	_	_	_	_	Pos=11813|Len=8
@@ -2644,7 +2644,7 @@
 
 # sent_id = 113
 # text = A part of Chrysler 's restructuring plan must include a partnership with Fiat within 30 days to appease the US administration 
-1	\x0a		SENT	_	_	_	_	_	Pos=11916|Len=1
+1	 		SENT	_	_	_	_	_	Pos=11916|Len=1
 2	A	A	NOUN	_	_	2	ADJPRENSUB	_	Pos=11918|Len=1
 3	part	part	NOUN	_	_	_	_	_	Pos=11920|Len=4
 4	of	of	ADP	_	_	4	PREPSUB	_	Pos=11925|Len=2
@@ -2671,7 +2671,7 @@
 
 # sent_id = 114
 # text = Fiat is a supplier of smaller fuel-efficient vehicles , and the merger will help Chrysler to be viable in the North American market 
-1	\x0a		SENT	_	_	_	_	_	Pos=12046|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12046|Len=1
 2	Fiat	fiat	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=12048|Len=4
 3	is	be	VERB	_	_	_	_	_	Pos=12053|Len=2
 4	a	a	DET	_	_	4	det	_	Pos=12056|Len=1
@@ -2699,7 +2699,7 @@
 
 # sent_id = 115
 # text = A Chrysler court bankruptcy would inevitably lead to it being sold off 
-1	\x0a		SENT	_	_	_	_	_	Pos=12182|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12182|Len=1
 2	A	A	NOUN	_	_	2	ADJPRENSUB	_	Pos=12184|Len=1
 3	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=12186|Len=8
 4	court	court	NOUN	_	_	4	ADJPRENSUB	_	Pos=12195|Len=5
@@ -2716,7 +2716,7 @@
 
 # sent_id = 116
 # text = As a part of Chrysler 's restructuring plans , Tom LaSorda , the president of Chrysler announced that Canadian operations would fold if it does not receive both the US commitment of $ 2.3 billion of aid and a new Canadian Auto Workers CAW contract to reduce all-in costs by CA$ 19 per hour 
-1	\x0a		SENT	_	_	_	_	_	Pos=12257|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12257|Len=1
 2	As	as	ADP	_	_	3	PREPSUB	_	Pos=12259|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=12262|Len=1
 4	part	part	NOUN	_	_	_	_	_	Pos=12264|Len=4
@@ -2778,7 +2778,7 @@
 
 # sent_id = 117
 # text = As a result of this announcement Chrysler 's auto sales volume in Canada dropped 23 % compared to March of 2008 
-1	\x0a		SENT	_	_	_	_	_	Pos=12551|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12551|Len=1
 2	As	as	ADP	_	_	3	PREPSUB	_	Pos=12553|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=12556|Len=1
 4	result	result	NOUN	_	_	_	_	_	Pos=12558|Len=6
@@ -2805,7 +2805,7 @@
 
 # sent_id = 118
 # text = GM has until the end of May to restructure its company to receive up to CA$ 7.5 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=12667|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12667|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=12669|Len=2
 3	has	have	VERB	_	_	_	_	_	Pos=12672|Len=3
 4	until	until	ADP	_	_	5	PREPSUB	_	Pos=12676|Len=5
@@ -2828,7 +2828,7 @@
 
 # sent_id = 119
 # text = As part of the companies restructuring , General Motor 's chief executive Rick Wagoner was replaced Sunday with Fritz Henderson , the current chief operating officer 
-1	\x0a		SENT	_	_	_	_	_	Pos=12759|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12759|Len=1
 2	As	as	ADP	_	_	2	PREPSUB	_	Pos=12761|Len=2
 3	part	part	NOUN	_	_	_	_	_	Pos=12764|Len=4
 4	of	of	ADP	_	_	6	PREPSUB	_	Pos=12769|Len=2
@@ -2860,7 +2860,7 @@
 
 # sent_id = 120
 # text = Henderson spoke out on Tuesday that GM has submitted a restructuring plan which would close five plants , and this may be increased to meet the requirements for financial aid 
-1	\x0a		SENT	_	_	_	_	_	Pos=12929|Len=1
+1	 		SENT	_	_	_	_	_	Pos=12929|Len=1
 2	Henderson	Henderson	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=12931|Len=9
 3	spoke	speak	VERB	_	_	3	Dummy	_	Pos=12941|Len=5
 4	out	out	ADP	_	_	4	Dummy	_	Pos=12947|Len=3
@@ -2895,7 +2895,7 @@
 
 # sent_id = 121
 # text = He is in full compliance with Obama 's auto task force to seek bankruptcy if GM can not negotiate with their unions , bondholders and others 
-1	\x0a		SENT	_	_	_	_	_	Pos=13108|Len=1
+1	 		SENT	_	_	_	_	_	Pos=13108|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=13110|Len=2
 3	is	be	VERB	_	_	_	_	_	Pos=13113|Len=2
 4	in	in	ADP	_	_	5	PREPSUB	_	Pos=13116|Len=2
@@ -2927,7 +2927,7 @@
 
 # sent_id = 122
 # text = GM recently brought forward the `` GM Total Confidence '' program providing consumer purchase protection for customers who lose their job for economic reasons within the first two years from purchase 
-1	\x0a		SENT	_	_	_	_	_	Pos=13253|Len=1
+1	 		SENT	_	_	_	_	_	Pos=13253|Len=1
 2	GM	gm	NOUN	_	_	3	SUJ_V	_	Pos=13255|Len=2
 3	recently	recently	ADV	_	_	3	AdvVerbe	_	Pos=13258|Len=8
 4	brought	bring	VERB	_	_	_	_	_	Pos=13267|Len=7
@@ -2964,7 +2964,7 @@
 
 # sent_id = 123
 # text = As a result of Chrysler 's restructuring announcement in Canada , GM 's Canadian vehicle sales volume fell only 17.3 % compared to 2008 , an increase from the previous month 
-1	\x0a		SENT	_	_	_	_	_	Pos=13457|Len=1
+1	 		SENT	_	_	_	_	_	Pos=13457|Len=1
 2	As	as	ADP	_	_	3	PREPSUB	_	Pos=13459|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=13462|Len=1
 4	result	result	NOUN	_	_	_	_	_	Pos=13464|Len=6
@@ -3002,7 +3002,7 @@
 
 # sent_id = 124
 # text = GM must reduce some of its legacy costs which include its pensions and union health care costs 
-1	\x0a		SENT	_	_	_	_	_	Pos=13635|Len=1
+1	 		SENT	_	_	_	_	_	Pos=13635|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=13637|Len=2
 3	must	must	AUX	_	_	3	aux	_	Pos=13640|Len=4
 4	reduce	reduce	VERB	_	_	4	Dummy	_	Pos=13645|Len=6
@@ -3024,7 +3024,7 @@
 
 # sent_id = 125
 # text = A part of GM 's ailments arose from investing in supplying truck and SUVs during an economy of high gas prices when consumers were demanding fuel efficient vehicles 
-1	\x0a		SENT	_	_	_	_	_	Pos=13734|Len=1
+1	 		SENT	_	_	_	_	_	Pos=13734|Len=1
 2	A	A	NOUN	_	_	2	ADJPRENSUB	_	Pos=13736|Len=1
 3	part	part	NOUN	_	_	_	_	_	Pos=13738|Len=4
 4	of	of	ADP	_	_	4	PREPSUB	_	Pos=13743|Len=2
@@ -3058,7 +3058,7 @@
 
 # sent_id = 126
 # text = Tony Clement , Canada 's Minister of Industry , is hoping that the CAW will support the restructuring process and re-negotiate their agreement 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=13903|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=13903|Len=1
 2	Tony Clement	Tony Clement	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=13905|Len=12
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=13918|Len=1
 4	Canada	Canada	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=13920|Len=6
@@ -3087,7 +3087,7 @@
 
 # sent_id = 127
 # text = Whereas a United Auto Workers negotiator has said , `` I do n't see how the UAW will do anything until they see what the bondholders will give up 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=14050|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=14050|Len=1
 2	Whereas	whereas	ADP	_	_	2	Dummy	_	Pos=14052|Len=7
 3	a	a	DET	_	_	3	Dummy	_	Pos=14060|Len=1
 4	United	unite	VERB	_	_	4	Dummy	_	Pos=14062|Len=6
@@ -3123,7 +3123,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=14200|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=14201|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=14203|Len=1
+3	 		SENT	_	_	_	_	_	Pos=14203|Len=1
 
 # sent_id = 129
 # text = The Obama administration is looking toward bankruptcy proceedings for the automakers , `` as a mechanism to help them restructure quickly and emerge stronger 
@@ -3155,7 +3155,7 @@
 
 # sent_id = 130
 # text = It will ] quickly clear away old debts that are weighing them down 
-1	\x0a		SENT	_	_	_	_	_	Pos=14365|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14365|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=14367|Len=2
 3	will	will	AUX	_	_	3	Dummy	_	Pos=14370|Len=4
 4	]	]	CPAR	_	_	4	Dummy	_	Pos=14375|Len=1
@@ -3173,7 +3173,7 @@
 
 # sent_id = 131
 # text = What we are asking is difficult 
-1	\x0a		SENT	_	_	_	_	_	Pos=14436|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14436|Len=1
 2	What	what	PRON	_	_	3	SUJ_V	_	Pos=14438|Len=4
 3	we	we	PRON	_	_	3	SUJ_V	_	Pos=14443|Len=2
 4	are	be	VERB	_	_	4	auxpass	_	Pos=14446|Len=3
@@ -3184,7 +3184,7 @@
 
 # sent_id = 132
 # text = It will require hard choices by companies 
-1	\x0a		SENT	_	_	_	_	_	Pos=14472|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14472|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=14474|Len=2
 3	will	will	AUX	_	_	3	aux	_	Pos=14477|Len=4
 4	require	require	VERB	_	_	_	_	_	Pos=14482|Len=7
@@ -3196,7 +3196,7 @@
 
 # sent_id = 133
 # text = It will require unions and workers who have already made painful concessions to make even more 
-1	\x0a		SENT	_	_	_	_	_	Pos=14518|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14518|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=14520|Len=2
 3	will	will	AUX	_	_	3	aux	_	Pos=14523|Len=4
 4	require	require	VERB	_	_	_	_	_	Pos=14528|Len=7
@@ -3217,7 +3217,7 @@
 
 # sent_id = 134
 # text = It will require creditors to recognise that they can not hold out for the prospect of endless government bailouts 
-1	\x0a		SENT	_	_	_	_	_	Pos=14617|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14617|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=14619|Len=2
 3	will	will	AUX	_	_	3	aux	_	Pos=14622|Len=4
 4	require	require	VERB	_	_	_	_	_	Pos=14627|Len=7
@@ -3243,7 +3243,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=14735|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=14736|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=14738|Len=1
+3	 		SENT	_	_	_	_	_	Pos=14738|Len=1
 
 # sent_id = 136
 # text = said Obama 
@@ -3253,7 +3253,7 @@
 
 # sent_id = 137
 # text = The auto parts suppliers and IT software exporters in India have already been affected by the declining auto sales 
-1	\x0a		SENT	_	_	_	_	_	Pos=14753|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14753|Len=1
 2	The	the	DET	_	_	4	det	_	Pos=14755|Len=3
 3	auto	auto	NOUN	_	_	3	ADJPRENSUB	_	Pos=14759|Len=4
 4	parts	part	NOUN	_	_	4	ADJPRENSUB	_	Pos=14764|Len=5
@@ -3277,7 +3277,7 @@
 
 # sent_id = 138
 # text = GM and Chrysler software contracts provide US$ 300 to 350 million a year to vendors in India 
-1	\x0a		SENT	_	_	_	_	_	Pos=14872|Len=1
+1	 		SENT	_	_	_	_	_	Pos=14872|Len=1
 2	GM	gm	NOUN	_	_	6	SUJ_V	_	Pos=14874|Len=2
 3	and	and	CONJ	_	_	3	Dummy	_	Pos=14877|Len=3
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=14881|Len=8
@@ -3300,7 +3300,7 @@
 
 # sent_id = 139
 # text = As well these two major automakers usually award US$ 1 billion contracts to auto parts suppliers 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=14969|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=14969|Len=1
 2	As well	as well	ADV	_	_	2	Dummy	_	Pos=14971|Len=7
 3	these	these	DET	_	_	3	Dummy	_	Pos=14979|Len=5
 4	two	two	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=14985|Len=3
@@ -3321,7 +3321,7 @@
 
 # sent_id = 140
 # text = `` We are worried and closely watching the developments in the US to gauge the impact 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=15070|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=15070|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=15072|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=15075|Len=2
 4	are	be	VERB	_	_	4	auxpass	_	Pos=15078|Len=3
@@ -3342,7 +3342,7 @@
 
 # sent_id = 141
 # text = The decline in auto sales in the US has already hit the order books of Indian suppliers , '' said a Delhi auto parts supplier 
-1	\x0a		SENT	_	_	_	_	_	Pos=15160|Len=1
+1	 		SENT	_	_	_	_	_	Pos=15160|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=15162|Len=3
 3	decline	decline	NOUN	_	_	9	SUJ_V	_	Pos=15166|Len=7
 4	in	in	ADP	_	_	5	PREPSUB	_	Pos=15174|Len=2
@@ -3373,7 +3373,7 @@
 
 # sent_id = 142
 # text = `` Going forward , the industry will undoubtedly be smaller , but if our efforts are successful it will be viable and it will support good jobs for Canadians , '' said Clements 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=15290|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=15290|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=15292|Len=2
 3	Going forward	go forward	VERB	_	_	3	Dummy	_	Pos=15295|Len=13
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=15309|Len=1
@@ -3411,7 +3411,7 @@
 
 # sent_id = 143
 # text = Betty Sutton , Ohio 's Congresswoman put forward the CARS act which provides a US$ 3,000 to 5,000 incentive for those who trade in their vehicle for a fuel-efficient car 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=15471|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=15471|Len=1
 2	Betty Sutton	Betty Sutton	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=15473|Len=12
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=15486|Len=1
 4	Ohio	Ohio	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=15488|Len=4
@@ -3448,7 +3448,7 @@
 
 # sent_id = 144
 # text = `` It clearly stimulates the economy , and it gets the consumer into the showroom and gets them buying again 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=15645|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=15645|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=15647|Len=2
 3	It	it	PRON	_	_	4	SUJ_V	_	Pos=15650|Len=2
 4	clearly	clearly	ADV	_	_	4	AdvVerbe	_	Pos=15653|Len=7
@@ -3473,7 +3473,7 @@
 
 # sent_id = 145
 # text = But importantly -- and this is what I particularly like about it -- it really helps the environment quite a bit in two respects 
-1	\x0a		SENT	_	_	_	_	_	Pos=15758|Len=1
+1	 		SENT	_	_	_	_	_	Pos=15758|Len=1
 2	But	But	ADP	_	_	2	PREPSUB	_	Pos=15760|Len=3
 3	importantly	importantly	NOUN	_	_	6	CPL_V	_	Pos=15764|Len=11
 4	--	--	COLON	_	_	4	Dummy	_	Pos=15776|Len=2
@@ -3504,7 +3504,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=15890|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=15891|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=15893|Len=1
+3	 		SENT	_	_	_	_	_	Pos=15893|Len=1
 
 # sent_id = 147
 # text = said William Clay Ford Jr.
@@ -3528,7 +3528,7 @@
 
 # sent_id = 149
 # text = Ford Motor Company has not come forward with requests for assistance 
-1	\x0a		SENT	_	_	_	_	_	Pos=15963|Len=1
+1	 		SENT	_	_	_	_	_	Pos=15963|Len=1
 2	Ford Motor	Ford Motor Co.	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=15965|Len=10
 3	Company	company	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=15976|Len=7
 4	has	have	VERB	_	_	_	_	_	Pos=15984|Len=3
@@ -3543,7 +3543,7 @@
 
 # sent_id = 150
 # text = Since December GM and Chrysler have received US$ 17.4 billion government loans 
-1	\x0a		SENT	_	_	_	_	_	Pos=16036|Len=1
+1	 		SENT	_	_	_	_	_	Pos=16036|Len=1
 2	Since	since	ADP	_	_	3	PREPSUB	_	Pos=16038|Len=5
 3	December	December	PROPN	_	_	_	_	_	NE=DateTime.DATE|Pos=16044|Len=8
 4	GM	gm	NOUN	_	_	7	CPL_V	_	Pos=16053|Len=2
@@ -3561,7 +3561,7 @@
 
 # sent_id = 151
 # text = General Motors automobile sales plunge by 45 % 
-1	\x0a		SENT	_	_	_	_	_	Pos=16119|Len=1
+1	 		SENT	_	_	_	_	_	Pos=16119|Len=1
 2	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=16121|Len=7
 3	Motors	motor	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=16129|Len=6
 4	automobile	automobile	NOUN	_	_	3	ADJPRENSUB	_	Pos=16136|Len=10
@@ -3570,7 +3570,7 @@
 7	by	by	ADP	_	_	6	PREPSUB	_	Pos=16160|Len=2
 8	45	45	NUM	_	_	_	_	_	NE=Numex.NUMEX|Pos=16163|Len=2
 9	%	%	SYM	_	_	_	_	_	NE=Numex.NUMEX|Pos=16166|Len=1
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=16168|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=16168|Len=1
 
 # sent_id = 152
 # text = April 01 , 2009 
@@ -3578,7 +3578,7 @@
 2	01	01	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=16176|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=16179|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=16181|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=16186|Len=1
+5	 		SENT	_	_	_	_	_	Pos=16186|Len=1
 
 # sent_id = 153
 # text = General Motors Corporation ( GM ) announced on Wednesday that it saw a 45 % drop in United States vehicle sales for its cars in March 
@@ -3611,7 +3611,7 @@
 
 # sent_id = 154
 # text = Executives from several auto firms , however , said that there was some hope for the auto industry to stabilise , as car sales rebounded in the last week of March 
-1	\x0a		SENT	_	_	_	_	_	Pos=16324|Len=1
+1	 		SENT	_	_	_	_	_	Pos=16324|Len=1
 2	Executives	executive	NOUN	_	_	9	SUJ_V	_	Pos=16326|Len=10
 3	from	from	ADP	_	_	5	PREPSUB	_	Pos=16337|Len=4
 4	several	several	DET	_	_	5	det	_	Pos=16342|Len=7
@@ -3647,7 +3647,7 @@
 
 # sent_id = 155
 # text = `` The market is starting to show small signs of life which need to be nourished like seedlings , '' said the vice president and chairman of Chrysler LLC Jim Press 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=16491|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=16491|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=16493|Len=2
 3	The	the	DET	_	_	3	det	_	Pos=16496|Len=3
 4	market	market	NOUN	_	_	5	SUJ_V	_	Pos=16500|Len=6
@@ -3684,7 +3684,7 @@
 
 # sent_id = 156
 # text = `` It 's too early to see a trend , but spring shows signs of hope 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=16659|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=16659|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=16661|Len=2
 3	It	it	PRON	_	_	3	Dummy	_	Pos=16664|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=16667|Len=1|SpaceAfter=No
@@ -3708,7 +3708,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=16730|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=16731|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=16733|Len=1
+3	 		SENT	_	_	_	_	_	Pos=16733|Len=1
 
 # sent_id = 158
 # text = Other automobile manufacturers also saw their car sales slip 
@@ -3744,7 +3744,7 @@
 17	fell	fall	VERB	_	_	16	Dummy	_	Pos=16891|Len=4
 18	41	41	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=16896|Len=2
 19	% .		COMMA	_	_	18	Dummy	_	Pos=16899|Len=3
-20	\x0a		SENT	_	_	_	_	_	Pos=16903|Len=1
+20	 		SENT	_	_	_	_	_	Pos=16903|Len=1
 
 # sent_id = 160
 # text = Annualised sales of vehicles in the car industry in the US are predicted to have dipped below nine million in March , compared to February 's 9.12 million , which was the lowest number since 1981 
@@ -3789,7 +3789,7 @@
 
 # sent_id = 161
 # text = `` Auto makers are pulling every lever in their effort to attract buyers , as evidenced by the new programs from Ford and GM 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=17103|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=17103|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=17105|Len=2
 3	Auto	auto	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=17108|Len=4
 4	makers	maker	NOUN	_	_	5	SUJ_V	_	Pos=17113|Len=6
@@ -3818,7 +3818,7 @@
 
 # sent_id = 162
 # text = The typical incentive programs simply do not resonate in today 's economy , '' Jesse Toprak , an analyst for Edmunds 
-1	\x0a		SENT	_	_	_	_	_	Pos=17232|Len=1
+1	 		SENT	_	_	_	_	_	Pos=17232|Len=1
 2	The	the	DET	_	_	4	det	_	Pos=17234|Len=3
 3	typical	typical	ADJ	_	_	4	ADJPRENSUB	_	Pos=17238|Len=7
 4	incentive	incentive	NOUN	_	_	4	ADJPRENSUB	_	Pos=17246|Len=9
@@ -3846,7 +3846,7 @@
 
 # sent_id = 163
 # text = Ford shares gained 2.3 % to a level of US$ 2.69 in early trading at US stock markets on Wednesday , while stocks for Toyota 's US depository increased 5.9 % to $ 67 
-1	\x0a		SENT	_	_	_	_	_	Pos=17353|Len=1
+1	 		SENT	_	_	_	_	_	Pos=17353|Len=1
 2	Ford	Ford	PROPN	_	_	2	ADJPRENSUB	_	Pos=17355|Len=4
 3	shares	share	NOUN	_	_	3	SUJ_V	_	Pos=17360|Len=6
 4	gained	gain	VERB	_	_	_	_	_	Pos=17367|Len=6
@@ -3887,7 +3887,7 @@
 
 # sent_id = 164
 # text = GM shares slipped 1.6 % down to $ 1.92 
-1	\x0a		SENT	_	_	_	_	_	Pos=17522|Len=1
+1	 		SENT	_	_	_	_	_	Pos=17522|Len=1
 2	GM	gm	NOUN	_	_	2	ADJPRENSUB	_	Pos=17524|Len=2
 3	shares	share	NOUN	_	_	3	SUJ_V	_	Pos=17527|Len=6
 4	slipped	slip	VERB	_	_	_	_	_	Pos=17534|Len=7
@@ -3901,7 +3901,7 @@
 
 # sent_id = 165
 # text = Chrysler files for bankruptcy , Fiat Group SpA to run company 
-1	\x0a		SENT	_	_	_	_	_	Pos=17565|Len=1
+1	 		SENT	_	_	_	_	_	Pos=17565|Len=1
 2	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=17567|Len=8
 3	files	file	NOUN	_	_	_	_	_	Pos=17576|Len=5
 4	for	for	ADP	_	_	4	PREPSUB	_	Pos=17582|Len=3
@@ -3913,7 +3913,7 @@
 10	to	to	ADP	_	_	10	PREPSUB	_	Pos=17614|Len=2
 11	run	run	NOUN	_	_	10	ADJPRENSUB	_	Pos=17617|Len=3
 12	company	company	NOUN	_	_	7	COMPDUNOM	_	Pos=17621|Len=7
-13	\x0a		SENT	_	_	_	Dummy	_	Pos=17629|Len=1
+13	 		SENT	_	_	_	Dummy	_	Pos=17629|Len=1
 
 # sent_id = 166
 # text = May 01 , 2009 
@@ -3921,7 +3921,7 @@
 2	01	01	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=17635|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=17638|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=17640|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=17645|Len=1
+5	 		SENT	_	_	_	_	_	Pos=17645|Len=1
 
 # sent_id = 167
 # text = The American auto company Chrysler filed for bankruptcy Thursday , however a deal with European auto maker Fiat went through 
@@ -3949,7 +3949,7 @@
 
 # sent_id = 168
 # text = The emerging Chrysler will be owned 55 percent by the United Auto Workers , eight percent by the United States Government , two percent by the Canadian Government and Fiat would begin with a 20 percent share 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=17774|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=17774|Len=1
 2	The	the	DET	_	_	2	Dummy	_	Pos=17776|Len=3
 3	emerging	emerge	VERB	_	_	3	ADJPRENSUB	_	Pos=17780|Len=8
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=17789|Len=8
@@ -3991,7 +3991,7 @@
 
 # sent_id = 169
 # text = Chrysler Chief Executive Robert Nardelli will step down when the bankruptcy proceedings are finalized 
-1	\x0a		SENT	_	_	_	_	_	Pos=17986|Len=1
+1	 		SENT	_	_	_	_	_	Pos=17986|Len=1
 2	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=17988|Len=8
 3	Chief	chief	NOUN	_	_	4	ADJPRENSUB	_	Pos=17997|Len=5
 4	Executive	executive	ADJ	_	_	4	ADJPRENSUB	_	Pos=18003|Len=9
@@ -4010,7 +4010,7 @@
 
 # sent_id = 170
 # text = Initially , the Italian company , Fiat , will appoint three members on the emerging Chrysler 's new board , and the United States government will appoint six 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=18092|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=18092|Len=1
 2	Initially	initially	ADV	_	_	2	Dummy	_	Pos=18094|Len=9
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=18104|Len=1
 4	the	the	DET	_	_	5	det	_	Pos=18106|Len=3
@@ -4044,7 +4044,7 @@
 
 # sent_id = 171
 # text = Fiat can assume the majority of the ownership upon repayment of American loans 
-1	\x0a		SENT	_	_	_	_	_	Pos=18254|Len=1
+1	 		SENT	_	_	_	_	_	Pos=18254|Len=1
 2	Fiat	fiat	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=18256|Len=4
 3	can	can	AUX	_	_	3	aux	_	Pos=18261|Len=3
 4	assume	assume	VERB	_	_	_	_	_	Pos=18265|Len=6
@@ -4062,7 +4062,7 @@
 
 # sent_id = 172
 # text = Chrysler administrators expect that the bankruptcy should take a couple of months 
-1	\x0a		SENT	_	_	_	_	_	Pos=18337|Len=1
+1	 		SENT	_	_	_	_	_	Pos=18337|Len=1
 2	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=18339|Len=8
 3	administrators	administrator	NOUN	_	_	3	SUJ_V	_	Pos=18348|Len=14
 4	expect	expect	VERB	_	_	_	_	_	Pos=18363|Len=6
@@ -4079,7 +4079,7 @@
 
 # sent_id = 173
 # text = `` We expect this to be a very short , 30-to-60-day bankruptcy process , during which the company will function normally , '' a top administration official said , `` People will be able to buy cars , they will have their warranties honored , and everything should go on normally 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=18423|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=18423|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=18425|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=18428|Len=2
 4	expect	expect	VERB	_	_	4	Dummy	_	Pos=18431|Len=6
@@ -4143,7 +4143,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=18706|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=18707|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=18709|Len=1
+3	 		SENT	_	_	_	_	_	Pos=18709|Len=1
 
 # sent_id = 175
 # text = The bankruptcy filing indicated that Chrysler was in debt to 20 creditors to a tune of more than $ 10 million each 
@@ -4173,7 +4173,7 @@
 
 # sent_id = 176
 # text = Meanwhile , the deal with Fiat did go through , and Chrysler should have cars designed by Fiat out on the market by 2011 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=18828|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=18828|Len=1
 2	Meanwhile	meanwhile	ADV	_	_	2	Dummy	_	Pos=18830|Len=9
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=18840|Len=1
 4	the	the	DET	_	_	4	det	_	Pos=18842|Len=3
@@ -4202,7 +4202,7 @@
 
 # sent_id = 177
 # text = `` It 's a partnership that will give Chrysler a chance not only to survive , but to thrive in a global auto industry , '' said American president Obama , `` Fiat has demonstrated that it can build the clean , fuel-efficient cars that are the future of the industry 
-1	\x0a		SENT	_	_	29	SUJ_V	_	Pos=18953|Len=1
+1	 		SENT	_	_	29	SUJ_V	_	Pos=18953|Len=1
 2	``	`	OQU	_	_	29	SUJ_V	_	Pos=18955|Len=2
 3	It	it	PRON	_	_	29	SUJ_V	_	Pos=18958|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=18961|Len=1|SpaceAfter=No
@@ -4263,7 +4263,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=19223|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=19224|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=19226|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=19226|Len=1
 
 # sent_id = 179
 # text = However , automotive analyst Erich Merkle has hesitations 
@@ -4279,7 +4279,7 @@
 
 # sent_id = 180
 # text = `` History would show that alliances really do n't work that well , '' Merkle said , `` even though , no matter how good they may look on paper 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=19288|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=19288|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=19290|Len=2
 3	History	history	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=19293|Len=7
 4	would	would	AUX	_	_	_	_	_	Pos=19301|Len=5
@@ -4316,7 +4316,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=19436|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=19437|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=19439|Len=1
+3	 		SENT	_	_	_	_	_	Pos=19439|Len=1
 
 # sent_id = 182
 # text = The restructuring has been managed by Steve Rattner , a former investment banker , and the U.S. Government auto task force 
@@ -4345,7 +4345,7 @@
 
 # sent_id = 183
 # text = Obama has set three ultimatums before Fiat 
-1	\x0a		SENT	_	_	_	_	_	Pos=19566|Len=1
+1	 		SENT	_	_	_	_	_	Pos=19566|Len=1
 2	Obama	Obama	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=19568|Len=5
 3	has	have	VERB	_	_	_	_	_	Pos=19574|Len=3
 4	set	set	NOUN	_	_	2	COD_V	_	Pos=19578|Len=3
@@ -4357,7 +4357,7 @@
 
 # sent_id = 184
 # text = Fiat should produce a 40 mile per gallon vehicle while managing the new Chrysler , transfer fuel efficient Fiat technology to Chrysler factories in the United States , and produce cars in Chrysler factories and distribute them in Europe 
-1	\x0a		SENT	_	_	_	_	_	Pos=19613|Len=1
+1	 		SENT	_	_	_	_	_	Pos=19613|Len=1
 2	Fiat	fiat	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=19615|Len=4
 3	should	should	AUX	_	_	3	aux	_	Pos=19620|Len=6
 4	produce	produce	VERB	_	_	4	Dummy	_	Pos=19627|Len=7
@@ -4401,7 +4401,7 @@
 
 # sent_id = 185
 # text = US automaker GM reports losses of $ 6 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=19854|Len=1
+1	 		SENT	_	_	_	_	_	Pos=19854|Len=1
 2	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=19856|Len=2
 3	automaker	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=19859|Len=9
 4	GM	gm	NOUN	_	_	4	ADJPRENSUB	_	Pos=19869|Len=2
@@ -4411,7 +4411,7 @@
 8	$	$	CUR	_	_	_	_	_	NE=Numex.NUMEX|Pos=19890|Len=1
 9	6	6	NUM	_	_	_	_	_	NE=Numex.NUMEX|Pos=19892|Len=1
 10	billion	billion	NOUN	_	_	5	COMPDUNOM	_	Pos=19894|Len=7
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=19902|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=19902|Len=1
 
 # sent_id = 186
 # text = May 07 , 2009 
@@ -4419,7 +4419,7 @@
 2	07	07	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=19908|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=19911|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=19913|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=19918|Len=1
+5	 		SENT	_	_	_	_	_	Pos=19918|Len=1
 
 # sent_id = 187
 # text = United States automobile company General Motors announced it has lost US$ 6 billion in the first quarter of 2009 , amidst heavy declines in revenues 
@@ -4453,7 +4453,7 @@
 
 # sent_id = 188
 # text = Not including special items , the firm said it had lost a net $ 5.9 billion dollars , or $ 9.66 per share 
-1	\x0a		SENT	_	_	_	_	_	Pos=20071|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20071|Len=1
 2	Not	Not	ADV	_	_	2	AdvVerbe	_	Pos=20073|Len=3
 3	including	include	VERB	_	_	4	ADJPRENSUB	_	Pos=20077|Len=9
 4	special	special	ADJ	_	_	4	ADJPRENSUB	_	Pos=20087|Len=7
@@ -4481,7 +4481,7 @@
 
 # sent_id = 189
 # text = In the first quarter of last year , GM had reported a loss of $ 381 million , or $ 0.67 per share 
-1	\x0a		SENT	_	_	_	_	_	Pos=20181|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20181|Len=1
 2	In	in	ADP	_	_	4	PREPSUB	_	Pos=20183|Len=2
 3	the	the	DET	_	_	4	det	_	Pos=20186|Len=3
 4	first	1	ADJ	_	_	4	ADJPRENSUB	_	Pos=20190|Len=5
@@ -4509,7 +4509,7 @@
 
 # sent_id = 190
 # text = Most financial analysts had forecast the automaker 's losses to be over $ 6.7 billion , or $ 11.05 per share 
-1	\x0a		SENT	_	_	_	_	_	Pos=20283|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20283|Len=1
 2	Most	many	ADV	_	_	2	ADVADJ	_	Pos=20285|Len=4
 3	financial	financial	ADJ	_	_	3	ADJPRENSUB	_	Pos=20290|Len=9
 4	analysts	analyst	NOUN	_	_	4	SUJ_V	_	Pos=20300|Len=8
@@ -4536,7 +4536,7 @@
 
 # sent_id = 191
 # text = GM had also reported that it had spent $ 10.2 billion in an effort to prevent bankruptcy 
-1	\x0a		SENT	_	_	_	_	_	Pos=20396|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20396|Len=1
 2	GM	gm	NOUN	_	_	4	SUJ_V	_	Pos=20398|Len=2
 3	had	had	VERB	_	_	4	aux	_	Pos=20401|Len=3
 4	also	also	ADV	_	_	2	MOD_V	_	Pos=20405|Len=4
@@ -4558,7 +4558,7 @@
 
 # sent_id = 192
 # text = The manufacturer has received over $ 15 billion in bailout money from the federal government 
-1	\x0a		SENT	_	_	_	_	_	Pos=20489|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20489|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=20491|Len=3
 3	manufacturer	manufacturer	NOUN	_	_	4	SUJ_V	_	Pos=20495|Len=12
 4	has	have	VERB	_	_	4	aux	_	Pos=20508|Len=3
@@ -4578,7 +4578,7 @@
 
 # sent_id = 193
 # text = The company has a deadline set at June 1 to draw up a restructuring plan 
-1	\x0a		SENT	_	_	_	_	_	Pos=20586|Len=1
+1	 		SENT	_	_	_	_	_	Pos=20586|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=20588|Len=3
 3	company	company	NOUN	_	_	3	SUJ_V	_	Pos=20592|Len=7
 4	has	have	VERB	_	_	_	_	_	Pos=20600|Len=3
@@ -4598,7 +4598,7 @@
 
 # sent_id = 194
 # text = If it does n't do so by then , it will be obliged to file for bankruptcy protection 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=20663|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=20663|Len=1
 2	If	if	ADP	_	_	2	Dummy	_	Pos=20665|Len=2
 3	it	it	PRON	_	_	3	SUJ_V	_	Pos=20668|Len=2
 4	does	do	VERB	_	_	_	_	_	Pos=20671|Len=4
@@ -4620,7 +4620,7 @@
 
 # sent_id = 195
 # text = `` We 're focusing very much on the cost side of the business but once you start losing revenues you get into a vicious circle from which you ca n't recover , '' said Ray Young , the chief financial officer for GM 
-1	\x0a		SENT	_	_	36	SUJ_V	_	Pos=20751|Len=1
+1	 		SENT	_	_	36	SUJ_V	_	Pos=20751|Len=1
 2	``	`	OQU	_	_	36	SUJ_V	_	Pos=20753|Len=2
 3	We	we	PRON	_	_	4	det	_	Pos=20756|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=20759|Len=1|SpaceAfter=No
@@ -4670,7 +4670,7 @@
 
 # sent_id = 196
 # text = `` We continue to see a 60-80 percent chance of a GM bankruptcy 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=20969|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=20969|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=20971|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=20974|Len=2
 4	continue	continue	VERB	_	_	_	_	_	Pos=20977|Len=8
@@ -4690,7 +4690,7 @@
 
 # sent_id = 197
 # text = While the GM equity today is largely uninvestable , we increasingly believe GM may emerge substantially stronger from a bankruptcy - provided the Chapter 11 process is not overly drawn out - particularly given the scope of targeted dealer cuts , '' analyst Himanshu Patel said 
-1	\x0a		SENT	_	_	_	_	_	Pos=21037|Len=1
+1	 		SENT	_	_	_	_	_	Pos=21037|Len=1
 2	While	while	ADP	_	_	5	PREPSUB	_	Pos=21039|Len=5
 3	the	the	DET	_	_	5	det	_	Pos=21045|Len=3
 4	GM	gm	NOUN	_	_	4	ADJPRENSUB	_	Pos=21049|Len=2
@@ -4742,7 +4742,7 @@
 
 # sent_id = 198
 # text = U.S. automaker Chrysler wants to eliminate 789 dealerships 
-1	\x0a		SENT	_	_	_	_	_	Pos=21318|Len=1
+1	 		SENT	_	_	_	_	_	Pos=21318|Len=1
 2	U.S.	u.s.	ADJ	_	_	_	_	_	NE=Location.LOCATION|Pos=21320|Len=4
 3	automaker	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=21325|Len=9
 4	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=21335|Len=8
@@ -4751,7 +4751,7 @@
 7	eliminate	eliminate	VERB	_	_	4	CPLV_V	_	Pos=21353|Len=9
 8	789	789	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=21363|Len=3
 9	dealerships	dealerships	NOUN	_	_	6	COD_V	_	Pos=21367|Len=11
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=21379|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=21379|Len=1
 
 # sent_id = 199
 # text = May 14 , 2009 
@@ -4759,7 +4759,7 @@
 2	14	14	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=21385|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=21388|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=21390|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=21395|Len=1
+5	 		SENT	_	_	_	_	_	Pos=21395|Len=1
 
 # sent_id = 200
 # text = American automobile manufacturer Chrysler LLC has said that it wants to eliminate 789 , or about a quarter , of its 3,200 dealers by early June 
@@ -4793,7 +4793,7 @@
 
 # sent_id = 201
 # text = In a bankruptcy court filing on Thursday , the firm stated its network has too many dealers competing between each other and is antiquated 
-1	\x0a		SENT	_	_	_	_	_	Pos=21543|Len=1
+1	 		SENT	_	_	_	_	_	Pos=21543|Len=1
 2	In	in	ADP	_	_	5	PREPSUB	_	Pos=21545|Len=2
 3	a	a	DET	_	_	5	det	_	Pos=21548|Len=1
 4	bankruptcy	bankruptcy	NOUN	_	_	4	ADJPRENSUB	_	Pos=21550|Len=10
@@ -4821,7 +4821,7 @@
 
 # sent_id = 202
 # text = A June 3 hearing has been scheduled in the US Bankruptcy Court to determine whether the move should be approved 
-1	\x0a		SENT	_	_	_	_	_	Pos=21686|Len=1
+1	 		SENT	_	_	_	_	_	Pos=21686|Len=1
 2	A	A	NOUN	_	_	2	ADJPRENSUB	_	Pos=21688|Len=1
 3	June	June	PROPN	_	_	_	_	_	NE=DateTime.DATE|Pos=21690|Len=4
 4	3	3	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=21695|Len=1
@@ -4846,7 +4846,7 @@
 
 # sent_id = 203
 # text = `` This is a difficult day for us and not a day anybody can be prepared for , '' said Jim Press , the Vice Chairman of Chrysler 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=21802|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=21802|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=21804|Len=2
 3	This	this	DET	_	_	3	Dummy	_	Pos=21807|Len=4
 4	is	be	VERB	_	_	4	Dummy	_	Pos=21812|Len=2
@@ -4880,7 +4880,7 @@
 
 # sent_id = 204
 # text = Company executives said the firm is trying to eliminate dealers with poor performances , and retain those who make the strongest sales 
-1	\x0a		SENT	_	_	_	_	_	Pos=21934|Len=1
+1	 		SENT	_	_	_	_	_	Pos=21934|Len=1
 2	Company	company	NOUN	_	_	2	ADJPRENSUB	_	Pos=21936|Len=7
 3	executives	executive	NOUN	_	_	3	SUJ_V	_	Pos=21944|Len=10
 4	said	said	VERB	_	_	_	_	_	Pos=21955|Len=4
@@ -4907,7 +4907,7 @@
 
 # sent_id = 205
 # text = Over 50 % of the dealerships that are to be eliminated sell less than a hundred automobiles per year 
-1	\x0a		SENT	_	_	_	_	_	Pos=22073|Len=1
+1	 		SENT	_	_	_	_	_	Pos=22073|Len=1
 2	Over	over	ADP	_	_	2	PREPSUB	_	Pos=22075|Len=4
 3	50	50	NUM	_	_	_	_	_	NE=Numex.NUMEX|Pos=22080|Len=2
 4	%	%	SYM	_	_	_	_	_	NE=Numex.NUMEX|Pos=22083|Len=1
@@ -4931,7 +4931,7 @@
 
 # sent_id = 206
 # text = `` We recognize in the short term we will see some loss of sales 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=22178|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=22178|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=22180|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=22183|Len=2
 4	recognize	recognize	VERB	_	_	4	Dummy	_	Pos=22186|Len=9
@@ -4950,7 +4950,7 @@
 
 # sent_id = 207
 # text = But based on the long term .
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=22247|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=22247|Len=1
 2	But	But	ADP	_	_	2	Dummy	_	Pos=22249|Len=3
 3	based	base	VERB	_	_	3	Dummy	_	Pos=22253|Len=5
 4	on	on	ADP	_	_	4	Dummy	_	Pos=22259|Len=2
@@ -4995,7 +4995,7 @@
 
 # sent_id = 209
 # text = U.S. automaker GM plans to close 1,100 dealerships 
-1	\x0a		SENT	_	_	_	_	_	Pos=22412|Len=1
+1	 		SENT	_	_	_	_	_	Pos=22412|Len=1
 2	U.S.	u.s.	ADJ	_	_	_	_	_	NE=Location.LOCATION|Pos=22414|Len=4
 3	automaker	automaker	NOUN	_	_	3	ADJPRENSUB	_	Pos=22419|Len=9
 4	GM	gm	NOUN	_	_	4	ADJPRENSUB	_	Pos=22429|Len=2
@@ -5004,7 +5004,7 @@
 7	close	close	NOUN	_	_	4	COMPDUNOM	_	Pos=22441|Len=5
 8	1,100	1,100	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=22447|Len=5
 9	dealerships	dealerships	NOUN	_	_	9	Dummy	_	Pos=22453|Len=11
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=22465|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=22465|Len=1
 
 # sent_id = 210
 # text = May 15 , 2009 
@@ -5012,7 +5012,7 @@
 2	15	15	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=22471|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=22474|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=22476|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=22481|Len=1
+5	 		SENT	_	_	_	_	_	Pos=22481|Len=1
 
 # sent_id = 211
 # text = American automobile manufacturer General Motors ( GM ) announced plans Friday to shut down about 1,100 of its dealerships , in an effort to evade bankruptcy and lower its expenditures 
@@ -5050,7 +5050,7 @@
 
 # sent_id = 212
 # text = GM 's move comes a day after Chrysler , another U.S. car maker , released a list of 789 dealerships that it was closing 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=22669|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=22669|Len=1
 2	GM	gm	NOUN	_	_	2	Dummy	_	Pos=22671|Len=2
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=22674|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=22675|Len=1
@@ -5080,7 +5080,7 @@
 
 # sent_id = 213
 # text = Unlike Chrylser , GM will not publicly announce the dealerships that it intends to shut down 
-1	\x0a		SENT	_	_	_	_	_	Pos=22793|Len=1
+1	 		SENT	_	_	_	_	_	Pos=22793|Len=1
 2	Unlike	unlike	ADP	_	_	2	PREPSUB	_	Pos=22795|Len=6
 3	Chrylser	Chrylser	PROPN	_	_	5	SUJ_V	_	Pos=22802|Len=8
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=22811|Len=1
@@ -5101,7 +5101,7 @@
 
 # sent_id = 214
 # text = Instead , dealerships whose franchises wo n't be renewed after October of next year will receive a private letter telling them of the decision 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=22890|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=22890|Len=1
 2	Instead	instead	ADV	_	_	2	Dummy	_	Pos=22892|Len=7
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=22900|Len=1
 4	dealerships	dealerships	NOUN	_	_	6	SUJ_V	_	Pos=22902|Len=11
@@ -5130,7 +5130,7 @@
 
 # sent_id = 215
 # text = At the moment , GM has 6,246 dealers in the U.S. 
-1	\x0a		SENT	_	_	_	_	_	Pos=23037|Len=1
+1	 		SENT	_	_	_	_	_	Pos=23037|Len=1
 2	At	at	ADP	_	_	3	PREPSUB	_	Pos=23039|Len=2
 3	the	the	DET	_	_	3	det	_	Pos=23042|Len=3
 4	moment	moment	NOUN	_	_	6	SUJ_V	_	Pos=23046|Len=6
@@ -5146,7 +5146,7 @@
 
 # sent_id = 216
 # text = It intends to reduce that number to 3,605 by the end of 2010 
-1	\x0a		SENT	_	_	_	_	_	Pos=23090|Len=1
+1	 		SENT	_	_	_	_	_	Pos=23090|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=23092|Len=2
 3	intends	intend	VERB	_	_	_	_	_	Pos=23095|Len=7
 4	to	to	ADP	_	_	4	PrepInf	_	Pos=23103|Len=2
@@ -5164,7 +5164,7 @@
 
 # sent_id = 217
 # text = GM said the dealerships that were to be closed are `` underperforming and very small sales volume U.S. dealers 
-1	\x0a		SENT	_	_	_	_	_	Pos=23155|Len=1
+1	 		SENT	_	_	_	_	_	Pos=23155|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=23157|Len=2
 3	said	said	VERB	_	_	_	_	_	Pos=23160|Len=4
 4	the	the	DET	_	_	4	det	_	Pos=23165|Len=3
@@ -5190,7 +5190,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=23270|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=23271|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=23273|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=23273|Len=1
 
 # sent_id = 219
 # text = `` They 're dealerships that are in most cases hurting , losing money , and in danger of going out of business anyway , '' said GM 's sales , service , and marketing vice president in a telephone conference 
@@ -5241,7 +5241,7 @@
 
 # sent_id = 220
 # text = `` It 's a move that people could argue should have been taken years ago but this leadership team had no choice but to do it today 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=23484|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=23484|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=23486|Len=2
 3	It	it	PRON	_	_	3	Dummy	_	Pos=23489|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=23492|Len=1|SpaceAfter=No
@@ -5276,7 +5276,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=23619|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=23620|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=23622|Len=1
+3	 		SENT	_	_	_	_	_	Pos=23622|Len=1
 
 # sent_id = 222
 # text = The dealers that are to be closed represent 18 % of the firm 's dealership network , but only 7 % of GM 's 2008 revenue 
@@ -5312,7 +5312,7 @@
 
 # sent_id = 223
 # text = Bankruptcy for U.S. automaker GM becomes almost certain after bondholder offers fail 
-1	\x0a		SENT	_	_	_	_	_	Pos=23746|Len=1
+1	 		SENT	_	_	_	_	_	Pos=23746|Len=1
 2	Bankruptcy	bankruptcy	NOUN	_	_	6	SUJ_V	_	Pos=23748|Len=10
 3	for	for	ADP	_	_	5	PREPSUB	_	Pos=23759|Len=3
 4	U.S.	u.s.	ADJ	_	_	_	_	_	NE=Location.LOCATION|Pos=23763|Len=4
@@ -5325,7 +5325,7 @@
 11	bondholder	bondholder	NOUN	_	_	11	ADJPRENSUB	_	Pos=23810|Len=10
 12	offers	offer	NOUN	_	_	12	SUJ_V	_	Pos=23821|Len=6
 13	fail	fail	VERB	_	_	13	Dummy	_	Pos=23828|Len=4
-14	\x0a		SENT	_	_	_	Dummy	_	Pos=23833|Len=1
+14	 		SENT	_	_	_	Dummy	_	Pos=23833|Len=1
 
 # sent_id = 224
 # text = May 28 , 2009 
@@ -5333,7 +5333,7 @@
 2	28	28	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=23839|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=23842|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=23844|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=23849|Len=1
+5	 		SENT	_	_	_	_	_	Pos=23849|Len=1
 
 # sent_id = 225
 # text = The United States automobile manufacturing firm General Motors announced on Wednesday that most of its bondholders did not exchange GM 's US$ 27 billion debt for a ten percent share in the company 's stock 
@@ -5379,7 +5379,7 @@
 
 # sent_id = 226
 # text = The automaker , in financial straits , has a June 1 deadline to finish a government restructuring plan that includes plant closures and other debt reduction measures 
-1	\x0a		SENT	_	_	_	_	_	Pos=24059|Len=1
+1	 		SENT	_	_	_	_	_	Pos=24059|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=24061|Len=3
 3	automaker	automaker	NOUN	_	_	8	SUJ_V	_	Pos=24065|Len=9
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=24075|Len=1
@@ -5411,7 +5411,7 @@
 
 # sent_id = 227
 # text = U.S. President Barack Obama 's administration said it would not give more financial aid to the firm unless 90 % of GM 's bondholders would agree on compromises that would significantly reduce the firm 's costs 
-1	\x0a		SENT	_	_	_	_	_	Pos=24229|Len=1
+1	 		SENT	_	_	_	_	_	Pos=24229|Len=1
 2	U.S.	u.s.	ADJ	_	_	_	_	_	NE=Location.LOCATION|Pos=24231|Len=4
 3	President	president	NOUN	_	_	3	ADJPRENSUB	_	Pos=24236|Len=9
 4	Barack	Barack	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=24246|Len=6
@@ -5455,7 +5455,7 @@
 
 # sent_id = 228
 # text = `` The principal amount of notes tendered was substantially less than the amount required by GM to satisfy the debt reduction requirement , '' GM said in a statement 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=24443|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=24443|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=24445|Len=2
 3	The	the	DET	_	_	4	det	_	Pos=24448|Len=3
 4	principal	principal	NOUN	_	_	4	ADJPRENSUB	_	Pos=24452|Len=9
@@ -5490,7 +5490,7 @@
 
 # sent_id = 229
 # text = `` They said no 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=24613|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=24613|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=24615|Len=2
 3	They	they	PRON	_	_	3	SUJ_V	_	Pos=24618|Len=4
 4	said	said	VERB	_	_	4	Dummy	_	Pos=24623|Len=4
@@ -5499,7 +5499,7 @@
 
 # sent_id = 230
 # text = That 's it 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=24633|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=24633|Len=1
 2	That	That	ADP	_	_	2	Dummy	_	Pos=24635|Len=4
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=24640|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=24641|Len=1
@@ -5508,14 +5508,14 @@
 
 # sent_id = 231
 # text = They tried 
-1	\x0a		SENT	_	_	_	_	_	Pos=24648|Len=1
+1	 		SENT	_	_	_	_	_	Pos=24648|Len=1
 2	They	they	PRON	_	_	2	SUJ_V	_	Pos=24650|Len=4
 3	tried	tried	VERB	_	_	3	Dummy	_	Pos=24655|Len=5
 4	.	.	SENT	_	_	_	_	_	Pos=24661|Len=1
 
 # sent_id = 232
 # text = That 's why they 're going to have to file for bankruptcy , '' said a university professor from the University of Michigan who specializes in bankruptcy 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=24663|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=24663|Len=1
 2	That	That	ADP	_	_	2	Dummy	_	Pos=24665|Len=4
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=24670|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=24671|Len=1
@@ -5550,7 +5550,7 @@
 
 # sent_id = 233
 # text = U.S. manufacturer General Motors seeks bankruptcy protection 
-1	\x0a		SENT	_	_	_	_	_	Pos=24820|Len=1
+1	 		SENT	_	_	_	_	_	Pos=24820|Len=1
 2	U.S.	u.s.	ADJ	_	_	_	_	_	NE=Location.LOCATION|Pos=24822|Len=4
 3	manufacturer	manufacturer	NOUN	_	_	3	ADJPRENSUB	_	Pos=24827|Len=12
 4	General	general	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=24840|Len=7
@@ -5558,7 +5558,7 @@
 6	seeks	seek	VERB	_	_	_	_	_	Pos=24855|Len=5
 7	bankruptcy	bankruptcy	NOUN	_	_	6	ADJPRENSUB	_	Pos=24861|Len=10
 8	protection	protection	NOUN	_	_	4	COD_V	_	Pos=24872|Len=10
-9	\x0a		SENT	_	_	_	Dummy	_	Pos=24883|Len=1
+9	 		SENT	_	_	_	Dummy	_	Pos=24883|Len=1
 
 # sent_id = 234
 # text = June 01 , 2009 
@@ -5566,7 +5566,7 @@
 2	01	01	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=24890|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=24893|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=24895|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=24900|Len=1
+5	 		SENT	_	_	_	_	_	Pos=24900|Len=1
 
 # sent_id = 235
 # text = United States automobile manufacturing firm General Motors filed for bankruptcy and Chapter 11 protection from its creditors at 12:00 UTC Monday , in a Manhattan , New York federal bankruptcy court 
@@ -5606,7 +5606,7 @@
 
 # sent_id = 236
 # text = This was the largest bankruptcy filing for a U.S. manufacturing company , and with declared assets of $ 82.29 billion and a debt of $ 172.81 billion , and the fourth largest bankruptcy filing in recent U.S. history -- after the bankruptcies of Lehman Brothers ( $ 691.06 billion ) , Washington Mutual ( $ 327.91 billion ) , and WorldCom ( $ 103.91 billion ) . 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=25102|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=25102|Len=1
 2	This	this	DET	_	_	2	Dummy	_	Pos=25104|Len=4
 3	was	be	VERB	_	_	3	Dummy	_	Pos=25109|Len=3
 4	the	the	DET	_	_	6	det	_	Pos=25113|Len=3
@@ -5673,7 +5673,7 @@
 65	103.91	10391	NOUN	_	_	63	ADJPRENSUB	_	Pos=25445|Len=6
 66	billion	billion	NOUN	_	_	64	Dummy	_	Pos=25452|Len=7
 67	) .		COMMA	_	_	65	Dummy	_	Pos=25460|Len=3
-68	\x0a		SENT	_	_	_	_	_	Pos=25464|Len=1
+68	 		SENT	_	_	_	_	_	Pos=25464|Len=1
 
 # sent_id = 237
 # text = Barack Obama presents rescue plan after GM declaration of bankruptcy 
@@ -5687,7 +5687,7 @@
 8	declaration	declaration	NOUN	_	_	4	COMPDUNOM	_	Pos=25509|Len=11
 9	of	of	ADP	_	_	9	PREPSUB	_	Pos=25521|Len=2
 10	bankruptcy	bankruptcy	NOUN	_	_	7	COMPDUNOM	_	Pos=25524|Len=10
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=25535|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=25535|Len=1
 
 # sent_id = 238
 # text = June 01 , 2009 
@@ -5695,7 +5695,7 @@
 2	01	01	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=25542|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=25545|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=25547|Len=4
-5	\x0a		SENT	_	_	_	Dummy	_	Pos=25552|Len=1
+5	 		SENT	_	_	_	Dummy	_	Pos=25552|Len=1
 
 # sent_id = 239
 # text = In a televised speech from the White House at 16:00 UTC today , President of the United States Barack Obama presented a reorganization plan following the 12:00 UTC announcement by General Motors that it had filed for bankruptcy and Chapter 11 protection from its creditors , the largest bankruptcy of a U.S. manufacturing company 
@@ -5761,7 +5761,7 @@
 
 # sent_id = 240
 # text = Describing the problem with the company as one that had been `` decades in the making , '' Obama explained the rationale behind his proposed reorganization plan for General Motors 
-1	\x0a		SENT	_	_	_	_	_	Pos=25886|Len=1
+1	 		SENT	_	_	_	_	_	Pos=25886|Len=1
 2	Describing	describe	VERB	_	_	_	_	_	Pos=25888|Len=10
 3	the	the	DET	_	_	3	det	_	Pos=25899|Len=3
 4	problem	problem	NOUN	_	_	1	COD_V	_	Pos=25903|Len=7
@@ -5797,7 +5797,7 @@
 
 # sent_id = 241
 # text = He stated that his intent was not to `` perpetuate ] the bad business decisions of the past , '' and that loaning General Motors money , when debt was its problem , would have been doing exactly that 
-1	\x0a		SENT	_	_	_	_	_	Pos=26070|Len=1
+1	 		SENT	_	_	_	_	_	Pos=26070|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=26072|Len=2
 3	stated	state	VERB	_	_	3	Dummy	_	Pos=26075|Len=6
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=26082|Len=4
@@ -5842,7 +5842,7 @@
 
 # sent_id = 242
 # text = His plan , he stated , was for the United States government , in conjunction with the governments of Canada and Ontario ( which he thanked for their roles alongside the government of Germany which he thanked for its role in selling a corporate stake in GM Europe ) , to become shareholders in General Motors 
-1	\x0a		SENT	_	_	_	_	_	Pos=26274|Len=1
+1	 		SENT	_	_	_	_	_	Pos=26274|Len=1
 2	His	his	PRON	_	_	2	det	_	Pos=26276|Len=3
 3	plan	plan	NOUN	_	_	7	SUJ_V	_	Pos=26280|Len=4
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=26285|Len=1
@@ -5900,7 +5900,7 @@
 
 # sent_id = 243
 # text = The United States government would hold a 60 % stake 
-1	\x0a		SENT	_	_	_	_	_	Pos=26586|Len=1
+1	 		SENT	_	_	_	_	_	Pos=26586|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=26588|Len=3
 3	United	unite	VERB	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=26592|Len=6
 4	States	state	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=26599|Len=6
@@ -5915,7 +5915,7 @@
 
 # sent_id = 244
 # text = The government will give GM a capital infusion of US$ 30 billion in addition to the funds it has already received 
-1	\x0a		SENT	_	_	_	_	_	Pos=26643|Len=1
+1	 		SENT	_	_	_	_	_	Pos=26643|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=26645|Len=3
 3	government	government	NOUN	_	_	4	SUJ_V	_	Pos=26649|Len=10
 4	will	will	AUX	_	_	4	aux	_	Pos=26660|Len=4
@@ -5941,7 +5941,7 @@
 
 # sent_id = 245
 # text = Of the government ownership he stated that he refused `` to let General Motors and Chrysler become wards of the state '' , and described the bankruptcy of Chrysler , and the bankruptcy of General Motors that he envisioned as being `` quick , surgical , bankruptcies '' . 
-1	\x0a		SENT	_	_	_	_	_	Pos=26761|Len=1
+1	 		SENT	_	_	_	_	_	Pos=26761|Len=1
 2	Of	of	ADP	_	_	4	PREPSUB	_	Pos=26763|Len=2
 3	the	the	DET	_	_	4	det	_	Pos=26766|Len=3
 4	government	government	NOUN	_	_	4	ADJPRENSUB	_	Pos=26770|Len=10
@@ -5992,7 +5992,7 @@
 49	bankruptcies	bankruptcy	NOUN	_	_	47	Dummy	_	Pos=27016|Len=12
 50	'	'	QUOT	_	_	48	Dummy	_	Pos=27029|Len=1|SpaceAfter=No
 51	' .	'	QUOT	_	_	49	Dummy	_	Pos=27030|Len=3
-52	\x0a		SENT	_	_	_	_	_	Pos=27034|Len=1
+52	 		SENT	_	_	_	_	_	Pos=27034|Len=1
 
 # sent_id = 246
 # text = He pointed to the bankruptcy of Chrysler as an example of what he envision for General Motors , but stated that General Motors was a `` more complex company '' than Chrysler 
@@ -6033,7 +6033,7 @@
 
 # sent_id = 247
 # text = Responding to challenges voiced by political opponents , before the speech , that the federal government would actively participate in the affairs of the restructured company , he stated that he had `` no interest '' in running GM , and that the federal government would `` refrain from exercising its rights '' as a corporate shareholder for the most part 
-1	\x0a		SENT	_	_	_	_	_	Pos=27212|Len=1
+1	 		SENT	_	_	_	_	_	Pos=27212|Len=1
 2	Responding	respond	VERB	_	_	_	_	_	Pos=27214|Len=10
 3	to	to	ADP	_	_	3	PREPSUB	_	Pos=27225|Len=2
 4	challenges	challenge	NOUN	_	_	1	CPL_V	_	Pos=27228|Len=10
@@ -6098,7 +6098,7 @@
 
 # sent_id = 248
 # text = In particular , he stated that the federal government would not exercise its rights as a shareholder to dictate `` what new type of car to make 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=27573|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=27573|Len=1
 2	In	in	ADP	_	_	2	Dummy	_	Pos=27575|Len=2
 3	particular	particular	ADJ	_	_	3	Dummy	_	Pos=27578|Len=10
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=27589|Len=1
@@ -6132,7 +6132,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=27721|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=27722|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=27724|Len=1
+3	 		SENT	_	_	_	_	_	Pos=27724|Len=1
 
 # sent_id = 250
 # text = He stated that he expected the restructured GM to make `` high quality , safe , and fuel-efficient cars of tomorrow , '' and several times described what he anticipated as `` better '' and `` fuel-efficient '' cars , after a streamlining of GM 's brands 
@@ -6193,7 +6193,7 @@
 
 # sent_id = 251
 # text = He said to the general public that `` I will not pretend that the hard times are over 
-1	\x0a		SENT	_	_	_	_	_	Pos=27982|Len=1
+1	 		SENT	_	_	_	_	_	Pos=27982|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=27984|Len=2
 3	said	said	VERB	_	_	_	_	_	Pos=27987|Len=4
 4	to	to	ADP	_	_	6	PREPSUB	_	Pos=27992|Len=2
@@ -6218,7 +6218,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=28072|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=28073|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=28075|Len=1
+3	 		SENT	_	_	_	_	_	Pos=28075|Len=1
 
 # sent_id = 253
 # text = He described the financial hardship that some -- shareholders , communities based around GM plants , GM dealers , and others -- would undergo as a `` sacrifice for the next generation '' on their parts , so that their children could live in `` an America that still makes things , '' concluding that one day the United States might return to a time when the maxim ( a widely-repeated mis-quotation of what Charles Erwin Wilson once testified before the U.S. Senate when nominated for the position of Secretary of Defense ) would once more be true that `` what is good for General Motors is good for the United States of America 
@@ -6345,7 +6345,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=28707|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=28708|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=28710|Len=1
+3	 		SENT	_	_	_	_	_	Pos=28710|Len=1
 
 # sent_id = 255
 # text = CEO of GM outlines plan for `` New GM '' after auto company declared bankruptcy 
@@ -6365,7 +6365,7 @@
 14	company	company	NOUN	_	_	9	COMPDUNOM	_	Pos=28764|Len=7
 15	declared	declare	VERB	_	_	_	_	_	Pos=28772|Len=8
 16	bankruptcy	bankruptcy	NOUN	_	_	15	COD_V	_	Pos=28781|Len=10
-17	\x0a		SENT	_	_	_	Dummy	_	Pos=28792|Len=1
+17	 		SENT	_	_	_	Dummy	_	Pos=28792|Len=1
 
 # sent_id = 256
 # text = June 04 , 2009 
@@ -6373,7 +6373,7 @@
 2	04	04	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=28799|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=28802|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=28804|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=28809|Len=1
+5	 		SENT	_	_	_	_	_	Pos=28809|Len=1
 
 # sent_id = 257
 # text = In a New York press conference at 16:15 UTC , June 1st , Fritz Henderson , the Chief Executive Officer of General Motors , which filed for bankruptcy and Chapter 11 protection from its creditors earlier today , outlined a plan for what he called a `` New GM '' . 
@@ -6429,7 +6429,7 @@
 50	GM	gm	NOUN	_	_	48	Dummy	_	Pos=29066|Len=2
 51	'	'	QUOT	_	_	49	Dummy	_	Pos=29069|Len=1|SpaceAfter=No
 52	' .	'	QUOT	_	_	50	Dummy	_	Pos=29070|Len=3
-53	\x0a		SENT	_	_	_	_	_	Pos=29074|Len=1
+53	 		SENT	_	_	_	_	_	Pos=29074|Len=1
 
 # sent_id = 258
 # text = Speaking to the press under safe harbor provisions of U.S. law , Henderson described the events of today as a `` defining moment '' in the history of General Motors 
@@ -6468,7 +6468,7 @@
 
 # sent_id = 259
 # text = Speaking to the public he said that `` The GM that let you down is history , '' and described a `` New GM '' that he expected to result from the bankruptcy process 
-1	\x0a		SENT	_	_	_	_	_	Pos=29243|Len=1
+1	 		SENT	_	_	_	_	_	Pos=29243|Len=1
 2	Speaking	speak	VERB	_	_	_	_	_	Pos=29245|Len=8
 3	to	to	ADP	_	_	4	PREPSUB	_	Pos=29254|Len=2
 4	the	the	DET	_	_	4	det	_	Pos=29257|Len=3
@@ -6509,7 +6509,7 @@
 
 # sent_id = 260
 # text = Henderson stated that he envisioned the bankruptcy process would take between 60 and 90 days 
-1	\x0a		SENT	_	_	_	_	_	Pos=29411|Len=1
+1	 		SENT	_	_	_	_	_	Pos=29411|Len=1
 2	Henderson	Henderson	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=29413|Len=9
 3	stated	state	VERB	_	_	3	Dummy	_	Pos=29423|Len=6
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=29430|Len=4
@@ -6529,7 +6529,7 @@
 
 # sent_id = 261
 # text = He stressed several times his view that the process would be one that is executed quickly , saying that not just a sense of urgency but `` pure unadulterated speed '' was his expectation of the process 
-1	\x0a		SENT	_	_	_	_	_	Pos=29508|Len=1
+1	 		SENT	_	_	_	_	_	Pos=29508|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=29510|Len=2
 3	stressed	stress	VERB	_	_	_	_	_	Pos=29513|Len=8
 4	several	several	DET	_	_	4	det	_	Pos=29522|Len=7
@@ -6572,7 +6572,7 @@
 
 # sent_id = 262
 # text = He emphasized that `` GM remains open for business '' during the bankruptcy period , continuing to sell and to support its products , and that day one motions had been filed in the bankruptcy court in order to allow this 
-1	\x0a		SENT	_	_	_	_	_	Pos=29714|Len=1
+1	 		SENT	_	_	_	_	_	Pos=29714|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=29716|Len=2
 3	emphasized	emphasize	VERB	_	_	3	Dummy	_	Pos=29719|Len=10
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=29730|Len=4
@@ -6619,7 +6619,7 @@
 
 # sent_id = 263
 # text = Regarding the bankruptcy process he said , `` We will do it right 
-1	\x0a		SENT	_	_	_	_	_	Pos=29939|Len=1
+1	 		SENT	_	_	_	_	_	Pos=29939|Len=1
 2	Regarding	regard	VERB	_	_	_	_	_	Pos=29941|Len=9
 3	the	the	DET	_	_	4	det	_	Pos=29951|Len=3
 4	bankruptcy	bankruptcy	NOUN	_	_	4	ADJPRENSUB	_	Pos=29955|Len=10
@@ -6637,7 +6637,7 @@
 
 # sent_id = 264
 # text = And we will do it once 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=30009|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=30009|Len=1
 2	And	and	CONJ	_	_	2	Dummy	_	Pos=30011|Len=3
 3	we	we	PRON	_	_	3	SUJ_V	_	Pos=30015|Len=2
 4	will	will	AUX	_	_	4	aux	_	Pos=30018|Len=4
@@ -6650,7 +6650,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=30036|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=30037|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=30039|Len=1
+3	 		SENT	_	_	_	_	_	Pos=30039|Len=1
 
 # sent_id = 266
 # text = He stated that the plan for General Motors had the support of the United Auto Workers union , the Canadian Auto Workers union , the GM VEBA , and a majority of the unsecured bondholders of GM 
@@ -6695,7 +6695,7 @@
 
 # sent_id = 267
 # text = He also mentioned that GM had already received $ 1.5 million in bridge financing from the German government 
-1	\x0a		SENT	_	_	_	_	_	Pos=30235|Len=1
+1	 		SENT	_	_	_	_	_	Pos=30235|Len=1
 2	He	he	PRON	_	_	3	SUJ_V	_	Pos=30237|Len=2
 3	also	also	ADV	_	_	3	AdvVerbe	_	Pos=30240|Len=4
 4	mentioned	mention	VERB	_	_	_	_	_	Pos=30245|Len=9
@@ -6718,7 +6718,7 @@
 
 # sent_id = 268
 # text = In response to questions about the possibility of the United States federal government , a majority shareholder in the restructured company , dictating future product development and strategy , such as the sale of more fuel-efficient and green vehicles 
-1	\x0a		SENT	_	_	_	_	_	Pos=30347|Len=1
+1	 		SENT	_	_	_	_	_	Pos=30347|Len=1
 2	In response to	in response to	ADP	_	_	2	PREPSUB	_	Pos=30349|Len=14
 3	questions	question	NOUN	_	_	17	CPL_V	_	Pos=30364|Len=9
 4	about	about	ADV	_	_	2	AdvSub	_	Pos=30374|Len=5
@@ -6799,7 +6799,7 @@
 
 # sent_id = 270
 # text = Of the specific hypothetical scenario where the management of GM wants to make one type of car , because it thinks that it is the right thing for the business , and the U.S. government wants to make another type of car , he stated that `` I do n't think it 's going to happen 
-1	\x0a		SENT	_	_	_	_	_	Pos=30783|Len=1
+1	 		SENT	_	_	_	_	_	Pos=30783|Len=1
 2	Of	of	ADP	_	_	5	PREPSUB	_	Pos=30785|Len=2
 3	the	the	DET	_	_	5	det	_	Pos=30788|Len=3
 4	specific	specific	ADJ	_	_	5	ADJPRENSUB	_	Pos=30792|Len=8
@@ -6863,7 +6863,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=31063|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=31064|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=31066|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=31066|Len=1
 
 # sent_id = 272
 # text = Expanding on that point he stated that he expected the `` New GM '' to focus upon `` highly fuel-efficient and green technology '' , and that operating both in accordance with U.S. environmental laws and in response to customer demand would naturally result in the New GM producing the types of vehicles that the U.S. government would encourage 
@@ -6929,7 +6929,7 @@
 
 # sent_id = 273
 # text = The `` New GM '' he also expected to focus on `` four core brands '' , and will size its dealership to match that 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=31415|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=31415|Len=1
 2	The	the	DET	_	_	2	Dummy	_	Pos=31417|Len=3
 3	``	`	OQU	_	_	3	Dummy	_	Pos=31421|Len=2
 4	New	new	ADJ	_	_	4	ADJPRENSUB	_	Pos=31424|Len=3
@@ -6961,7 +6961,7 @@
 
 # sent_id = 274
 # text = He stated that GM would offer a `` deferred termination '' package to dealers , to allow them to cease dealing in GM vehicles in a managed and gradual way 
-1	\x0a		SENT	_	_	_	_	_	Pos=31533|Len=1
+1	 		SENT	_	_	_	_	_	Pos=31533|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=31535|Len=2
 3	stated	state	VERB	_	_	_	_	_	Pos=31538|Len=6
 4	that	that	SCONJ	_	_	5	mark	_	Pos=31545|Len=4
@@ -6997,7 +6997,7 @@
 
 # sent_id = 275
 # text = He stated that the bankruptcy filings did not cover General Motors ' businesses in Latin America , Europe and the Middle East , and Asia and the Pacific 
-1	\x0a		SENT	_	_	_	_	_	Pos=31692|Len=1
+1	 		SENT	_	_	_	_	_	Pos=31692|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=31694|Len=2
 3	stated	state	VERB	_	_	_	_	_	Pos=31697|Len=6
 4	that	that	SCONJ	_	_	7	mark	_	Pos=31704|Len=4
@@ -7029,7 +7029,7 @@
 
 # sent_id = 276
 # text = Of GM 's profitable ventures in China , specifically , he stated that they were `` a critical part of the New GM '' . 
-1	\x0a		SENT	_	_	_	_	_	Pos=31849|Len=1
+1	 		SENT	_	_	_	_	_	Pos=31849|Len=1
 2	Of	of	ADP	_	_	2	PREPSUB	_	Pos=31851|Len=2
 3	GM	gm	NOUN	_	_	3	Dummy	_	Pos=31854|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=31857|Len=1|SpaceAfter=No
@@ -7056,7 +7056,7 @@
 25	GM	gm	NOUN	_	_	20	COMPDUNOM	_	Pos=31961|Len=2
 26	'	'	QUOT	_	_	26	Dummy	_	Pos=31964|Len=1|SpaceAfter=No
 27	' .	'	QUOT	_	_	27	Dummy	_	Pos=31965|Len=3
-28	\x0a		SENT	_	_	_	_	_	Pos=31969|Len=1
+28	 		SENT	_	_	_	_	_	Pos=31969|Len=1
 
 # sent_id = 277
 # text = In response to questions of whether the New GM would import cars from China to the U.S. , he stated the formative company 's core principle that `` We build where we sell '' applied in both directions , with GM building in China to sell in China and building in the U.S. to sell in the U.S. , stating that this shortened supply chains 
@@ -7129,7 +7129,7 @@
 
 # sent_id = 278
 # text = He declined to predict when the New GM would return to profitability , stating that the goal was rather to lower the break-even EBIT point for the company 
-1	\x0a		SENT	_	_	_	_	_	Pos=32308|Len=1
+1	 		SENT	_	_	_	_	_	Pos=32308|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=32310|Len=2
 3	declined	decline	VERB	_	_	_	_	_	Pos=32313|Len=8
 4	to	to	ADP	_	_	4	PrepInf	_	Pos=32322|Len=2
@@ -7163,7 +7163,7 @@
 
 # sent_id = 279
 # text = He also declined to speculate upon when the U.S. government would sell its stake in the company , saying that that was a question `` better addressed to the U.S. Treasury '' , and merely saying that he expected it to be `` years , not months '' when the U.S. Treasury felt it would give `` the right return for taxpayers 
-1	\x0a		SENT	_	_	_	_	_	Pos=32467|Len=1
+1	 		SENT	_	_	_	_	_	Pos=32467|Len=1
 2	He	he	PRON	_	_	3	SUJ_V	_	Pos=32469|Len=2
 3	also	also	ADV	_	_	3	AdvVerbe	_	Pos=32472|Len=4
 4	declined	decline	VERB	_	_	_	_	_	Pos=32477|Len=8
@@ -7234,7 +7234,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=32792|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=32793|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=32795|Len=1
+3	 		SENT	_	_	_	_	_	Pos=32795|Len=1
 
 # sent_id = 281
 # text = Penske Auto selected to buy General Motors ' Saturn unit 
@@ -7248,7 +7248,7 @@
 8	'	'	QUOT	_	_	8	Dummy	_	Pos=32840|Len=1
 9	Saturn	Saturn	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=32842|Len=6
 10	unit	unit	NOUN	_	_	10	Dummy	_	Pos=32849|Len=4
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=32854|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=32854|Len=1
 
 # sent_id = 282
 # text = June 05 , 2009 
@@ -7256,7 +7256,7 @@
 2	05	05	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=32861|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=32864|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=32866|Len=4
-5	\x0a		SENT	_	_	_	Dummy	_	Pos=32871|Len=1
+5	 		SENT	_	_	_	Dummy	_	Pos=32871|Len=1
 
 # sent_id = 283
 # text = General Motors Corporation ( GM ) , an American automaker which has filed for bankruptcy protection , announced on Friday that the Penske Automotive Group ( PAG ) was selected to purchase Saturn Corporation 
@@ -7297,7 +7297,7 @@
 
 # sent_id = 284
 # text = The transaction should be completed in October 
-1	\x0a		SENT	_	_	_	_	_	Pos=33082|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33082|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=33084|Len=3
 3	transaction	transaction	NOUN	_	_	5	SUJ_V	_	Pos=33088|Len=11
 4	should	should	AUX	_	_	5	aux	_	Pos=33100|Len=6
@@ -7309,7 +7309,7 @@
 
 # sent_id = 285
 # text = The purchase includes rights to the Saturn brand , its five current models and its dealership network 
-1	\x0a		SENT	_	_	_	_	_	Pos=33133|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33133|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=33135|Len=3
 3	purchase	purchase	NOUN	_	_	3	SUJ_V	_	Pos=33139|Len=8
 4	includes	include	VERB	_	_	_	_	_	Pos=33148|Len=8
@@ -7331,7 +7331,7 @@
 
 # sent_id = 286
 # text = Two models would be discontinued , the Sky and Astra 
-1	\x0a		SENT	_	_	_	_	_	Pos=33239|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33239|Len=1
 2	Two	two	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=33241|Len=3
 3	models	model	NOUN	_	_	5	SUJ_V	_	Pos=33245|Len=6
 4	would	would	AUX	_	_	5	aux	_	Pos=33252|Len=5
@@ -7346,7 +7346,7 @@
 
 # sent_id = 287
 # text = GM would continue building the Aura sedan , the SUV 's , Vue and Outlook for at least two more years 
-1	\x0a		SENT	_	_	_	_	_	Pos=33296|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33296|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=33298|Len=2
 3	would	would	AUX	_	_	3	aux	_	Pos=33301|Len=5
 4	continue	continue	VERB	_	_	_	_	_	Pos=33307|Len=8
@@ -7372,7 +7372,7 @@
 
 # sent_id = 288
 # text = Saturn has 350 dealers across the United States 
-1	\x0a		SENT	_	_	_	_	_	Pos=33401|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33401|Len=1
 2	Saturn	Saturn	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=33403|Len=6
 3	has	have	VERB	_	_	_	_	_	Pos=33410|Len=3
 4	350	350	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=33414|Len=3
@@ -7385,7 +7385,7 @@
 
 # sent_id = 289
 # text = The dealers employ more than 13,000 jobs and sell only the Saturn autos 
-1	\x0a		SENT	_	_	_	_	_	Pos=33453|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33453|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=33455|Len=3
 3	dealers	dealer	NOUN	_	_	3	SUJ_V	_	Pos=33459|Len=7
 4	employ	employ	VERB	_	_	_	_	_	Pos=33467|Len=6
@@ -7403,7 +7403,7 @@
 
 # sent_id = 290
 # text = Canadian Saturn dealers are not included in the deal 
-1	\x0a		SENT	_	_	_	_	_	Pos=33529|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33529|Len=1
 2	Canadian	canadian	ADJ	_	_	3	ADJPRENSUB	_	Pos=33531|Len=8
 3	Saturn	Saturn	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=33540|Len=6
 4	dealers	dealer	NOUN	_	_	6	SUJ_V	_	Pos=33547|Len=7
@@ -7417,7 +7417,7 @@
 
 # sent_id = 291
 # text = According to Penske future Saturn vehicles will be fuel economy focused 
-1	\x0a		SENT	_	_	_	_	_	Pos=33586|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33586|Len=1
 2	According to	according to	ADP	_	_	5	PREPSUB	_	Pos=33588|Len=12
 3	Penske	Penske Corp.	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=33601|Len=6
 4	future	future	NOUN	_	_	4	ADJPRENSUB	_	Pos=33608|Len=6
@@ -7432,7 +7432,7 @@
 
 # sent_id = 292
 # text = An expert indicated that this would move Saturn back to its roots of a entry level car company 
-1	\x0a		SENT	_	_	_	_	_	Pos=33662|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33662|Len=1
 2	An	a	DET	_	_	2	det	_	Pos=33664|Len=2
 3	expert	expert	NOUN	_	_	3	SUJ_V	_	Pos=33667|Len=6
 4	indicated	indicate	VERB	_	_	4	Dummy	_	Pos=33674|Len=9
@@ -7455,7 +7455,7 @@
 
 # sent_id = 293
 # text = PAG is in talks with several international automakers to replace GM after 2011 
-1	\x0a		SENT	_	_	_	_	_	Pos=33761|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33761|Len=1
 2	PAG	pag	PROPN	_	_	2	SUJ_V	_	Pos=33763|Len=3
 3	is	be	VERB	_	_	_	_	_	Pos=33767|Len=2
 4	in	in	ADP	_	_	4	PREPSUB	_	Pos=33770|Len=2
@@ -7473,7 +7473,7 @@
 
 # sent_id = 294
 # text = Automotive News reports that Renault Samsung Motors of Korea is the most likely candidate 
-1	\x0a		SENT	_	_	_	_	_	Pos=33844|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33844|Len=1
 2	Automotive	automotive	ADJ	_	_	3	ADJPRENSUB	_	Pos=33846|Len=10
 3	News	news	NOUN	_	_	3	ADJPRENSUB	_	Pos=33857|Len=4
 4	reports	report	NOUN	_	_	8	SUJ_V	_	Pos=33862|Len=7
@@ -7492,7 +7492,7 @@
 
 # sent_id = 295
 # text = Penske wants Jill Lajdziak , Saturn 's general manager , and Tom LaSorda , former Chrysler President to head up the company when it is independent of GM 
-1	\x0a		SENT	_	_	_	_	_	Pos=33938|Len=1
+1	 		SENT	_	_	_	_	_	Pos=33938|Len=1
 2	Penske	Penske Corp.	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=33940|Len=6
 3	wants	want	VERB	_	_	_	_	_	Pos=33947|Len=5
 4	Jill Lajdziak	Jill Lajdziak	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=33953|Len=13
@@ -7525,7 +7525,7 @@
 
 # sent_id = 296
 # text = Serra Automotive in Grand Blanc Township , Genesee County , Michigan , is in talks to take a partial ownership in a new Saturn lead by Penske 
-1	\x0a		SENT	_	_	_	_	_	Pos=34095|Len=1
+1	 		SENT	_	_	_	_	_	Pos=34095|Len=1
 2	Serra	Serra	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=34097|Len=5
 3	Automotive	automotive	ADJ	_	_	1	SUBADJPOST	_	Pos=34103|Len=10
 4	in	in	ADP	_	_	4	PREPSUB	_	Pos=34114|Len=2
@@ -7556,14 +7556,14 @@
 
 # sent_id = 297
 # text = Automobile manufacturer Ford posts unexpected profits 
-1	\x0a		SENT	_	_	_	_	_	Pos=34241|Len=1
+1	 		SENT	_	_	_	_	_	Pos=34241|Len=1
 2	Automobile	automobile	NOUN	_	_	2	ADJPRENSUB	_	Pos=34243|Len=10
 3	manufacturer	manufacturer	NOUN	_	_	3	ADJPRENSUB	_	Pos=34254|Len=12
 4	Ford	Ford	PROPN	_	_	4	ADJPRENSUB	_	Pos=34267|Len=4
 5	posts	post	NOUN	_	_	6	ADJPRENSUB	_	Pos=34272|Len=5
 6	unexpected	unexpected	ADJ	_	_	6	ADJPRENSUB	_	Pos=34278|Len=10
 7	profits	profit	NOUN	_	_	7	Dummy	_	Pos=34289|Len=7
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=34297|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=34297|Len=1
 
 # sent_id = 298
 # text = November 03 , 2009 
@@ -7571,7 +7571,7 @@
 2	03	03	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=34308|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=34311|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=34313|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=34318|Len=1
+5	 		SENT	_	_	_	_	_	Pos=34318|Len=1
 
 # sent_id = 299
 # text = The US automobile manufacturer Ford has said that it posted a net profit of US$ 997 million in the third quarter of this year , and predicted that it would be `` solidly profitable '' by 2011 
@@ -7618,7 +7618,7 @@
 
 # sent_id = 300
 # text = The reports surprised most analysts , who had forecast that the auto company would lose money 
-1	\x0a		SENT	_	_	_	_	_	Pos=34514|Len=1
+1	 		SENT	_	_	_	_	_	Pos=34514|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=34516|Len=3
 3	reports	report	NOUN	_	_	3	SUJ_V	_	Pos=34520|Len=7
 4	surprised	surprise	VERB	_	_	_	_	_	Pos=34528|Len=9
@@ -7639,7 +7639,7 @@
 
 # sent_id = 301
 # text = Ford 's profits equate to 26 cents per share , a large difference to the 12 cent per share lost that had been anticipated by most economic analysts 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=34612|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=34612|Len=1
 2	Ford	Ford	PROPN	_	_	2	Dummy	_	Pos=34614|Len=4
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=34619|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=34620|Len=1
@@ -7673,7 +7673,7 @@
 
 # sent_id = 302
 # text = `` Our third-quarter results clearly show Ford is making tremendous progress despite the prolonged economic slump , '' said the firm 's chief executive officer , Alan Mulally 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=34764|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=34764|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=34766|Len=2
 3	Our	our	PRON	_	_	5	det	_	Pos=34769|Len=3
 4	third	3	ADJ	_	_	5	ADJPRENSUB	_	Pos=34773|Len=5
@@ -7709,7 +7709,7 @@
 
 # sent_id = 303
 # text = `` While we still face a challenging road ahead , our transformation is working and our underlying business continues to grow stronger 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=34943|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=34943|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=34945|Len=2
 3	While	while	ADP	_	_	3	Dummy	_	Pos=34948|Len=5
 4	we	we	PRON	_	_	7	SUJ_V	_	Pos=34954|Len=2
@@ -7738,7 +7738,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=35082|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=35083|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=35085|Len=1
+3	 		SENT	_	_	_	_	_	Pos=35085|Len=1
 
 # sent_id = 305
 # text = Mulally predicted that his company would meet or even surpass all of its financial targets , and suggested that the fourth quarter of this year could see it post an operating profit 
@@ -7778,7 +7778,7 @@
 
 # sent_id = 306
 # text = Automaker GM to cut 10,000 jobs at Opel 
-1	\x0a		SENT	_	_	_	_	_	Pos=35271|Len=1
+1	 		SENT	_	_	_	_	_	Pos=35271|Len=1
 2	Automaker	automaker	NOUN	_	_	2	ADJPRENSUB	_	Pos=35273|Len=9
 3	GM	gm	NOUN	_	_	_	_	_	Pos=35283|Len=2
 4	to	to	ADP	_	_	4	PREPSUB	_	Pos=35286|Len=2
@@ -7787,7 +7787,7 @@
 7	jobs	job	NOUN	_	_	_	_	_	Pos=35300|Len=4
 8	at	at	ADP	_	_	8	PREPSUB	_	Pos=35305|Len=2
 9	Opel	Opel	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=35308|Len=4
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=35313|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=35313|Len=1
 
 # sent_id = 307
 # text = November 05 , 2009 
@@ -7795,7 +7795,7 @@
 2	05	05	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=35324|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=35327|Len=1
 4	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=35329|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=35334|Len=1
+5	 		SENT	_	_	_	_	_	Pos=35334|Len=1
 
 # sent_id = 308
 # text = The US car manufacturer General Motors said that it would axe 10,000 jobs at its European division , Opel 
@@ -7822,7 +7822,7 @@
 
 # sent_id = 309
 # text = According to the company 's vice president John Smith , the firm wanted to reduce costs at Opel by 30 % . 
-1	\x0a		SENT	_	_	_	_	_	Pos=35444|Len=1
+1	 		SENT	_	_	_	_	_	Pos=35444|Len=1
 2	According to	according to	ADP	_	_	3	PREPSUB	_	Pos=35446|Len=12
 3	the	the	DET	_	_	3	det	_	Pos=35459|Len=3
 4	company	company	NOUN	_	_	4	Dummy	_	Pos=35463|Len=7
@@ -7844,7 +7844,7 @@
 20	by	by	ADP	_	_	19	Dummy	_	Pos=35542|Len=2
 21	30	30	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=35545|Len=2
 22	% .		COMMA	_	_	21	Dummy	_	Pos=35548|Len=3
-23	\x0a		SENT	_	_	_	_	_	Pos=35552|Len=1
+23	 		SENT	_	_	_	_	_	Pos=35552|Len=1
 
 # sent_id = 310
 # text = Smith announced the company 's move on Wednesday 
@@ -7861,7 +7861,7 @@
 
 # sent_id = 311
 # text = He did n't say where the cuts were going to take place , but wanted to present details of the plan to European governments `` very soon '' . 
-1	\x0a		SENT	_	_	_	_	_	Pos=35605|Len=1
+1	 		SENT	_	_	_	_	_	Pos=35605|Len=1
 2	He	he	PRON	_	_	2	SUJ_V	_	Pos=35607|Len=2
 3	did	do	VERB	_	_	_	_	_	Pos=35610|Len=3
 4	n't	PART	PART	_	_	2	MOD_V	_	Pos=35614|Len=3
@@ -7891,7 +7891,7 @@
 28	soon	soon	ADV	_	_	28	Dummy	_	Pos=35738|Len=4
 29	'	'	QUOT	_	_	29	Dummy	_	Pos=35743|Len=1|SpaceAfter=No
 30	' .	'	QUOT	_	_	30	Dummy	_	Pos=35744|Len=3
-31	\x0a		SENT	_	_	_	_	_	Pos=35748|Len=1
+31	 		SENT	_	_	_	_	_	Pos=35748|Len=1
 
 # sent_id = 312
 # text = A day before the announcement , GM said it was cancelling a deal to sell Opel to Magna , a Canadian automobile parts company 
@@ -7923,7 +7923,7 @@
 
 # sent_id = 313
 # text = Politicians in Germany expressed disappointment at GM 's cancellation of the Magna deal , which the country 's government had favoured 
-1	\x0a		SENT	_	_	_	_	_	Pos=35877|Len=1
+1	 		SENT	_	_	_	_	_	Pos=35877|Len=1
 2	Politicians	politician	NOUN	_	_	4	SUJ_V	_	Pos=35879|Len=11
 3	in	in	ADP	_	_	3	PREPSUB	_	Pos=35891|Len=2
 4	Germany	Germany	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=35894|Len=7
@@ -7951,7 +7951,7 @@
 
 # sent_id = 314
 # text = `` GM 's ] behaviour towards Germany is completely unacceptable , '' said German economy minister Rainer Bruederle 
-1	\x0a		SENT	_	_	15	SUJ_V	_	Pos=36016|Len=1
+1	 		SENT	_	_	15	SUJ_V	_	Pos=36016|Len=1
 2	``	`	OQU	_	_	15	SUJ_V	_	Pos=36018|Len=2
 3	GM	gm	NOUN	_	_	15	SUJ_V	_	Pos=36021|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=36024|Len=1|SpaceAfter=No
@@ -7976,7 +7976,7 @@
 
 # sent_id = 315
 # text = The premier of the German state of North Rhine-Westphalia remarked that `` General Motors ' behaviour shows the ugly face of turbo-capitalism 
-1	\x0a		SENT	_	_	_	_	_	Pos=36135|Len=1
+1	 		SENT	_	_	_	_	_	Pos=36135|Len=1
 2	The	the	DET	_	_	2	DetAdj	_	Pos=36137|Len=3
 3	premier	premier	ADJ	_	_	_	_	_	Pos=36141|Len=7
 4	of	of	ADP	_	_	6	PREPSUB	_	Pos=36149|Len=2
@@ -8005,7 +8005,7 @@
 
 # sent_id = 316
 # text = That is completely unacceptable 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=36281|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=36281|Len=1
 2	That	That	ADP	_	_	2	Dummy	_	Pos=36283|Len=4
 3	is	be	VERB	_	_	3	Dummy	_	Pos=36288|Len=2
 4	completely	completely	ADV	_	_	2	MOD_V	_	Pos=36291|Len=10
@@ -8016,7 +8016,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=36317|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=36318|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=36320|Len=1
+3	 		SENT	_	_	_	_	_	Pos=36320|Len=1
 
 # sent_id = 318
 # text = The UK government , however , welcomed the firm 's decision 
@@ -8036,7 +8036,7 @@
 
 # sent_id = 319
 # text = `` It is the best decision for Britain and our plants , '' said the general secretary of the British union Unite , Tony Woodley 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=36384|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=36384|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=36386|Len=2
 3	It	it	PRON	_	_	3	SUJ_V	_	Pos=36389|Len=2
 4	is	be	VERB	_	_	_	_	_	Pos=36392|Len=2
@@ -8067,7 +8067,7 @@
 
 # sent_id = 320
 # text = `` I am absolutely delighted that General Motors have finally done the right thing for them and for us , '' he told the BBC 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=36516|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=36516|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=36518|Len=2
 3	I	I	PRON	_	_	3	SUJ_V	_	Pos=36521|Len=1
 4	am	be	VERB	_	_	5	auxpass	_	Pos=36523|Len=2
@@ -8098,7 +8098,7 @@
 
 # sent_id = 321
 # text = About 54,000 people are employed by Opel , about 25,000 of them in Germany 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=36644|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=36644|Len=1
 2	About	about	ADP	_	_	2	Dummy	_	Pos=36646|Len=5
 3	54,000	54,000	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=36652|Len=6
 4	people	people	NOUN	_	_	5	SUJ_V	_	Pos=36659|Len=6
@@ -8117,7 +8117,7 @@
 
 # sent_id = 322
 # text = Ford Motors posts US$ 2.7 billion annual profit 
-1	\x0a		SENT	_	_	_	_	_	Pos=36723|Len=1
+1	 		SENT	_	_	_	_	_	Pos=36723|Len=1
 2	Ford	Ford	PROPN	_	_	2	ADJPRENSUB	_	Pos=36725|Len=4
 3	Motors	motor	NOUN	_	_	3	ADJPRENSUB	_	Pos=36730|Len=6
 4	posts	post	NOUN	_	_	4	ADJPRENSUB	_	Pos=36737|Len=5
@@ -8127,7 +8127,7 @@
 8	billion	billion	NOUN	_	_	8	ADJPRENSUB	_	Pos=36751|Len=7
 9	annual	annual	ADJ	_	_	8	ADJPRENSUB	_	Pos=36759|Len=6
 10	profit	profit	NOUN	_	_	9	Dummy	_	Pos=36766|Len=6
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=36773|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=36773|Len=1
 
 # sent_id = 323
 # text = January 28 , 2010 
@@ -8135,7 +8135,7 @@
 2	28	28	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=36783|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=36786|Len=1
 4	2010	2010	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=36788|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=36793|Len=1
+5	 		SENT	_	_	_	_	_	Pos=36793|Len=1
 
 # sent_id = 324
 # text = Ford Motors Co. , the automobile manufacturing firm , has posted an annual profit for the last year of US$ 2.7 billion , the first gain for four years 
@@ -8173,7 +8173,7 @@
 
 # sent_id = 325
 # text = The statistics are an improvement from 2008 , when the car company posted a loss of close to $ 15 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=36948|Len=1
+1	 		SENT	_	_	_	_	_	Pos=36948|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=36950|Len=3
 3	statistics	statistic	NOUN	_	_	3	SUJ_V	_	Pos=36954|Len=10
 4	are	be	VERB	_	_	_	_	_	Pos=36965|Len=3
@@ -8199,7 +8199,7 @@
 
 # sent_id = 326
 # text = For the final quarter of 2009 , Ford says it made profits of $ 868 million , and expects to continue to be profitable this year 
-1	\x0a		SENT	_	_	_	_	_	Pos=37058|Len=1
+1	 		SENT	_	_	_	_	_	Pos=37058|Len=1
 2	For	for	ADP	_	_	4	PREPSUB	_	Pos=37060|Len=3
 3	the	the	DET	_	_	4	det	_	Pos=37064|Len=3
 4	final	final	ADJ	_	_	4	ADJPRENSUB	_	Pos=37068|Len=5
@@ -8230,7 +8230,7 @@
 
 # sent_id = 327
 # text = The company had cut its costs to $ 118.3 billion last year , $ 19.8 billion than the year previous 
-1	\x0a		SENT	_	_	_	_	_	Pos=37190|Len=1
+1	 		SENT	_	_	_	_	_	Pos=37190|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=37192|Len=3
 3	company	company	NOUN	_	_	3	SUJ_V	_	Pos=37196|Len=7
 4	had	had	VERB	_	_	_	_	_	Pos=37204|Len=3
@@ -8255,7 +8255,7 @@
 
 # sent_id = 328
 # text = Ford had a $ 34.3 billion debt at the end of 2009 
-1	\x0a		SENT	_	_	_	_	_	Pos=37293|Len=1
+1	 		SENT	_	_	_	_	_	Pos=37293|Len=1
 2	Ford	Ford	PROPN	_	_	2	SUJ_V	_	Pos=37295|Len=4
 3	had	had	VERB	_	_	_	_	_	Pos=37300|Len=3
 4	a	a	DET	_	_	6	det	_	Pos=37304|Len=1
@@ -8272,7 +8272,7 @@
 
 # sent_id = 329
 # text = In the fourth quarter , Ford brand sales were up thirteen percent compared to the same time in 2008 in the US , and obtained 15.3 % of the automobile market in the country 
-1	\x0a		SENT	_	_	_	_	_	Pos=37347|Len=1
+1	 		SENT	_	_	_	_	_	Pos=37347|Len=1
 2	In	in	ADP	_	_	4	PREPSUB	_	Pos=37349|Len=2
 3	the	the	DET	_	_	4	det	_	Pos=37352|Len=3
 4	fourth	fourth	NOUN	_	_	4	ADJPRENSUB	_	Pos=37356|Len=6
@@ -8311,7 +8311,7 @@
 
 # sent_id = 330
 # text = The firm 's president and chief executive , Alan Mulally , commented on the profits 
-1	\x0a		SENT	_	_	_	_	_	Pos=37523|Len=1
+1	 		SENT	_	_	_	_	_	Pos=37523|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=37525|Len=3
 3	firm	firm	NOUN	_	_	3	Dummy	_	Pos=37529|Len=4
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=37534|Len=1|SpaceAfter=No
@@ -8332,7 +8332,7 @@
 
 # sent_id = 331
 # text = `` While we still face significant challenges ahead , 2009 was a pivotal year for Ford and the strongest proof yet that our One Ford plan is working and that we are forging a path toward profitable growth , '' he said , adding that `` global economic conditions are reviving but remain fragile 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=37611|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=37611|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=37613|Len=2
 3	While	while	ADP	_	_	3	Dummy	_	Pos=37616|Len=5
 4	we	we	PRON	_	_	11	SUJ_V	_	Pos=37622|Len=2
@@ -8394,7 +8394,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=37909|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=37910|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=37912|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=37912|Len=1
 
 # sent_id = 333
 # text = Ford 's US auto sales spike , surpassing GM 
@@ -8408,7 +8408,7 @@
 8	,	,	COMMA	_	_	9	Dummy	_	Pos=37942|Len=1
 9	surpassing	surpass	VERB	_	_	10	ADJPRENSUB	_	Pos=37944|Len=10
 10	GM	gm	NOUN	_	_	9	COD_V	_	Pos=37955|Len=2
-11	\x0a		SENT	_	_	_	Dummy	_	Pos=37958|Len=1
+11	 		SENT	_	_	_	Dummy	_	Pos=37958|Len=1
 
 # sent_id = 334
 # text = March 03 , 2010 
@@ -8416,7 +8416,7 @@
 2	03	03	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=37966|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=37969|Len=1
 4	2010	2010	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=37971|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=37976|Len=1
+5	 		SENT	_	_	_	_	_	Pos=37976|Len=1
 
 # sent_id = 335
 # text = Ford Motor Company said on Tuesday that its sales in the United States rose 43 % in February compared to the same period last year , as the automaker outsold rivals Toyota and General Motors 
@@ -8458,7 +8458,7 @@
 
 # sent_id = 336
 # text = Ford said that total sales improved to 142,285 units , compared to 141,951 units sold by GM 
-1	\x0a		SENT	_	_	_	_	_	Pos=38171|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38171|Len=1
 2	Ford	Ford	PROPN	_	_	2	SUJ_V	_	Pos=38173|Len=4
 3	said	said	VERB	_	_	_	_	_	Pos=38178|Len=4
 4	that	that	SCONJ	_	_	6	mark	_	Pos=38183|Len=4
@@ -8480,7 +8480,7 @@
 
 # sent_id = 337
 # text = Additionally , Ford said that its share of the total US car market rose to 17 % , up from 14 % a year ago 
-1	\x0a		SENT	_	_	_	_	_	Pos=38267|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38267|Len=1
 2	Additionally	Additionally	PROPN	_	_	4	SUJ_V	_	Pos=38269|Len=12
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=38282|Len=1
 4	Ford	Ford	PROPN	_	_	4	SUJ_V	_	Pos=38284|Len=4
@@ -8510,7 +8510,7 @@
 
 # sent_id = 338
 # text = The increase was better than analysts had predicted , and Ford 's stock rose to a five-year high in morning trading , before declining later in the day 
-1	\x0a		SENT	_	_	_	_	_	Pos=38377|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38377|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=38379|Len=3
 3	increase	increase	NOUN	_	_	3	SUJ_V	_	Pos=38383|Len=8
 4	was	be	VERB	_	_	_	_	_	Pos=38392|Len=3
@@ -8544,7 +8544,7 @@
 
 # sent_id = 339
 # text = Ford 's sales were significantly influenced by a 74 % increase in fleet sales to businesses 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=38533|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=38533|Len=1
 2	Ford	Ford	PROPN	_	_	2	Dummy	_	Pos=38535|Len=4
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=38540|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=38541|Len=1
@@ -8566,7 +8566,7 @@
 
 # sent_id = 340
 # text = Rental car agencies alone accounted for around 30,000 units sold 
-1	\x0a		SENT	_	_	_	_	_	Pos=38629|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38629|Len=1
 2	Rental	rental	ADJ	_	_	3	ADJPRENSUB	_	Pos=38631|Len=6
 3	car	car	NOUN	_	_	3	ADJPRENSUB	_	Pos=38638|Len=3
 4	agencies	agency	NOUN	_	_	5	SUJ_V	_	Pos=38642|Len=8
@@ -8580,7 +8580,7 @@
 
 # sent_id = 341
 # text = Sales to retail consumers increased only 28 % . 
-1	\x0a		SENT	_	_	_	_	_	Pos=38698|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38698|Len=1
 2	Sales	sale	NOUN	_	_	5	SUJ_V	_	Pos=38700|Len=5
 3	to	to	ADP	_	_	4	PREPSUB	_	Pos=38706|Len=2
 4	retail	retail	NOUN	_	_	4	ADJPRENSUB	_	Pos=38709|Len=6
@@ -8589,7 +8589,7 @@
 7	only	only	ADV	_	_	5	MOD_V	_	Pos=38736|Len=4
 8	28	28	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=38741|Len=2
 9	% .		COMMA	_	_	9	Dummy	_	Pos=38744|Len=3
-10	\x0a		SENT	_	_	_	_	_	Pos=38748|Len=1
+10	 		SENT	_	_	_	_	_	Pos=38748|Len=1
 
 # sent_id = 342
 # text = The increases were led by sales of two sedans , the Fusion and Taurus , which rose 166.5 and 93.3 % respectively , although sales of other models such as SUVs and pickup trucks also increased 
@@ -8632,7 +8632,7 @@
 
 # sent_id = 343
 # text = Both models were significantly redesigned last year , and analysts said that improved quality from such cars were driving the increases 
-1	\x0a		SENT	_	_	_	_	_	Pos=38944|Len=1
+1	 		SENT	_	_	_	_	_	Pos=38944|Len=1
 2	Both	both	DET	_	_	2	det	_	Pos=38946|Len=4
 3	models	model	NOUN	_	_	5	SUJ_V	_	Pos=38951|Len=6
 4	were	be	VERB	_	_	5	auxpass	_	Pos=38958|Len=4
@@ -8658,7 +8658,7 @@
 
 # sent_id = 344
 # text = Other companies also reported February sales today , nearly all reporting sales gains as well , although none as large as those of Ford 
-1	\x0a		SENT	_	_	_	_	_	Pos=39084|Len=1
+1	 		SENT	_	_	_	_	_	Pos=39084|Len=1
 2	Other	other	ADJ	_	_	2	ADJPRENSUB	_	Pos=39086|Len=5
 3	companies	company	NOUN	_	_	4	SUJ_V	_	Pos=39092|Len=9
 4	also	also	ADV	_	_	4	AdvVerbe	_	Pos=39102|Len=4
@@ -8686,7 +8686,7 @@
 
 # sent_id = 345
 # text = Toyota was the sole exception to the sales gains , as their sales declined 8.7 % , as the company was faced with a global recall during the month that led to a temporary stoppage of production for some models 
-1	\x0a		SENT	_	_	_	_	_	Pos=39224|Len=1
+1	 		SENT	_	_	_	_	_	Pos=39224|Len=1
 2	Toyota	Toyota	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=39226|Len=6
 3	was	be	VERB	_	_	_	_	_	Pos=39233|Len=3
 4	the	the	DET	_	_	5	det	_	Pos=39237|Len=3
@@ -8731,7 +8731,7 @@
 
 # sent_id = 346
 # text = `` The strength of our new products .
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=39437|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=39437|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=39439|Len=2
 3	The	the	DET	_	_	3	det	_	Pos=39442|Len=3
 4	strength	strength	NOUN	_	_	4	Dummy	_	Pos=39446|Len=8
@@ -8768,7 +8768,7 @@
 
 # sent_id = 348
 # text = However , he believed that traditional Toyota customers were not buying rival autos , but rather awaiting the results from the recalls 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=39580|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=39580|Len=1
 2	However	however	ADV	_	_	2	Dummy	_	Pos=39582|Len=7
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=39590|Len=1
 4	he	he	PRON	_	_	4	SUJ_V	_	Pos=39592|Len=2
@@ -8795,7 +8795,7 @@
 
 # sent_id = 349
 # text = Fiat plans to buy majority stake in Chrysler 
-1	\x0a		SENT	_	_	_	_	_	Pos=39719|Len=1
+1	 		SENT	_	_	_	_	_	Pos=39719|Len=1
 2	Fiat	fiat	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=39721|Len=4
 3	plans	plan	NOUN	_	_	_	_	_	Pos=39726|Len=5
 4	to	to	ADP	_	_	6	PREPSUB	_	Pos=39732|Len=2
@@ -8804,7 +8804,7 @@
 7	stake	stake	NOUN	_	_	2	COMPDUNOM	_	Pos=39748|Len=5
 8	in	in	ADP	_	_	8	PREPSUB	_	Pos=39754|Len=2
 9	Chrysler	Chrysler	PROPN	_	_	_	_	_	NE=Location.GEO|Pos=39757|Len=8
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=39766|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=39766|Len=1
 
 # sent_id = 350
 # text = May 29 , 2011 
@@ -8812,7 +8812,7 @@
 2	29	29	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=39772|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=39775|Len=1
 4	2011	2011	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=39777|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=39782|Len=1
+5	 		SENT	_	_	_	_	_	Pos=39782|Len=1
 
 # sent_id = 351
 # text = Fiat announced on Friday that it intends to purchase the six percent of automaker Chrysler that the US government currently owns , which would give the Italian company a 52 percent majority stake in Chrysler 
@@ -8855,7 +8855,7 @@
 
 # sent_id = 352
 # text = According to Fiat 's announcement , the company has told the US Treasury that it intends to use its option to buy the share in Chrysler held by the US government , a deal that will be finalized by June 10 
-1	\x0a		SENT	_	_	_	_	_	Pos=39994|Len=1
+1	 		SENT	_	_	_	_	_	Pos=39994|Len=1
 2	According to	according to	ADP	_	_	2	PREPSUB	_	Pos=39996|Len=12
 3	Fiat	fiat	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=40009|Len=4
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=40014|Len=1|SpaceAfter=No
@@ -8901,7 +8901,7 @@
 
 # sent_id = 353
 # text = If a price is not agreed on by that time , Fiat will pay the average of the estimates of two investment banks 
-1	\x0a		SENT	_	_	_	_	_	Pos=40203|Len=1
+1	 		SENT	_	_	_	_	_	Pos=40203|Len=1
 2	If	if	ADP	_	_	4	mark	_	Pos=40205|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=40208|Len=1
 4	price	price	NOUN	_	_	4	SUJ_V	_	Pos=40210|Len=5
@@ -8929,7 +8929,7 @@
 
 # sent_id = 354
 # text = In 2009 , Fiat bought a twenty percent stake in Chrysler , which had just exited bankruptcy , and has since increased its holding to 46 percent , expected to increase to 57 % by the end of this year 
-1	\x0a		SENT	_	_	_	_	_	Pos=40317|Len=1
+1	 		SENT	_	_	_	_	_	Pos=40317|Len=1
 2	In	in	ADP	_	_	2	PREPSUB	_	Pos=40319|Len=2
 3	2009	2009	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=40322|Len=4
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=40327|Len=1
@@ -8974,7 +8974,7 @@
 
 # sent_id = 355
 # text = According to analyst Maryann Keller , the deal is a good one for both companies , as `` n ] either one has the ability to compete alone in the kind of global environment that they face 
-1	\x0a		SENT	_	_	_	_	_	Pos=40520|Len=1
+1	 		SENT	_	_	_	_	_	Pos=40520|Len=1
 2	According to	according to	ADP	_	_	3	PREPSUB	_	Pos=40522|Len=12
 3	analyst	analyst	NOUN	_	_	3	ADJPRENSUB	_	Pos=40535|Len=7
 4	Maryann	Maryann	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=40543|Len=7
@@ -9017,7 +9017,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=40709|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=40710|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=40712|Len=1
+3	 		SENT	_	_	_	_	_	Pos=40712|Len=1
 
 # sent_id = 357
 # text = Analyst Rebecca Lindland said that the move will also benefit the companies by getting `` them out from underneath any hint of government ownership and any of that negativity that went along with the bailout 
@@ -9062,7 +9062,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=40924|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=40925|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=40927|Len=1
+3	 		SENT	_	_	_	_	_	Pos=40927|Len=1
 
 # sent_id = 359
 # text = Ford Motor Company cutting 30,000 jobs by 2012 
@@ -9073,7 +9073,7 @@
 5	jobs	job	NOUN	_	_	_	_	_	Pos=40963|Len=4
 6	by	by	ADP	_	_	6	PREPSUB	_	Pos=40968|Len=2
 7	2012	2012	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=40971|Len=4
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=40976|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=40976|Len=1
 
 # sent_id = 360
 # text = January 23 , 2006 
@@ -9081,7 +9081,7 @@
 2	23	23	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=40986|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=40989|Len=1
 4	2006	2006	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=40991|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=40996|Len=1
+5	 		SENT	_	_	_	_	_	Pos=40996|Len=1
 
 # sent_id = 361
 # text = The Ford Motor Company , the second-largest car manufacturer in America , will cut 30,000 jobs and 14 plants as part of a restructuring plan to relieve Ford after a US$ 1.6 billion loss last year in North American sales 
@@ -9129,7 +9129,7 @@
 
 # sent_id = 362
 # text = The plan , called `` Way Forward '' , the brainchild of Ford 's Chief Executive Officer , William Clay Ford Jr.
-1	\x0a		SENT	_	_	_	_	_	Pos=41220|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41220|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=41222|Len=3
 3	plan	plan	NOUN	_	_	3	Dummy	_	Pos=41226|Len=4
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=41231|Len=1
@@ -9173,7 +9173,7 @@
 
 # sent_id = 364
 # text = To accomplish this 30,000 jobs which make up 20 to 25 percent of Ford 's North American workforce of 122,000 people will be cut and 14 plants will be closed in order to bring Ford 's production capacity in line with demand 
-1	\x0a		SENT	_	_	_	_	_	Pos=41386|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41386|Len=1
 2	To	to	ADP	_	_	2	PrepInf	_	Pos=41388|Len=2
 3	accomplish	accomplish	VERB	_	_	3	Dummy	_	Pos=41391|Len=10
 4	this	this	DET	_	_	4	Dummy	_	Pos=41402|Len=4
@@ -9219,7 +9219,7 @@
 
 # sent_id = 365
 # text = By the end of this year , the Atlanta and St. Louis plants will be closed 
-1	\x0a		SENT	_	_	_	_	_	Pos=41613|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41613|Len=1
 2	By	by	ADP	_	_	3	PREPSUB	_	Pos=41615|Len=2
 3	the	the	DET	_	_	3	det	_	Pos=41618|Len=3
 4	end	end	NOUN	_	_	13	SUJ_V	_	Pos=41622|Len=3
@@ -9240,7 +9240,7 @@
 
 # sent_id = 366
 # text = Atlanta makes the Ford Taurus sedan , which is being phased out 
-1	\x0a		SENT	_	_	_	_	_	Pos=41691|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41691|Len=1
 2	Atlanta	Atlanta	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=41693|Len=7
 3	makes	make	VERB	_	_	_	_	_	Pos=41701|Len=5
 4	the	the	DET	_	_	6	det	_	Pos=41707|Len=3
@@ -9257,7 +9257,7 @@
 
 # sent_id = 367
 # text = The St. Louis plant is one of two plants that manufactures the Ford Explorer , whose sales had a 29 % decline in 2005 
-1	\x0a		SENT	_	_	_	_	_	Pos=41759|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41759|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=41761|Len=3
 3	St.	Saint	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=41765|Len=3
 4	Louis	Louis	PROPN	_	_	_	_	_	NE=Location.LOCATION|Pos=41769|Len=5
@@ -9286,7 +9286,7 @@
 
 # sent_id = 368
 # text = It will also close its Wixom , Michigan plant , Batavia Transmission in Ohio the Windsor Casting plant in Ontario which was previously announced by Ford that it was to be closed after contract negotiations with the Canadian Auto Workers union 
-1	\x0a		SENT	_	_	_	_	_	Pos=41881|Len=1
+1	 		SENT	_	_	_	_	_	Pos=41881|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=41883|Len=2
 3	will	will	AUX	_	_	_	_	_	Pos=41886|Len=4
 4	also	also	ADV	_	_	2	MOD_V	_	Pos=41891|Len=4
@@ -9332,7 +9332,7 @@
 
 # sent_id = 369
 # text = The plant in St. Thomas , Ontario plant will have one shift cut from it 
-1	\x0a		SENT	_	_	_	_	_	Pos=42128|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42128|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=42130|Len=3
 3	plant	plant	NOUN	_	_	8	SUJ_V	_	Pos=42134|Len=5
 4	in	in	ADP	_	_	4	PREPSUB	_	Pos=42140|Len=2
@@ -9351,7 +9351,7 @@
 
 # sent_id = 370
 # text = The plant makes the Crown Victoria and Grand Marquis cars 
-1	\x0a		SENT	_	_	_	_	_	Pos=42204|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42204|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=42206|Len=3
 3	plant	plant	NOUN	_	_	3	SUJ_V	_	Pos=42210|Len=5
 4	makes	make	VERB	_	_	_	_	_	Pos=42216|Len=5
@@ -9366,7 +9366,7 @@
 
 # sent_id = 371
 # text = On this cut of the one shift , Whitey MacDonald , chairperson of Local 1520 , Canadian Auto Workers union said `` There is a lot of anger here today , there is no doubt about it 
-1	\x0a		SENT	_	_	_	_	_	Pos=42266|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42266|Len=1
 2	On	on	ADP	_	_	3	PREPSUB	_	Pos=42268|Len=2
 3	this	this	DET	_	_	3	det	_	Pos=42271|Len=4
 4	cut	cut	NOUN	_	_	4	Dummy	_	Pos=42276|Len=3
@@ -9408,7 +9408,7 @@
 
 # sent_id = 372
 # text = Any time a plant goes to one shift , it puts them in limbo 
-1	\x0a		SENT	_	_	_	_	_	Pos=42448|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42448|Len=1
 2	Any	any	DET	_	_	2	det	_	Pos=42450|Len=3
 3	time	time	NOUN	_	_	5	SUJ_V	_	Pos=42454|Len=4
 4	a	a	DET	_	_	4	det	_	Pos=42459|Len=1
@@ -9427,7 +9427,7 @@
 
 # sent_id = 373
 # text = This car has made the company millions of dollars over the years they have invested in other products and locations - we are entitled to some new investment given our track record 
-1	\x0a		SENT	_	_	_	_	_	Pos=42511|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42511|Len=1
 2	This	this	DET	_	_	2	det	_	Pos=42513|Len=4
 3	car	car	NOUN	_	_	4	SUJ_V	_	Pos=42518|Len=3
 4	has	have	VERB	_	_	4	aux	_	Pos=42522|Len=3
@@ -9466,7 +9466,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=42695|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=42696|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=42698|Len=1
+3	 		SENT	_	_	_	_	_	Pos=42698|Len=1
 
 # sent_id = 375
 # text = Positive news for the plant is that Ford is still committed to invest $ 200 million into the plant to upgrade the appearance of the two cars manufactured there 
@@ -9503,7 +9503,7 @@
 
 # sent_id = 376
 # text = On the contrary , according to Automotive analyst Dennis DesRosier believes that the factory is still `` likely '' to close 
-1	\x0a		SENT	_	_	_	_	_	Pos=42862|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42862|Len=1
 2	On	on	ADP	_	_	3	PREPSUB	_	Pos=42864|Len=2
 3	the	the	DET	_	_	3	det	_	Pos=42867|Len=3
 4	contrary	contrary	NOUN	_	_	10	SUJ_V	_	Pos=42871|Len=8
@@ -9529,7 +9529,7 @@
 
 # sent_id = 377
 # text = DesRoiser said , `` The St. Thomas plant is old , the product is old , it make sense it is on that list 
-1	\x0a		SENT	_	_	_	_	_	Pos=42990|Len=1
+1	 		SENT	_	_	_	_	_	Pos=42990|Len=1
 2	DesRoiser	desroiser	NOUN	_	_	2	SUJ_V	_	Pos=42992|Len=9
 3	said	said	VERB	_	_	3	Dummy	_	Pos=43002|Len=4
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=43007|Len=1
@@ -9558,7 +9558,7 @@
 
 # sent_id = 378
 # text = This may be just a short-term reprieve , it may be look at permanent closure in two to three years 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=43098|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=43098|Len=1
 2	This	this	DET	_	_	2	Dummy	_	Pos=43100|Len=4
 3	may	may	AUX	_	_	3	aux	_	Pos=43105|Len=3
 4	be	be	VERB	_	_	_	_	_	Pos=43109|Len=2
@@ -9585,7 +9585,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=43201|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=43202|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=43204|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=43204|Len=1
 
 # sent_id = 380
 # text = Two more plants will close in 2008 , another two in 2012 
@@ -9605,7 +9605,7 @@
 
 # sent_id = 381
 # text = Two more plants to be closed are to be announced later this year 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=43265|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=43265|Len=1
 2	Two	two	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=43267|Len=3
 3	more	many	ADV	_	_	3	Dummy	_	Pos=43271|Len=4
 4	plants	plant	NOUN	_	_	4	Dummy	_	Pos=43276|Len=6
@@ -9623,7 +9623,7 @@
 
 # sent_id = 382
 # text = Also , Ford will fire 12 % of its 53 executive officers 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=43334|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=43334|Len=1
 2	Also	also	ADV	_	_	2	Dummy	_	Pos=43336|Len=4
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=43341|Len=1
 4	Ford	Ford	PROPN	_	_	4	SUJ_V	_	Pos=43343|Len=4
@@ -9640,7 +9640,7 @@
 
 # sent_id = 383
 # text = Due to the company 's current contract with the United Auto Workers union , workers at the idled plants will still be receiving their pay and benefits until Ford negotiates a new contract with the union 
-1	\x0a		SENT	_	_	_	_	_	Pos=43394|Len=1
+1	 		SENT	_	_	_	_	_	Pos=43394|Len=1
 2	Due to	due to	ADP	_	_	3	PREPSUB	_	Pos=43396|Len=6
 3	the	the	DET	_	_	3	det	_	Pos=43403|Len=3
 4	company	company	NOUN	_	_	4	Dummy	_	Pos=43407|Len=7
@@ -9681,7 +9681,7 @@
 
 # sent_id = 384
 # text = However , the workers may not earn what they earn today because they will not be eligible for overtime 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=43601|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=43601|Len=1
 2	However	however	ADV	_	_	2	Dummy	_	Pos=43603|Len=7
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=43611|Len=1
 4	the	the	DET	_	_	4	det	_	Pos=43613|Len=3
@@ -9705,7 +9705,7 @@
 
 # sent_id = 385
 # text = The UAW President Ron Gettelfinger and Vice President Gerald Bantom called say the plan is `` extremely disappointing 
-1	\x0a		SENT	_	_	_	_	_	Pos=43708|Len=1
+1	 		SENT	_	_	_	_	_	Pos=43708|Len=1
 2	The	the	DET	_	_	8	det	_	Pos=43710|Len=3
 3	UAW	uaw	PROPN	_	_	3	ADJPRENSUB	_	Pos=43714|Len=3
 4	President	president	NOUN	_	_	4	ADJPRENSUB	_	Pos=43718|Len=9
@@ -9730,7 +9730,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=43830|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=43831|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=43833|Len=1
+3	 		SENT	_	_	_	_	_	Pos=43833|Len=1
 
 # sent_id = 387
 # text = The UAW issued statement saying `` The impacted hourly and salaried workers find themselves facing uncertain futures because of senior management 's failure to halt Ford 's sliding market share 
@@ -9769,7 +9769,7 @@
 
 # sent_id = 388
 # text = The announcement has further left a cloud hanging over the entire work force because of pending future announcements of additional facilities to be closed at some point in the future 
-1	\x0a		SENT	_	_	_	_	_	Pos=44031|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44031|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=44033|Len=3
 3	announcement	announcement	NOUN	_	_	5	SUJ_V	_	Pos=44037|Len=12
 4	has	have	VERB	_	_	5	aux	_	Pos=44050|Len=3
@@ -9805,7 +9805,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=44218|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=44219|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=44221|Len=1
+3	 		SENT	_	_	_	_	_	Pos=44221|Len=1
 
 # sent_id = 390
 # text = GM posts first annual loss since 1992 
@@ -9816,7 +9816,7 @@
 5	loss	loss	NOUN	_	_	_	_	_	Pos=44245|Len=4
 6	since	since	ADP	_	_	7	PREPSUB	_	Pos=44250|Len=5
 7	1992	1992	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=44256|Len=4
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=44261|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=44261|Len=1
 
 # sent_id = 391
 # text = January 27 , 2006 
@@ -9824,7 +9824,7 @@
 2	27	27	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=44271|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=44274|Len=1
 4	2006	2006	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=44276|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=44281|Len=1
+5	 		SENT	_	_	_	_	_	Pos=44281|Len=1
 
 # sent_id = 392
 # text = General Motors logo 
@@ -9835,7 +9835,7 @@
 
 # sent_id = 393
 # text = General Motors Corporation ( GM ) has posted its first annual loss since 1992 
-1	\x0a		SENT	_	_	_	_	_	Pos=44305|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44305|Len=1
 2	General Motors	General Motors Corp.	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=44307|Len=14
 3	Corporation	corporation	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=44322|Len=11
 4	(	(	OPAR	_	_	3	Dummy	_	Pos=44334|Len=1
@@ -9853,7 +9853,7 @@
 
 # sent_id = 394
 # text = GM reported losing US$ 4.8 billion in the fourth quarter of 2005 and a total loss of $ 8.6 billion for the entire year 
-1	\x0a		SENT	_	_	_	_	_	Pos=44387|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44387|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=44389|Len=2
 3	reported	report	VERB	_	_	_	_	_	Pos=44392|Len=8
 4	losing	lose	VERB	_	_	4	ADJPRENSUB	_	Pos=44401|Len=6
@@ -9883,7 +9883,7 @@
 
 # sent_id = 395
 # text = GM admitted Thursday night that the loss could swell further as it pays pensions and healthcare costs to thousands of former workers 
-1	\x0a		SENT	_	_	_	_	_	Pos=44510|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44510|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=44512|Len=2
 3	admitted	admit	VERB	_	_	_	_	_	Pos=44515|Len=8
 4	Thursday	Thursday	PROPN	_	_	_	_	_	NE=DateTime.DATE|Pos=44524|Len=8
@@ -9910,7 +9910,7 @@
 
 # sent_id = 396
 # text = GM warned that the amount calculated for last year is preliminary and could rise before it is officially reported to the US securities and exchanges commission in March 
-1	\x0a		SENT	_	_	_	_	_	Pos=44647|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44647|Len=1
 2	GM	gm	NOUN	_	_	2	SUJ_V	_	Pos=44649|Len=2
 3	warned	warn	VERB	_	_	_	_	_	Pos=44652|Len=6
 4	that	that	SCONJ	_	_	6	mark	_	Pos=44659|Len=4
@@ -9943,7 +9943,7 @@
 
 # sent_id = 397
 # text = The loss was far greater than analysts predicted 
-1	\x0a		SENT	_	_	_	_	_	Pos=44820|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44820|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=44822|Len=3
 3	loss	loss	NOUN	_	_	3	SUJ_V	_	Pos=44826|Len=4
 4	was	be	VERB	_	_	_	_	_	Pos=44831|Len=3
@@ -9956,7 +9956,7 @@
 
 # sent_id = 398
 # text = Ford , the second of the big three American car manufacturers , beat predictions earlier in the week 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=44873|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=44873|Len=1
 2	Ford	Ford	PROPN	_	_	2	Dummy	_	Pos=44875|Len=4
 3	,	,	COMMA	_	_	3	Dummy	_	Pos=44880|Len=1
 4	the	the	DET	_	_	4	DetAdj	_	Pos=44882|Len=3
@@ -9979,7 +9979,7 @@
 
 # sent_id = 399
 # text = In contrast , Toyota is expected to report that it will beat last year 's profit of $ 11 billion 
-1	\x0a		SENT	_	_	_	_	_	Pos=44978|Len=1
+1	 		SENT	_	_	_	_	_	Pos=44978|Len=1
 2	In	in	ADP	_	_	2	PREPSUB	_	Pos=44980|Len=2
 3	contrast	contrast	NOUN	_	_	6	CPL_V	_	Pos=44983|Len=8
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=44992|Len=1
@@ -10005,7 +10005,7 @@
 
 # sent_id = 400
 # text = GM 's automotive division lost $ 1.5 billion in the fourth quarter , driven by losses in North America 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=45079|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=45079|Len=1
 2	GM	gm	NOUN	_	_	2	Dummy	_	Pos=45081|Len=2
 3	'	'	QUOT	_	_	3	Dummy	_	Pos=45084|Len=1|SpaceAfter=No
 4	s	s	SYM	_	_	4	Dummy	_	Pos=45085|Len=1
@@ -10030,7 +10030,7 @@
 
 # sent_id = 401
 # text = This has been attributed to GM 's shrinking market share , which has been taken by Japanese manufacturers Toyota and Nissan 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=45186|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=45186|Len=1
 2	This	this	DET	_	_	2	Dummy	_	Pos=45188|Len=4
 3	has	have	VERB	_	_	3	aux	_	Pos=45193|Len=3
 4	been	be	VERB	_	_	_	_	_	Pos=45197|Len=4
@@ -10057,7 +10057,7 @@
 
 # sent_id = 402
 # text = A further $ 1.3 billion was lost in restructuring charges 
-1	\x0a		SENT	_	_	_	_	_	Pos=45314|Len=1
+1	 		SENT	_	_	_	_	_	Pos=45314|Len=1
 2	A	A	NOUN	_	_	5	SUJ_V	_	Pos=45316|Len=1
 3	further	far	ADV	_	_	3	AdvSub	_	Pos=45318|Len=7
 4	$	$	CUR	_	_	_	_	_	NE=Numex.NUMEX|Pos=45326|Len=1
@@ -10072,7 +10072,7 @@
 
 # sent_id = 403
 # text = As part of the restructure , GM plans to cut 30,000 jobs and close 12 facilities by 2008 
-1	\x0a		SENT	_	_	_	_	_	Pos=45376|Len=1
+1	 		SENT	_	_	_	_	_	Pos=45376|Len=1
 2	As	as	ADP	_	_	2	PREPSUB	_	Pos=45378|Len=2
 3	part	part	NOUN	_	_	_	_	_	Pos=45381|Len=4
 4	of	of	ADP	_	_	5	PREPSUB	_	Pos=45386|Len=2
@@ -10095,7 +10095,7 @@
 
 # sent_id = 404
 # text = An aide for Kirk Kerkorian , GMs largest individual investor ( at 9.9 % ) , has called on the company to halve its $ 1.1 billion annual dividend , cut executive pay and sell Saab 
-1	\x0a		SENT	_	_	_	_	_	Pos=45469|Len=1
+1	 		SENT	_	_	_	_	_	Pos=45469|Len=1
 2	An	a	DET	_	_	2	det	_	Pos=45471|Len=2
 3	aide	aide	NOUN	_	_	15	SUJ_V	_	Pos=45474|Len=4
 4	for	for	ADP	_	_	4	PREPSUB	_	Pos=45479|Len=3
@@ -10136,7 +10136,7 @@
 
 # sent_id = 405
 # text = Australian government announces $ 52.5 million financial assistance package for Ford 
-1	\x0a		SENT	_	_	_	_	_	Pos=45652|Len=1
+1	 		SENT	_	_	_	_	_	Pos=45652|Len=1
 2	Australian	Australian	ADJ	_	_	2	ADJPRENSUB	_	Pos=45654|Len=10
 3	government	government	NOUN	_	_	3	SUJ_V	_	Pos=45665|Len=10
 4	announces	announce	VERB	_	_	_	_	_	Pos=45676|Len=9
@@ -10148,7 +10148,7 @@
 10	package	package	NOUN	_	_	3	COD_V	_	Pos=45722|Len=7
 11	for	for	ADP	_	_	10	PREPSUB	_	Pos=45730|Len=3
 12	Ford	Ford	PROPN	_	_	8	COMPDUNOM	_	Pos=45734|Len=4
-13	\x0a		SENT	_	_	_	Dummy	_	Pos=45739|Len=1
+13	 		SENT	_	_	_	Dummy	_	Pos=45739|Len=1
 
 # sent_id = 406
 # text = May 05 , 2006 
@@ -10156,7 +10156,7 @@
 2	05	05	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=45745|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=45748|Len=1
 4	2006	2006	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=45750|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=45755|Len=1
+5	 		SENT	_	_	_	_	_	Pos=45755|Len=1
 
 # sent_id = 407
 # text = Australian Prime Minister John Howard and federal industry minister Ian MacDonald today announced that the federal government would be providing Ford Australia with a AU$ 52.5 million ( US$ 40.4 million ) `` financial assistance package '' . 
@@ -10199,7 +10199,7 @@
 37	package	package	NOUN	_	_	34	Dummy	_	Pos=45986|Len=7
 38	'	'	QUOT	_	_	35	Dummy	_	Pos=45994|Len=1|SpaceAfter=No
 39	' .	'	QUOT	_	_	36	Dummy	_	Pos=45995|Len=3
-40	\x0a		SENT	_	_	_	_	_	Pos=45999|Len=1
+40	 		SENT	_	_	_	_	_	Pos=45999|Len=1
 
 # sent_id = 408
 # text = Additional assistance will also be provided by the Victorian state government 
@@ -10218,7 +10218,7 @@
 
 # sent_id = 409
 # text = According to Mr Howard , the injection will secure Ford 's manufacturing operations in Australia `` for the long term '' . 
-1	\x0a		SENT	_	_	_	_	_	Pos=46081|Len=1
+1	 		SENT	_	_	_	_	_	Pos=46081|Len=1
 2	According to	according to	ADP	_	_	3	PREPSUB	_	Pos=46083|Len=12
 3	Mr	Mr.	PROPN	_	_	3	ADJPRENSUB	_	Pos=46096|Len=2
 4	Howard	Howard	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=46099|Len=6
@@ -10241,7 +10241,7 @@
 21	term	term	NOUN	_	_	21	Dummy	_	Pos=46196|Len=4
 22	'	'	QUOT	_	_	22	Dummy	_	Pos=46201|Len=1|SpaceAfter=No
 23	' .	'	QUOT	_	_	23	Dummy	_	Pos=46202|Len=3
-24	\x0a		SENT	_	_	_	_	_	Pos=46206|Len=1
+24	 		SENT	_	_	_	_	_	Pos=46206|Len=1
 
 # sent_id = 410
 # text = From the package , AU$ 40 million will be used for the design and manufacture of Ford 's next model Falcon and Territory vehicles , which will be built in Australia 
@@ -10282,7 +10282,7 @@
 
 # sent_id = 411
 # text = Despite being given a major facelift in 2002 and another in 2005 , the Falcon 's bodyshell dates back to 1998 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=46375|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=46375|Len=1
 2	Despite	despite	ADP	_	_	2	Dummy	_	Pos=46377|Len=7
 3	being	be	VERB	_	_	3	Dummy	_	Pos=46385|Len=5
 4	given	give	VERB	_	_	2	COD_V	_	Pos=46391|Len=5
@@ -10309,7 +10309,7 @@
 
 # sent_id = 412
 # text = The current Falcon will need to serve the company until at least 2007 when the new model is anticipated 
-1	\x0a		SENT	_	_	_	_	_	Pos=46489|Len=1
+1	 		SENT	_	_	_	_	_	Pos=46489|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=46491|Len=3
 3	current	current	NOUN	_	_	3	ADJPRENSUB	_	Pos=46495|Len=7
 4	Falcon	falcon	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=46503|Len=6
@@ -10332,7 +10332,7 @@
 
 # sent_id = 413
 # text = In the meantime , it will face stiff competition from the completely new Holden Commodore ( the Falcon 's major competitor ) which will be released in the second half of this year 
-1	\x0a		SENT	_	_	_	_	_	Pos=46597|Len=1
+1	 		SENT	_	_	_	_	_	Pos=46597|Len=1
 2	In	in	ADP	_	_	3	PREPSUB	_	Pos=46599|Len=2
 3	the	the	DET	_	_	3	det	_	Pos=46602|Len=3
 4	meantime	meantime	NOUN	_	_	6	CPL_V	_	Pos=46606|Len=8
@@ -10371,7 +10371,7 @@
 
 # sent_id = 414
 # text = The additional AU$ 12.5 million will be spent on the development of a light commercial vehicle platform , which will be built overseas and marketed to around 80 countries 
-1	\x0a		SENT	_	_	_	_	_	Pos=46781|Len=1
+1	 		SENT	_	_	_	_	_	Pos=46781|Len=1
 2	The	the	DET	_	_	5	det	_	Pos=46783|Len=3
 3	additional	additional	ADJ	_	_	5	ADJPRENSUB	_	Pos=46787|Len=10
 4	AU	au	NOUN	_	_	4	ADJPRENSUB	_	Pos=46798|Len=2|SpaceAfter=No
@@ -10406,7 +10406,7 @@
 
 # sent_id = 415
 # text = Mr Howard said that the light commercial project would involve construction of a research and development centre , which will become the base for R&D projects in the region 
-1	\x0a		SENT	_	_	_	_	_	Pos=46956|Len=1
+1	 		SENT	_	_	_	_	_	Pos=46956|Len=1
 2	Mr	Mr.	PROPN	_	_	2	ADJPRENSUB	_	Pos=46958|Len=2
 3	Howard	Howard	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=46961|Len=6
 4	said	said	VERB	_	_	_	_	_	Pos=46968|Len=4
@@ -10442,7 +10442,7 @@
 
 # sent_id = 416
 # text = Mr MacFarlane said that the research facility was exciting for Australia and that it would put the Australian automotive in the spotlight 
-1	\x0a		SENT	_	_	_	_	_	Pos=47133|Len=1
+1	 		SENT	_	_	_	_	_	Pos=47133|Len=1
 2	Mr	Mr.	PROPN	_	_	2	ADJPRENSUB	_	Pos=47135|Len=2
 3	MacFarlane	macfarlane	NOUN	_	_	_	_	_	NE=Person.PERSON|Pos=47138|Len=10
 4	said	said	VERB	_	_	_	_	_	Pos=47149|Len=4
@@ -10469,7 +10469,7 @@
 
 # sent_id = 417
 # text = `` The funding has helped Ford Australia secure the largest automotive R&D project ever undertaken in Australia which is equally exciting news for local Ford employees and Australian component producers '' he said 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=47275|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=47275|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=47277|Len=2
 3	The	the	DET	_	_	3	det	_	Pos=47280|Len=3
 4	funding	funding	NOUN	_	_	5	SUJ_V	_	Pos=47284|Len=7
@@ -10510,7 +10510,7 @@
 
 # sent_id = 418
 # text = `` The project will see Ford Australia become a centre for automotive design and engineering excellence in the Asia Pacific region which will bring spin-off benefits for the broader industry , '' `` This opportunity will put both Ford Australia , and the Australian automotive and components sectors on the world map as far as our automotive design and engineering capabilities are concerned 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=47493|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=47493|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=47495|Len=2
 3	The	the	DET	_	_	3	det	_	Pos=47498|Len=3
 4	project	project	NOUN	_	_	5	SUJ_V	_	Pos=47502|Len=7
@@ -10580,7 +10580,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=47889|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=47890|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=47892|Len=1
+3	 		SENT	_	_	_	_	_	Pos=47892|Len=1
 
 # sent_id = 420
 # text = Mr MacFarlane said 
@@ -10591,7 +10591,7 @@
 
 # sent_id = 421
 # text = Mr Howard claims that the projects will create 273 jobs and secure the future of the `` iconic '' Ford Falcon , which has been built in Australia since 1960 
-1	\x0a		SENT	_	_	_	_	_	Pos=47915|Len=1
+1	 		SENT	_	_	_	_	_	Pos=47915|Len=1
 2	Mr	Mr.	PROPN	_	_	2	ADJPRENSUB	_	Pos=47917|Len=2
 3	Howard	Howard	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=47920|Len=6
 4	claims	claim	NOUN	_	_	7	SUJ_V	_	Pos=47927|Len=6
@@ -10627,7 +10627,7 @@
 
 # sent_id = 422
 # text = The financial package is conditional upon Ford Australia giving the Australian automotive component industry an opportunity to supply components for the vehicles produced by the two projects 
-1	\x0a		SENT	_	_	_	_	_	Pos=48076|Len=1
+1	 		SENT	_	_	_	_	_	Pos=48076|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=48078|Len=3
 3	financial	financial	ADJ	_	_	3	ADJPRENSUB	_	Pos=48082|Len=9
 4	package	package	NOUN	_	_	4	SUJ_V	_	Pos=48092|Len=7
@@ -10659,7 +10659,7 @@
 
 # sent_id = 423
 # text = Ford announces deep production cuts in response to growing losses 
-1	\x0a		SENT	_	_	_	_	_	Pos=48271|Len=1
+1	 		SENT	_	_	_	_	_	Pos=48271|Len=1
 2	Ford	Ford	PROPN	_	_	2	SUJ_V	_	Pos=48273|Len=4
 3	announces	announce	VERB	_	_	_	_	_	Pos=48278|Len=9
 4	deep	deep	NOUN	_	_	4	ADJPRENSUB	_	Pos=48288|Len=4
@@ -10668,7 +10668,7 @@
 7	in response to	in response to	ADP	_	_	8	PREPSUB	_	Pos=48309|Len=14
 8	growing	grow	VERB	_	_	8	ADJPRENSUB	_	Pos=48324|Len=7
 9	losses	loss	NOUN	_	_	5	COMPDUNOM	_	Pos=48332|Len=6
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=48339|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=48339|Len=1
 
 # sent_id = 424
 # text = August 19 , 2006 
@@ -10676,7 +10676,7 @@
 2	19	19	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=48348|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=48351|Len=1
 4	2006	2006	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=48353|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=48358|Len=1
+5	 		SENT	_	_	_	_	_	Pos=48358|Len=1
 
 # sent_id = 425
 # text = Ford has announced sweeping cuts of 21 % ( 168,000 units ) in its US and Canadian production , resulting in the partial closure of ten of its plants during the fourth quarter 
@@ -10717,7 +10717,7 @@
 
 # sent_id = 426
 # text = The measure comes on top of existing turnaround plans announced in January , in which 25,000 to 30,000 positions should be cut and 14 plants closed by 2012 
-1	\x0a		SENT	_	_	_	_	_	Pos=48537|Len=1
+1	 		SENT	_	_	_	_	_	Pos=48537|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=48539|Len=3
 3	measure	measure	NOUN	_	_	3	SUJ_V	_	Pos=48543|Len=7
 4	comes	come	VERB	_	_	4	Dummy	_	Pos=48551|Len=5
@@ -10748,7 +10748,7 @@
 
 # sent_id = 427
 # text = Ford is the world 's third-largest automaker and the U.S. 's second-largest 
-1	\x0a		SENT	_	_	_	_	_	Pos=48697|Len=1
+1	 		SENT	_	_	_	_	_	Pos=48697|Len=1
 2	Ford	Ford	PROPN	_	_	2	SUJ_V	_	Pos=48699|Len=4
 3	is	be	VERB	_	_	_	_	_	Pos=48704|Len=2
 4	the	the	DET	_	_	4	det	_	Pos=48707|Len=3
@@ -10769,7 +10769,7 @@
 
 # sent_id = 428
 # text = However it has in recent years been struggling with poor profitability and shrinking market shares 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=48777|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=48777|Len=1
 2	However	however	ADV	_	_	2	Dummy	_	Pos=48779|Len=7
 3	it	it	PRON	_	_	3	SUJ_V	_	Pos=48787|Len=2
 4	has	have	VERB	_	_	_	_	_	Pos=48790|Len=3
@@ -10789,7 +10789,7 @@
 
 # sent_id = 429
 # text = In 2005 it lost $ 1.6 billion and recently the company reported a second quarter loss of $ 254 million and a 34 % year-year decline in sales for the month of July 
-1	\x0a		SENT	_	_	_	_	_	Pos=48880|Len=1
+1	 		SENT	_	_	_	_	_	Pos=48880|Len=1
 2	In	in	ADP	_	_	2	PREPSUB	_	Pos=48882|Len=2
 3	2005	2005	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=48885|Len=4
 4	it	it	PRON	_	_	4	SUJ_V	_	Pos=48890|Len=2
@@ -10828,7 +10828,7 @@
 
 # sent_id = 430
 # text = George Pipas , director of sales analysis at Ford , points to rising gas prices having negative impact on the sale of the companies SUV lines as well as its sales leader , the F-series pickup truck as being the direct cause of the latest initiative 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=49047|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=49047|Len=1
 2	George	George	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=49049|Len=6
 3	Pipas	Pipas	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=49056|Len=5
 4	,	,	COMMA	_	_	3	Dummy	_	Pos=49062|Len=1
@@ -10878,7 +10878,7 @@
 
 # sent_id = 431
 # text = So far the following plants are thought to be affected 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=49300|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=49300|Len=1
 2	So far	so far	ADV	_	_	2	Dummy	_	Pos=49302|Len=6
 3	the	the	DET	_	_	4	det	_	Pos=49309|Len=3
 4	following	following	NOUN	_	_	4	ADJPRENSUB	_	Pos=49313|Len=9
@@ -10985,13 +10985,13 @@
 
 # sent_id = 433
 # text = Ford Taurus to be revived 
-1	\x0a		SENT	_	_	_	_	_	Pos=49813|Len=1
+1	 		SENT	_	_	_	_	_	Pos=49813|Len=1
 2	Ford	Ford	PROPN	_	_	2	ADJPRENSUB	_	Pos=49815|Len=4
 3	Taurus	Taurus	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=49820|Len=6
 4	to	to	ADP	_	_	4	PrepInf	_	Pos=49827|Len=2
 5	be	be	VERB	_	_	_	_	_	Pos=49830|Len=2
 6	revived	revive	VERB	_	_	4	COD_V	_	Pos=49833|Len=7
-7	\x0a		SENT	_	_	_	Dummy	_	Pos=49841|Len=1
+7	 		SENT	_	_	_	Dummy	_	Pos=49841|Len=1
 
 # sent_id = 434
 # text = February 09 , 2007 
@@ -10999,7 +10999,7 @@
 2	09	09	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=49852|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=49855|Len=1
 4	2007	2007	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=49857|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=49862|Len=1
+5	 		SENT	_	_	_	_	_	Pos=49862|Len=1
 
 # sent_id = 435
 # text = thumb Ford Motor Company CEO Alan Mulally has reported that Ford will rename the Ford Five Hundred to the Taurus for the 2008 model year , when a facelifted model is expected to be launched to improve the lackluster sales of the outgoing model 
@@ -11050,7 +11050,7 @@
 
 # sent_id = 436
 # text = Mulally says that Ford 's decision to name all their cars with the letter F was a lackluster move , and makes their names easily forgettable 
-1	\x0a		SENT	_	_	_	_	_	Pos=50110|Len=1
+1	 		SENT	_	_	_	_	_	Pos=50110|Len=1
 2	Mulally	Mulally	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=50112|Len=7
 3	says	say	VERB	_	_	3	Dummy	_	Pos=50120|Len=4
 4	that	that	SCONJ	_	_	4	Dummy	_	Pos=50125|Len=4
@@ -11082,7 +11082,7 @@
 
 # sent_id = 437
 # text = As a result , Mulally plans on reviving many respected Ford nameplates , the Taurus being one of them , and the Falcon possibly in the future 
-1	\x0a		SENT	_	_	_	_	_	Pos=50255|Len=1
+1	 		SENT	_	_	_	_	_	Pos=50255|Len=1
 2	As	as	ADP	_	_	3	PREPSUB	_	Pos=50257|Len=2
 3	a	a	DET	_	_	3	det	_	Pos=50260|Len=1
 4	result	result	NOUN	_	_	8	CPL_V	_	Pos=50262|Len=6
@@ -11114,7 +11114,7 @@
 
 # sent_id = 438
 # text = The Ford Taurus was originally introduced in 1986 , and was a revolutionary car that rewrote the rules for creating a sedan , and pushed the other American automakers to follow suit , leading to a design revolution that completely rid Detroit of the `` boxy '' cars of the 70s and 80s 
-1	\x0a		SENT	_	_	_	_	_	Pos=50401|Len=1
+1	 		SENT	_	_	_	_	_	Pos=50401|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=50403|Len=3
 3	Ford	Ford	PROPN	_	_	3	ADJPRENSUB	_	Pos=50407|Len=4
 4	Taurus	Taurus	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=50412|Len=6
@@ -11173,7 +11173,7 @@
 
 # sent_id = 439
 # text = The Taurus survived for four generations , selling over 7,500,000 units 
-1	\x0a		SENT	_	_	_	_	_	Pos=50690|Len=1
+1	 		SENT	_	_	_	_	_	Pos=50690|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=50692|Len=3
 3	Taurus	Taurus	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=50696|Len=6
 4	survived	survive	VERB	_	_	4	Dummy	_	Pos=50703|Len=8
@@ -11189,7 +11189,7 @@
 
 # sent_id = 440
 # text = The Taurus was discontinued in October 2006 , after a brief run of 2007 models destined for fleet customers 
-1	\x0a		SENT	_	_	_	_	_	Pos=50766|Len=1
+1	 		SENT	_	_	_	_	_	Pos=50766|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=50768|Len=3
 3	Taurus	Taurus	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=50772|Len=6
 4	was	be	VERB	_	_	4	auxpass	_	Pos=50779|Len=3
@@ -11213,7 +11213,7 @@
 
 # sent_id = 441
 # text = `` How can it go away 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=50878|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=50878|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=50880|Len=2
 3	How	how	ADV	_	_	3	AdvVerbe	_	Pos=50883|Len=3
 4	can	can	AUX	_	_	_	_	_	Pos=50887|Len=3
@@ -11226,7 +11226,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=50904|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=50905|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=50907|Len=1
+3	 		SENT	_	_	_	_	_	Pos=50907|Len=1
 
 # sent_id = 443
 # text = Alan Mulally remembered asking , `` It 's the best-selling car in America 
@@ -11251,7 +11251,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=50985|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=50986|Len=1
-3	\x0a		SENT	_	_	_	Dummy	_	Pos=50988|Len=1
+3	 		SENT	_	_	_	Dummy	_	Pos=50988|Len=1
 
 # sent_id = 445
 # text = While it is not expected for the name change to turn the Five Hundred into a 400,000 plus units a year blockbuster like the Taurus , it is expected to make sales more solid , and to make the car well known , since the Taurus is a well known nameplate around the country 
@@ -11313,14 +11313,14 @@
 
 # sent_id = 446
 # text = DaimlerChrysler plans to cut 13,000 jobs 
-1	\x0a		SENT	_	_	_	_	_	Pos=51262|Len=1
+1	 		SENT	_	_	_	_	_	Pos=51262|Len=1
 2	DaimlerChrysler	daimlerchrysler	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=51264|Len=15
 3	plans	plan	NOUN	_	_	_	_	_	Pos=51280|Len=5
 4	to	to	ADP	_	_	4	PREPSUB	_	Pos=51286|Len=2
 5	cut	cut	NOUN	_	_	2	COMPDUNOM	_	Pos=51289|Len=3
 6	13,000	13,000	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=51293|Len=6
 7	jobs	job	NOUN	_	_	7	Dummy	_	Pos=51300|Len=4
-8	\x0a		SENT	_	_	_	Dummy	_	Pos=51305|Len=1
+8	 		SENT	_	_	_	Dummy	_	Pos=51305|Len=1
 
 # sent_id = 447
 # text = February 14 , 2007 
@@ -11328,7 +11328,7 @@
 2	14	14	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=51316|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=51319|Len=1
 4	2007	2007	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=51321|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=51326|Len=1
+5	 		SENT	_	_	_	_	_	Pos=51326|Len=1
 
 # sent_id = 448
 # text = International car company DaimlerChrysler announced today it would cut 13,000 jobs in North America 
@@ -11350,7 +11350,7 @@
 
 # sent_id = 449
 # text = It could part ways with the loss-making business 
-1	\x0a		SENT	_	_	_	_	_	Pos=51430|Len=1
+1	 		SENT	_	_	_	_	_	Pos=51430|Len=1
 2	It	it	PRON	_	_	2	SUJ_V	_	Pos=51432|Len=2
 3	could	can	AUX	_	_	_	_	_	Pos=51435|Len=5
 4	part	part	NOUN	_	_	4	ADJPRENSUB	_	Pos=51441|Len=4
@@ -11364,7 +11364,7 @@
 
 # sent_id = 450
 # text = It also plans to cut two Chrysler plants in an attempt to make Chrysler business profitable by 2008 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=51483|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=51483|Len=1
 2	It	it	PRON	_	_	2	Dummy	_	Pos=51485|Len=2
 3	also	also	ADV	_	_	3	Dummy	_	Pos=51488|Len=4
 4	plans	plan	NOUN	_	_	4	Dummy	_	Pos=51493|Len=5
@@ -11387,7 +11387,7 @@
 
 # sent_id = 451
 # text = About 9,000 production jobs will be cut in the U.S. , 2,000 production jobs in Canada , and 2,000 salaried jobs 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=51587|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=51587|Len=1
 2	About	about	ADP	_	_	2	Dummy	_	Pos=51589|Len=5
 3	9,000	9,000	NUM	_	_	_	_	_	NE=Numex.NUMBER|Pos=51595|Len=5
 4	production	production	NOUN	_	_	4	ADJPRENSUB	_	Pos=51601|Len=10
@@ -11413,7 +11413,7 @@
 
 # sent_id = 452
 # text = `` It 's hard to say if it 's enough .
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=51703|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=51703|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=51705|Len=2
 3	It	it	PRON	_	_	3	Dummy	_	Pos=51708|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=51711|Len=1|SpaceAfter=No
@@ -11474,7 +11474,7 @@
 
 # sent_id = 454
 # text = Following some speculation that the companies Daimler-Benz ( Mercedes-Benz ) and Chrysler , which merged together in 1998 to make DaimlerChrysler , would split , chairman Dieter Zetsche denied allegations 
-1	\x0a		SENT	_	_	_	_	_	Pos=51969|Len=1
+1	 		SENT	_	_	_	_	_	Pos=51969|Len=1
 2	Following	follow	VERB	_	_	_	_	_	Pos=51971|Len=9
 3	some	some	DET	_	_	3	det	_	Pos=51981|Len=4
 4	speculation	speculation	NOUN	_	_	1	COD_V	_	Pos=51986|Len=11
@@ -11511,7 +11511,7 @@
 
 # sent_id = 455
 # text = `` We do not exclude any option in order to find the best solution for both the Chrysler Group and DaimlerChrysler 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=52178|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=52178|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=52180|Len=2
 3	We	we	PRON	_	_	3	SUJ_V	_	Pos=52183|Len=2
 4	do	do	VERB	_	_	_	_	_	Pos=52186|Len=2
@@ -11539,7 +11539,7 @@
 # text = '' 
 1	'	'	QUOT	_	_	2	Dummy	_	Pos=52297|Len=1|SpaceAfter=No
 2	'	'	QUOT	_	_	3	Dummy	_	Pos=52298|Len=1
-3	\x0a		SENT	_	_	_	_	_	Pos=52300|Len=1
+3	 		SENT	_	_	_	_	_	Pos=52300|Len=1
 
 # sent_id = 457
 # text = DaimlerChrysler to sell Chrysler Group for $ 7.4 Billion 
@@ -11552,7 +11552,7 @@
 7	$	$	CUR	_	_	_	_	_	NE=Numex.NUMEX|Pos=52345|Len=1
 8	7.4	7.4	NUM	_	_	_	_	_	NE=Numex.NUMEX|Pos=52347|Len=3
 9	Billion	billion	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=52351|Len=7
-10	\x0a		SENT	_	_	_	Dummy	_	Pos=52359|Len=1
+10	 		SENT	_	_	_	Dummy	_	Pos=52359|Len=1
 
 # sent_id = 458
 # text = May 14 , 2007 
@@ -11560,7 +11560,7 @@
 2	14	14	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=52365|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=52368|Len=1
 4	2007	2007	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=52370|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=52375|Len=1
+5	 		SENT	_	_	_	_	_	Pos=52375|Len=1
 
 # sent_id = 459
 # text = The DaimlerChrysler Corporation has announced that the corporation is divesting itself of the Chrysler Group by selling it to New York City-based private equity firm Cerberus Capital Management for US$ 7.4 billion 
@@ -11601,7 +11601,7 @@
 
 # sent_id = 460
 # text = The companies ' names are announced to be changed to Daimler AG and Chrysler Holding LLC 
-1	\x0a		SENT	_	_	_	_	_	Pos=52593|Len=1
+1	 		SENT	_	_	_	_	_	Pos=52593|Len=1
 2	The	the	DET	_	_	2	det	_	Pos=52595|Len=3
 3	companies	company	NOUN	_	_	5	SUJ_V	_	Pos=52599|Len=9
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=52609|Len=1
@@ -11622,7 +11622,7 @@
 
 # sent_id = 461
 # text = DaimlerChrysler has sold 80.1 % of its stake in Chrysler , retaining the other 19.9 % , for joint ventures and other agreements and partnerships 
-1	\x0a		SENT	_	_	_	_	_	Pos=52686|Len=1
+1	 		SENT	_	_	_	_	_	Pos=52686|Len=1
 2	DaimlerChrysler	daimlerchrysler	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=52688|Len=15
 3	has	have	VERB	_	_	3	aux	_	Pos=52704|Len=3
 4	sold	sell	VERB	_	_	_	_	_	Pos=52708|Len=4
@@ -11652,7 +11652,7 @@
 
 # sent_id = 462
 # text = Cerberus has agreed to take on billions of dollars in pension and retiree health care costs at Chrysler 
-1	\x0a		SENT	_	_	_	_	_	Pos=52835|Len=1
+1	 		SENT	_	_	_	_	_	Pos=52835|Len=1
 2	Cerberus	Cerberus	PROPN	_	_	2	SUJ_V	_	Pos=52837|Len=8
 3	has	have	VERB	_	_	_	_	_	Pos=52846|Len=3
 4	agreed	agreed	NOUN	_	_	2	COD_V	_	Pos=52850|Len=6
@@ -11675,7 +11675,7 @@
 
 # sent_id = 463
 # text = Cerberus also led a consortium that acquired the majority stake in April of last year in GMAC , the financing arm of GM , and is said to planning to invest in auto parts giant Delphi 
-1	\x0a		SENT	_	_	_	_	_	Pos=52943|Len=1
+1	 		SENT	_	_	_	_	_	Pos=52943|Len=1
 2	Cerberus	Cerberus	PROPN	_	_	3	SUJ_V	_	Pos=52945|Len=8
 3	also	also	ADV	_	_	3	AdvVerbe	_	Pos=52954|Len=4
 4	led	lead	VERB	_	_	_	_	_	Pos=52959|Len=3
@@ -11716,7 +11716,7 @@
 
 # sent_id = 464
 # text = Buzz Hargrove , the president of Canadian Auto Workers said he had been assured that the collective bargaining agreement with Chrysler would remain and that jobs would not be eliminated 
-1	\x0a		SENT	_	_	_	_	_	Pos=53130|Len=1
+1	 		SENT	_	_	_	_	_	Pos=53130|Len=1
 2	Buzz	buzz	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=53132|Len=4
 3	Hargrove	Hargrove	PROPN	_	_	_	_	_	NE=Person.PERSON|Pos=53137|Len=8
 4	,	,	COMMA	_	_	4	Dummy	_	Pos=53146|Len=1
@@ -11751,7 +11751,7 @@
 
 # sent_id = 465
 # text = The name change of the German company DaimlerChrysler to Daimler AG is pending shareholder approval at the next meeting , scheduled for fall 2007 
-1	\x0a		SENT	_	_	_	_	_	Pos=53320|Len=1
+1	 		SENT	_	_	_	_	_	Pos=53320|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=53322|Len=3
 3	name	name	NOUN	_	_	3	ADJPRENSUB	_	Pos=53326|Len=4
 4	change	change	NOUN	_	_	11	SUJ_V	_	Pos=53331|Len=6
@@ -11780,7 +11780,7 @@
 
 # sent_id = 466
 # text = Ford offers US$ 78 million for Romanian auto plant 
-1	\x0a		SENT	_	_	_	_	_	Pos=53470|Len=1
+1	 		SENT	_	_	_	_	_	Pos=53470|Len=1
 2	Ford	Ford	PROPN	_	_	2	ADJPRENSUB	_	Pos=53472|Len=4
 3	offers	offer	NOUN	_	_	3	ADJPRENSUB	_	Pos=53477|Len=6
 4	US	us	PRON	_	_	_	_	_	NE=Location.LOCATION|Pos=53484|Len=2
@@ -11791,7 +11791,7 @@
 9	Romanian	romanian	ADJ	_	_	9	ADJPRENSUB	_	Pos=53503|Len=8
 10	auto	auto	NOUN	_	_	9	ADJPRENSUB	_	Pos=53512|Len=4
 11	plant	plant	NOUN	_	_	5	COMPDUNOM	_	Pos=53517|Len=5
-12	\x0a		SENT	_	_	_	Dummy	_	Pos=53523|Len=1
+12	 		SENT	_	_	_	Dummy	_	Pos=53523|Len=1
 
 # sent_id = 467
 # text = September 08 , 2007 
@@ -11799,7 +11799,7 @@
 2	08	08	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=53535|Len=2
 3	,	,	COMMA	_	_	_	_	_	NE=DateTime.DATE|Pos=53538|Len=1
 4	2007	2007	NUM	_	_	_	_	_	NE=DateTime.DATE|Pos=53540|Len=4
-5	\x0a		SENT	_	_	_	_	_	Pos=53545|Len=1
+5	 		SENT	_	_	_	_	_	Pos=53545|Len=1
 
 # sent_id = 468
 # text = Ford Motor Company , the U.S. car maker , will reportedly pay $ 57 million ( US$ 78 million ) for a 72.4 percent stake in the Romanian assembly plant Automobile Craiova , a Romanian official said Friday 
@@ -11845,7 +11845,7 @@
 
 # sent_id = 469
 # text = `` The offer of Ford Motor Company for a 72.4 percent stake is $ 4.1556 per share or $ 57 million overall , '' said Sebastian Vladescu , head of the State Property Agency ( AVAS ) , after opening Ford 's improved offer 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=53752|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=53752|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=53754|Len=2
 3	The	the	DET	_	_	3	det	_	Pos=53757|Len=3
 4	offer	offer	NOUN	_	_	10	SUJ_V	_	Pos=53761|Len=5
@@ -11895,7 +11895,7 @@
 
 # sent_id = 470
 # text = Vladescu added that the contract may be signed on September 12 , during the auto show in Frankfurt 
-1	\x0a		SENT	_	_	_	_	_	Pos=53975|Len=1
+1	 		SENT	_	_	_	_	_	Pos=53975|Len=1
 2	Vladescu	Vladescu	PROPN	_	_	2	SUJ_V	_	Pos=53977|Len=8
 3	added	add	VERB	_	_	_	_	_	Pos=53986|Len=5
 4	that	that	SCONJ	_	_	6	mark	_	Pos=53992|Len=4
@@ -11918,7 +11918,7 @@
 
 # sent_id = 471
 # text = The Romanian government bought back the Craiova-based car maker from Daewoo Motors , in late 2006 for US$ 51 million 
-1	\x0a		SENT	_	_	_	_	_	Pos=54078|Len=1
+1	 		SENT	_	_	_	_	_	Pos=54078|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=54080|Len=3
 3	Romanian	romanian	ADJ	_	_	3	ADJPRENSUB	_	Pos=54084|Len=8
 4	government	government	NOUN	_	_	4	SUJ_V	_	Pos=54093|Len=10
@@ -11944,7 +11944,7 @@
 
 # sent_id = 472
 # text = As the Korean company was bankrupt , the government had to pay another $ 10 million for debts stemming from past loans 
-1	\x0a		SENT	_	_	_	_	_	Pos=54199|Len=1
+1	 		SENT	_	_	_	_	_	Pos=54199|Len=1
 2	As	as	ADP	_	_	4	PREPSUB	_	Pos=54201|Len=2
 3	the	the	DET	_	_	4	det	_	Pos=54204|Len=3
 4	Korean	korean	ADJ	_	_	4	ADJPRENSUB	_	Pos=54208|Len=6
@@ -11971,7 +11971,7 @@
 
 # sent_id = 473
 # text = Ford is the only bidder for the purchase of the factory 
-1	\x0a		SENT	_	_	_	_	_	Pos=54322|Len=1
+1	 		SENT	_	_	_	_	_	Pos=54322|Len=1
 2	Ford	Ford	PROPN	_	_	2	SUJ_V	_	Pos=54324|Len=4
 3	is	be	VERB	_	_	3	Dummy	_	Pos=54329|Len=2
 4	the	the	DET	_	_	4	Dummy	_	Pos=54332|Len=3
@@ -11987,7 +11987,7 @@
 
 # sent_id = 474
 # text = According to Washington Post , many auto-part makers have set up in the new European Union member country , attracted by cheap labor , favourable tax rates and the rising output of Renault 's Dacia plant 
-1	\x0a		SENT	_	_	_	_	_	Pos=54382|Len=1
+1	 		SENT	_	_	_	_	_	Pos=54382|Len=1
 2	According to	according to	ADP	_	_	2	PREPSUB	_	Pos=54384|Len=12
 3	Washington	Washington	PROPN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=54397|Len=10
 4	Post	post	NOUN	_	_	_	_	_	NE=Organization.ORGANIZATION|Pos=54408|Len=4
@@ -12029,7 +12029,7 @@
 
 # sent_id = 475
 # text = The vice president of Dacia , Constantin Stroe , said that the price Ford offers is not important 
-1	\x0a		SENT	_	_	_	_	_	Pos=54590|Len=1
+1	 		SENT	_	_	_	_	_	Pos=54590|Len=1
 2	The	the	DET	_	_	3	det	_	Pos=54592|Len=3
 3	vice	vice	NOUN	_	_	3	ADJPRENSUB	_	Pos=54596|Len=4
 4	president	president	NOUN	_	_	9	SUJ_V	_	Pos=54601|Len=9
@@ -12052,7 +12052,7 @@
 
 # sent_id = 476
 # text = `` It 's important to have the factory working as soon as possible '' , he added 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=54692|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=54692|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=54694|Len=2
 3	It	it	PRON	_	_	3	Dummy	_	Pos=54697|Len=2
 4	'	'	QUOT	_	_	4	Dummy	_	Pos=54700|Len=1|SpaceAfter=No
@@ -12074,7 +12074,7 @@
 
 # sent_id = 477
 # text = `` With this production facility , Romania will become an important auto production center in Europe '' , concluded Stroe , cited by HotNews 
-1	\x0a		SENT	_	_	1	Dummy	_	Pos=54777|Len=1
+1	 		SENT	_	_	1	Dummy	_	Pos=54777|Len=1
 2	``	`	OQU	_	_	2	Dummy	_	Pos=54779|Len=2
 3	With	with	ADP	_	_	5	PREPSUB	_	Pos=54782|Len=4
 4	this	this	DET	_	_	5	det	_	Pos=54787|Len=4

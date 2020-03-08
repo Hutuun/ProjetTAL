@@ -27,7 +27,8 @@ previous = ""
 try:
 	n=0;
 	for line in lines:
-		if(line != ""):
+		colonne = line.split();
+		if(len(colonne)!=0):
 
 		  #si ligne non vide
 			# print(len(line))
@@ -37,13 +38,11 @@ try:
 			
 			#extraction du mot et de son entity nomme
 
-				colonne = line.split(" ");
-
 				# print(colonne)
 
 			  #print(colonne[9].split("."))
 
-				if(colonne[1] != "O"):
+				if(colonne[1] != "O" and colonne[1] != "DATE"):
 
 					en = colonne[1]
 					en = convert.convEnToEtiq(en)
@@ -72,7 +71,7 @@ try:
 
 						previous =""
 					else:
-						en = ""
+						en = "O"
 						previous=""
 			else:
 				n = n+1
@@ -80,10 +79,10 @@ try:
 
 			res += colonne[0] + "\t" + en + "\n";
 
-			# print(res)
+		
 
 		else :
-			print("couc")
+			
 			res += "\n"
 
 except Exception as e:

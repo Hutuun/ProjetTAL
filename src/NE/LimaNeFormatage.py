@@ -25,20 +25,22 @@ try:
 
 			if(line[0] != "#"):
 
-				lineColumn = line.split("\t");
+				colonne = line.split("\t");
 
 
-				if(len(lineColumn[9].split(".")) > 1):
+				if(len(colonne[9].split(".")) > 1):
 
-					en = lineColumn[9].split(".")[1].split("|")[0];
+					en = colonne[9].split(".")[1].split("|")[0];
 
 				else:
 
 					en = "O";
 
-			  
-
-				res += lineColumn[1] + "\t" + en + "\n";
+				print(colonne[1])
+				if(colonne[1] != " "):
+					res += colonne[1] + "\t" + en + "\n";
+				else:
+					res += "\n";
 
 			#print(res)
 

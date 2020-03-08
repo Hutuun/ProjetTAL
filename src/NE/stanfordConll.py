@@ -51,10 +51,6 @@ try:
 			
 			#extraction du mot et de son entity nomme
 
-				# print(colonne)
-
-			  #print(colonne[9].split("."))
-
 				if(colonne[1] != "O"):
 
 					en = colonne[1]
@@ -76,7 +72,7 @@ try:
 
 							previous = "B"
 
-					# print(en);
+				
 
 				else:
 					if(colonne[1] == "O"):
