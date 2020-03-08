@@ -101,7 +101,7 @@ def retablissement3(entree,sortie):
 	for i in entree:
 		temp = i.split()
 		if len(temp)!=0:
-			resultat += i
+			resultat += temp[0] + "	" + temp[1] + "\n"
 
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)
