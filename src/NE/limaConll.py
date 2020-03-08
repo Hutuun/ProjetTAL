@@ -47,7 +47,7 @@ previous = ""
 
 
 try:
-
+	n=0;
 	for line in lines:
 		if(line != ""):
 
@@ -68,7 +68,7 @@ try:
 				if(colonne[1] != "O"):
 
 					en = colonne[1]
-					en = convEnToEtiq(en)
+					en = convert.convEnToEtiq(en)
 
 			  #verfier que l'entity est une sous entity
 
@@ -81,33 +81,37 @@ try:
 				  #La premiere entity
 
 					else:
+						if(colonne[0] != ""):
+							en = "B-" + en
 
-						en = "B-" + en
-
-						previous = "B"
+							previous = "B"
 
 					# print(en);
 
 				else:
+					if(colonne[1] == "O"):
+						en = colonne[1]
 
-					en = colonne[1]
-
-					previous =""
-
-				  
+						previous =""
+					else:
+						en = ""
+						previous=""
+			else:
+				n = n+1
+				print(n)
 
 			res += colonne[0] + "\t" + en + "\n";
 
 			# print(res)
 
 		else :
-
+			print("couc")
 			res += "\n"
 
 except Exception as e:
 
     print(str(e))
-	
+
 
 
 
