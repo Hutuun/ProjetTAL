@@ -339,11 +339,67 @@ entree = open("..\data\est.txt.ne.lima.conll","r")
 
 sortie = "..\data\est.txt.ne.lima.conll"
 
-fctRet.retablissement3(entree,sortie)
+fctRet.retablissement4(entree,sortie)
 
 entree.close()
 
 print("Etape 19 finie")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Etape 20")
+
+source = open("..\data\PosTag_CONLL.txt","r")
+entree = open("..\data\est.txt.ne.lima.conll","r")
+
+sortie = "..\data\est.txt.ne.lima.conll"
+
+fctConv.convertisseur(source,entree,sortie)
+
+source.close()
+entree.close()
+
+print("Etape 20 finie")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Etape 21")
+
+entree = open("..\data\eference.txt.conll.final","r")
+
+sortie = "..\data\eference.txt.conll.final.lima"
+
+fctRet.retablissement4(entree,sortie)
+
+entree.close()
+
+print("Etape 21 finie")
 
 
 print("Fin du programme")

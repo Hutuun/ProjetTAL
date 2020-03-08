@@ -111,3 +111,39 @@ def retablissement3(entree,sortie):
 	#print(resultat)
 	
 	numpy.savetxt(sortie,[resultat],fmt='%s')
+	
+	
+	
+	
+	
+	
+def retablissement4(entree,sortie):
+
+	resultat = ""
+
+	for i in entree:
+		temp = i.split()
+		if len(temp)!=0:
+			if temp[0] == "I'":
+				resultat += "I" + "	" + temp[1] + "\n"
+				resultat += "'" + "	" + temp[1] + "\n"
+			elif temp[0] == "'s":
+				resultat += "'" + "	" + temp[1] + "\n"
+				resultat += "s" + "	" + temp[1] + "\n"
+			elif temp[0] == "''":
+				resultat += "'" + "	" + temp[1] + "\n"
+				resultat += "'" + "	" + temp[1] + "\n"
+			elif temp[0] == "US$":
+				resultat += "US" + "	" + temp[1] + "\n"
+				resultat += "$" + "	" + temp[1] + "\n"
+			elif temp[0] == "52-35":
+				resultat += "52" + "	" + temp[1] + "\n"
+				resultat += "-" + "	" + temp[1] + "\n"
+				resultat += "32" + "	" + temp[1] + "\n"
+			else:
+				resultat += temp[0] + "	" + temp[1] + "\n"
+
+	# print(pandas.DataFrame({'Resultat':resultat}))
+	#print(resultat)
+	
+	numpy.savetxt(sortie,[resultat],fmt='%s')
