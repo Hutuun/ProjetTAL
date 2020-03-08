@@ -280,8 +280,8 @@ def decoupe6(entree,sortie):
 	k = 0
 	
 	for i in temp3:
-		if k != 7807 and k != 9629 and k != 10477 and k != 10680 :
-			k+=1
+		k+=1
+		if k != 7807 and k != 9630 and k != 10479 and k != 10683 :
 			resultat += i[0]
 			resultat += "	"
 			resultat += i[1]
