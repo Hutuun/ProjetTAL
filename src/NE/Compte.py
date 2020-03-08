@@ -42,14 +42,14 @@ def FonctionDecoupagePhrase1(entree):
 	# print(temp4)
 	return temp4
 
-#Ouverture des fichiers sources
+# Ouverture des fichiers sources
 
-source = open("../../data/ne_test.txt.ne.stanford.wrongformat","r")
+# source = open("../../data/ne_test.txt.ne.stanford.wrongformat","r")
 
-temp = FonctionDecoupagePhrase1(source)
+# temp = FonctionDecoupagePhrase1(source)
 
-source.close()
+# source.close()
 
-fout = open("../../data/ne_test.txt.ne.stanford","w")
-fout.write(temp)
-fout.close()
+# fout = open("../../data/ne_test.txt.ne.stanford","w")
+# fout.write(temp)
+# fout.close()

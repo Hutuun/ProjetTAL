@@ -1,7 +1,7 @@
 import sys
 import os
 import re
-import convEnToEtiq as convert
+import NE.convEnToEtiq as convert
 
 
 def stanfordCo(input,output):
@@ -70,14 +70,14 @@ def stanfordCo(input,output):
 							previous=""
 				else:
 					n = n+1
-					print(n)
+					# print(n)
 
 				res += colonne[0] + "\t" + en + "\n";
 
 				# print(res)
 
 			else :
-				print("couc")
+				# print("couc")
 				res += "\n"
 
 	except Exception as e:
