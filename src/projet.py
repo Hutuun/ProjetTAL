@@ -237,6 +237,8 @@ forma.limaNEformat(entree,sortie)
 
 entree = sortie;
 
+fctDec.decoupe(open(entree),sortie)
+
 sortie = "../data/est.txt.ne.lima.conll";
 
 lico.limaCo(entree,sortie)
@@ -383,7 +385,7 @@ print("Etape 18 finie")
 
 print("Etape 19")
 
-entree = open("../data/est.txt.ne.lima","r")
+entree = open("../data/est.txt.ne.lima.conll","r")
 
 sortie = "../data/est.txt.ne.lima.conll"
 
