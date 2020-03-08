@@ -35,11 +35,13 @@ lines = content.split("\n"); #extraction ligne par ligne
 
 previous = ""
 
+#print(lines)
 
 try:
 	n=0;
 	for line in lines:
-		if(len(line) != 0 or line != ""):
+		colonne = line.split();
+		if(len(colonne)!=0):
 
 		  #si ligne non vide
 			# print(len(line))
@@ -48,8 +50,6 @@ try:
 			#si pas ligne de commentaire
 			
 			#extraction du mot et de son entity nomme
-
-				colonne = line.split(" ");
 
 				# print(colonne)
 
