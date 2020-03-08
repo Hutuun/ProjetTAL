@@ -3,61 +3,63 @@ import sys
 import os
 
 
-text = open("../../data/est.txt.lima", "r+");
+def limaNEformat(input,output):
 
-content = text.read();
+	text = open(input, "r+");
 
-text.close();
+	content = text.read();
 
-
-res = "";
-
-lines = content.split("\n"); #extraction ligne par ligne
-
-try:
-
-	for line in lines:
+	text.close();
 
 
-		if(line != ""):
+	res = "";
 
-		  #si ligne non vide
+	lines = content.split("\n"); #extraction ligne par ligne
 
-			if(line[0] != "#"):
+	try:
 
-				colonne = line.split("\t");
-
-
-				if(len(colonne[9].split(".")) > 1):
-
-					en = colonne[9].split(".")[1].split("|")[0];
-
-				else:
-
-					en = "O";
-
-				print(colonne[1])
-				if(colonne[1] != " "):
-					res += colonne[1] + "\t" + en + "\n";
-				else:
-					res += "\n";
-
-			#print(res)
-
-			'''else:
-
-				res += "\n";'''
-
-except Exception as e:
-
-    print(str(e))
+		for line in lines:
 
 
+			if(line != ""):
 
-#ecriture dans fichier de sortie
+			  #si ligne non vide
 
-fout = open("../../data/est.txt.ne.lima", "w+");
+				if(line[0] != "#"):
 
-fout.write(res);
+					colonne = line.split("\t");
 
-fout.close();
+
+					if(len(colonne[9].split(".")) > 1):
+
+						en = colonne[9].split(".")[1].split("|")[0];
+
+					else:
+
+						en = "O";
+
+					print(colonne[1])
+					if(colonne[1] != " "):
+						res += colonne[1] + "\t" + en + "\n";
+					else:
+						res += "\n";
+
+				#print(res)
+
+				'''else:
+
+					res += "\n";'''
+
+	except Exception as e:
+
+		print(str(e))
+
+
+
+	#ecriture dans fichier de sortie
+
+	fout = open(output, "w+");
+
+	fout.write(res);
+
+	fout.close();
