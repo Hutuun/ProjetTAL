@@ -1,17 +1,28 @@
 import sys
 import os
 import re
-import limaConll as convert
+import convEnToEtiq as convert
 
 
-input = sys.argv[1];
+#input = sys.argv[1];
 
-output = sys.argv[2];
+#output = sys.argv[2];
+
+input = "../../data/ne_test.txt.ne.stanford"
+
+output = "../../data/ne_test.txt.ne.stanford.conll"
+
+
 
 
 text = open(input, "r+");
 
 content = text.read();
+
+#lines = []
+
+#for i in text:
+#	lines += [i]
 
 text.close();
 
@@ -28,7 +39,7 @@ previous = ""
 try:
 	n=0;
 	for line in lines:
-		if(line != ""):
+		if(len(line) != 0 or line != ""):
 
 		  #si ligne non vide
 			# print(len(line))
