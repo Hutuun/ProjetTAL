@@ -10,6 +10,12 @@ from nltk.tokenize import word_tokenize
 
 from nltk import RegexpParser
 
+from nltk import ne_chunk
+
+from nltk.chunk import tree2conlltags
+
+import numpy
+
 import sys
 
 
@@ -35,6 +41,8 @@ input = "../../data/est.txt"
 
 output = "../../data/est.txt.ne.nltk"
 
+outputBis = "../../data/est.txt.ne.nltk.bis"
+
 
 
 
@@ -58,16 +66,31 @@ tagged = []
 
 Entity = []
 
+resultatConll = ""
+
+k = 0
 
 for sentence in tokens:
 
-  mots += nltk.word_tokenize(sentence)
+	#On récupère les tokens pour l'analyse conll
 
-  tagged = nltk.pos_tag(mots)
+	temp = tree2conlltags(ne_chunk(pos_tag(word_tokenize(sentence))))
+	
+	k+=1
+	print(k)
+	
+	for i in temp:
+		resultatConll += i[0] + "	" + i[-1] + "\n"
+	
+	mots += nltk.word_tokenize(sentence)
+	
+	tagged = nltk.pos_tag(mots)
+	
+	#Named Entity Recognition
+	
+	Entity = nltk.ne_chunk(tagged);
 
-  #Named Entity Recognition
-
-  Entity = nltk.ne_chunk(tagged);
+numpy.savetxt(outputBis,[resultatConll],fmt='%s')
 
 print("Entitée nommée:",Entity);
 
@@ -75,18 +98,18 @@ Fout = open(output, "w");
 
 for token in Entity:
 
-  if(type(token[0]) != type("string")):
+	if(type(token[0]) != type("string")):
 
-    print(token)
+		print(token)
 
-    for parts in token:
+		for parts in token:
 
-      Fout.write(parts[0] + "\t" + parts[1] + "\t")
+			Fout.write(parts[0] + "\t" + parts[1] + "\t")
 
-    Fout.write("\n");
+		Fout.write("\n");
 
-  else:
+	else:
 
-    Fout.write(token[0] + "\t" + token[1] + "\n");
+		Fout.write(token[0] + "\t" + token[1] + "\n");
 
 Fout.close();
