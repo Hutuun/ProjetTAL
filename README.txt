@@ -20,6 +20,6 @@ python evaluate.py eference.txt.conll.final.nltk est.txt.ne.nltk.bis.conll.final
 
 python evaluate.py eference.txt.conll.final est.txt.ne.stanford.conll.final
 
-python evaluate.py 
+python evaluate.py pos_reference.txt.univ.stanford pos_test.txt.pos.stanford.univ
 
-python evaluate.py
+python evaluate.py pos_reference.txt.univ pos_test.txt.pos.nltk.univ
