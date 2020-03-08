@@ -2,5 +2,3 @@ pandas
 sklearn
 
 supprimer les lignes 7807, 9629,10477,10680 de pos_test.txt.pos.standford.univ tjr les supprimer dans cet ordre
-
-supprimer les lignes 8297, 8335 de est.txt.ne.nltk.bis.conll.final tjr les supprimer dans cet ordre
