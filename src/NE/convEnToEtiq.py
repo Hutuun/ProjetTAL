@@ -12,7 +12,7 @@ def convEnToEtiq(ne):
 
 		return "PERS"
 
-	if(ne == "O"):
+	if(ne == "O" or ne == "DATE"):
 
 		return "O"
 	if(ne == ""):
