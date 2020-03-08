@@ -326,4 +326,24 @@ entree.close()
 print("Etape 18 finie")
 
 
+
+
+
+
+
+
+
+print("Etape 19")
+
+entree = open("..\data\est.txt.ne.lima.conll","r")
+
+sortie = "..\data\est.txt.ne.lima.conll"
+
+fctRet.retablissement3(entree,sortie)
+
+entree.close()
+
+print("Etape 19 finie")
+
+
 print("Fin du programme")
