@@ -27,9 +27,15 @@ nltk.download('maxent_ne_chunker');
 nltk.download('words');
 
 
-input = sys.argv[1];
+#input = sys.argv[1];
 
-output = sys.argv[2]
+#output = sys.argv[2]
+
+input = "../../data/est.txt"
+
+output = "../../data/est.txt.ne.nltk"
+
+
 
 
 text = open(input, "r+");
