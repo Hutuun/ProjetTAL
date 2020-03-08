@@ -16,6 +16,8 @@ Vous aurez un ensemble d'affichage correspondant à la progression dans l'execut
 Une fois ceci fait, deplacez vous jusque dans le dossier data
 Entrez ensuite les lignes de commande suivantes et vous obtiendrez les resultats (Attention, il est obligatoire d'utiliser python 2.7):
 
+python evaluate.py eference.txt.conll est.txt.ne.lima.conll
+
 python evaluate.py eference.txt.conll.final.nltk est.txt.ne.nltk.bis.conll.final
 
 python evaluate.py eference.txt.conll.final est.txt.ne.stanford.conll.final
