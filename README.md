@@ -18,7 +18,7 @@ matplotlib
 
 
 
-Dans l'indic de commande, rendez vous dans le dossier src apres avoir genere tous les fichiers à traiter et les avoir nommes correctement (Les noms sont importants).
+Dans l'invité de commande, rendez vous dans le dossier src apres avoir genere tous les fichiers à traiter et les avoir nommes correctement (Les noms sont importants).
 
 Excutez ensuite la ligne suivante (Attention, il est obligatoire d'utiliser python 3.7):
 
