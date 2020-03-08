@@ -3,101 +3,93 @@ import os
 import convEnToEtiq as convert
 
 
-input = sys.argv[1];
+def limaCo(input,output):
 
-output = sys.argv[2];
+	text = open(input, "r+");
 
+	content = text.read();
 
-text = open(input, "r+");
-
-content = text.read();
-
-text.close();
+	text.close();
 
 
-#traitement
+	#traitement
 
-res = "";
+	res = "";
 
-lines = content.split("\n"); #extraction ligne par ligne
+	lines = content.split("\n"); #extraction ligne par ligne
 
-previous = ""
+	previous = ""
 
 
-try:
-	n=0;
-	for line in lines:
-		colonne = line.split();
-		if(len(colonne)!=0):
+	try:
+		n=0;
+		for line in lines:
+			colonne = line.split();
+			if(len(colonne)!=0):
 
-		  #si ligne non vide
-			# print(len(line))
-			if(line[0] != ""):
+			  #si ligne non vide
+				# print(len(line))
+				if(line[0] != ""):
 
-			#si pas ligne de commentaire
-			
-			#extraction du mot et de son entity nomme
+				#si pas ligne de commentaire
+				
+				#extraction du mot et de son entity nomme
 
-				# print(colonne)
+					# print(colonne)
 
-			  #print(colonne[9].split("."))
+				  #print(colonne[9].split("."))
 
-				if(colonne[1] != "O" and colonne[1] != "DATE"):
+					if(colonne[1] != "O" and colonne[1] != "DATE"):
 
-					en = colonne[1]
-					en = convert.convEnToEtiq(en)
+						en = colonne[1]
+						en = convert.convEnToEtiq(en)
 
-			  #verfier que l'entity est une sous entity
+				  #verfier que l'entity est une sous entity
 
-					if(previous == "B"):
+						if(previous == "B"):
 
-						en = "I-" + en
-
-						previous = "B"
-
-				  #La premiere entity
-
-					else:
-						if(colonne[0] != ""):
-							en = "B-" + en
+							en = "I-" + en
 
 							previous = "B"
 
-					# print(en);
+					  #La premiere entity
 
-				else:
-					if(colonne[1] == "O"):
-						en = colonne[1]
+						else:
+							if(colonne[0] != ""):
+								en = "B-" + en
 
-						previous =""
+								previous = "B"
+
+						# print(en);
+
 					else:
-						en = "O"
-						previous=""
-			else:
-				n = n+1
-				print(n)
+						if(colonne[1] == "O"):
+							en = colonne[1]
 
-			res += colonne[0] + "\t" + en + "\n";
+							previous =""
+						else:
+							en = "O"
+							previous=""
+				else:
+					n = n+1
+					print(n)
 
-		
+				res += colonne[0] + "\t" + en + "\n";
 
-		else :
 			
-			res += "\n"
 
-except Exception as e:
+			else :
+				
+				res += "\n"
 
-    print(str(e))
+	except Exception as e:
+
+		print(str(e))
 
 
+	outputFile = open(output, "w");
 
 
-#ecriture dans fichier de sortie
+	outputFile.write(res);
 
-outputFile = open(output, "w");
-
-# print(res)
-
-outputFile.write(res);
-
-outputFile.close();
+	outputFile.close();

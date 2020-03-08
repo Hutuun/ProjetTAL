@@ -4,109 +4,90 @@ import re
 import convEnToEtiq as convert
 
 
-#input = sys.argv[1];
+def stanfordCo(input,output):
 
-#output = sys.argv[2];
+	text = open(input, "r+");
 
-input = "../../data/ne_test.txt.ne.stanford"
+	content = text.read();
 
-output = "../../data/ne_test.txt.ne.stanford.conll"
-
-
+	text.close();
 
 
-text = open(input, "r+");
+	#traitement
 
-content = text.read();
+	res = "";
 
-#lines = []
+	lines = content.split("\n"); #extraction ligne par ligne
 
-#for i in text:
-#	lines += [i]
+	previous = ""
 
-text.close();
+	#print(lines)
 
+	try:
+		n=0;
+		for line in lines:
+			colonne = line.split();
+			if(len(colonne)!=0):
 
-#traitement
+			  #si ligne non vide
+				# print(len(line))
+				if(line[0] != ""):
 
-res = "";
+				#si pas ligne de commentaire
+				
+				#extraction du mot et de son entity nomme
 
-lines = content.split("\n"); #extraction ligne par ligne
+					if(colonne[1] != "O"):
 
-previous = ""
+						en = colonne[1]
+						en = convert.convEnToEtiq(en)
 
-#print(lines)
+				  #verfier que l'entity est une sous entity
 
-try:
-	n=0;
-	for line in lines:
-		colonne = line.split();
-		if(len(colonne)!=0):
+						if(previous == "B"):
 
-		  #si ligne non vide
-			# print(len(line))
-			if(line[0] != ""):
-
-			#si pas ligne de commentaire
-			
-			#extraction du mot et de son entity nomme
-
-				if(colonne[1] != "O"):
-
-					en = colonne[1]
-					en = convert.convEnToEtiq(en)
-
-			  #verfier que l'entity est une sous entity
-
-					if(previous == "B"):
-
-						en = "I-" + en
-
-						previous = "B"
-
-				  #La premiere entity
-
-					else:
-						if(colonne[0] != ""):
-							en = "B-" + en
+							en = "I-" + en
 
 							previous = "B"
 
-				
+					  #La premiere entity
 
-				else:
-					if(colonne[1] == "O"):
-						en = colonne[1]
+						else:
+							if(colonne[0] != ""):
+								en = "B-" + en
 
-						previous =""
+								previous = "B"
+
+					
+
 					else:
-						en = ""
-						previous=""
-			else:
-				n = n+1
-				print(n)
+						if(colonne[1] == "O"):
+							en = colonne[1]
 
-			res += colonne[0] + "\t" + en + "\n";
+							previous =""
+						else:
+							en = ""
+							previous=""
+				else:
+					n = n+1
+					print(n)
 
-			# print(res)
+				res += colonne[0] + "\t" + en + "\n";
 
-		else :
-			print("couc")
-			res += "\n"
+				# print(res)
 
-except Exception as e:
+			else :
+				print("couc")
+				res += "\n"
 
-    print(str(e))
-	
+	except Exception as e:
+
+		print(str(e))
+		
 
 
+	fout = open(output, "w");
 
-#ecriture dans fichier de sortie
+	fout.write(res);
 
-outputFile = open(output, "w");
-
-# print(res)
-
-outputFile.write(res);
-
-outputFile.close();
+	fout.close();
