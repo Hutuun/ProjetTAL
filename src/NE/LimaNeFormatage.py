@@ -38,7 +38,7 @@ def limaNEformat(input,output):
 
 						en = "O";
 
-					print(colonne[1])
+					# print(colonne[1])
 					if(colonne[1] != " "):
 						res += colonne[1] + "\t" + en + "\n";
 					else:

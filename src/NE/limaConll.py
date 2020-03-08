@@ -1,6 +1,6 @@
 import sys
 import os
-import convEnToEtiq as convert
+import NE.convEnToEtiq as convert
 
 
 def limaCo(input,output):
@@ -72,7 +72,7 @@ def limaCo(input,output):
 							previous=""
 				else:
 					n = n+1
-					print(n)
+					# print(n)
 
 				res += colonne[0] + "\t" + en + "\n";
 
