@@ -227,6 +227,8 @@ print("Etape 12 finie")
 
 
 
+print("Etape de generation")
+
 entree = "../data/est.txt.lima"
 
 sortie = "../data/est.txt.ne.lima";
@@ -256,6 +258,16 @@ fout.close()
 sortie = "../data/est.txt.ne.stanford.conll"
 
 stco.stanfordCo(entree,sortie)
+
+print("Etape de generation finie")
+
+
+
+
+
+
+
+
 
 print("Etape 13")
 
