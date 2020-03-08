@@ -9,8 +9,8 @@ def FonctionDecoupagePhrase1(entree):
 	temp = []
 	
 	for ligne in entree:
-		print(ligne)
-		temp += [ligne.split()]
+		# print(ligne)
+		temp += [ligne.split("\n")]
 
 	# print(temp)
 	temp2 = []
@@ -23,11 +23,24 @@ def FonctionDecoupagePhrase1(entree):
 	temp3 = []
 	for i in temp2:
 		# print(i)
-		if(i == ""):
-			temp3 += "\n"
+		
+		for j in [i.split("/")]:
+			for k in j:
+				temp3 += k.split(" ")
+			
+	# print(temp3[0])
+	temp4 = ""
+	n = 0
+	for i in temp3:
+		# print(i)
+		if n%2 == 0:
+			temp4 += i + " "
+			# print(temp4)
 		else:
-			temp3 += [i.split("/")]
-	return temp3
+			temp4 +=  i +"\n"
+		n = n + 1
+	# print(temp4)
+	return temp4
 
 #Ouverture des fichiers sources
 
@@ -35,4 +48,8 @@ source = open("../../data/ne_test.txt.ne.stanford.wrongformat","r")
 
 temp = FonctionDecoupagePhrase1(source)
 
-numpy.savetxt("../../data/ne_test.txt.ne.stanford",temp,fmt='%s')
+source.close()
+
+fout = open("../../data/ne_test.txt.ne.stanford","w")
+fout.write(temp)
+fout.close()

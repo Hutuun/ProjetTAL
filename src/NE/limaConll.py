@@ -18,7 +18,8 @@ def convEnToEtiq(ne):
 	if(ne == "O"):
 
 		return "O"
-
+	if(ne == ""):
+		return ""
 	else:
 
 		return "MISC"
