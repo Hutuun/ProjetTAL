@@ -400,21 +400,13 @@ print("Etape 19 finie")
 
 
 
-
-
-
-
-
-
-
 print("Etape 20")
 
-source = open("../data/PosTag_CONLL.txt","r")
 entree = open("../data/est.txt.ne.lima.conll","r")
 
 sortie = "../data/est.txt.ne.lima.conll"
 
-fctConv.convertisseur(source,entree,sortie)
+fctDec.decoupe(entree,sortie)
 
 source.close()
 entree.close()
@@ -433,11 +425,37 @@ print("Etape 20 finie")
 
 
 
-
-
-
-
 print("Etape 21")
+
+source = open("../data/PosTag_CONLL.txt","r")
+entree = open("../data/est.txt.ne.lima.conll","r")
+
+sortie = "../data/est.txt.ne.lima.conll"
+
+fctConv.convertisseur(source,entree,sortie)
+
+source.close()
+entree.close()
+
+print("Etape 21 finie")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Etape 22")
 
 entree = open("../data/eference.txt.conll.final","r")
 
@@ -447,7 +465,7 @@ fctRet.retablissement4(entree,sortie)
 
 entree.close()
 
-print("Etape 21 finie")
+print("Etape 22 finie")
 
 
 print("Fin du programme")

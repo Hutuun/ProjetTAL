@@ -15,11 +15,13 @@ def limaNEformat(input,output):
 	res = "";
 
 	lines = content.split("\n"); #extraction ligne par ligne
-
+	
+	k = 0
+	
 	try:
 
 		for line in lines:
-
+			k+=1
 
 			if(line != ""):
 
@@ -37,8 +39,8 @@ def limaNEformat(input,output):
 					else:
 
 						en = "O";
-
-					# print(colonne[1])
+					if k == 574:
+						print(colonne[1])
 					if(colonne[1] != " "):
 						res += colonne[1] + "\t" + en + "\n";
 					else:
