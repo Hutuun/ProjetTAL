@@ -8,13 +8,21 @@ pandas
 
 sklearn
 
-numpy
+numpy 
 
 glob
 
 os
 
 matplotlib
+
+Pour générer les fichier à partir des fichiers .txt de référence il faut faire :
+
+- Aller dans le dossier data
+
+-Pour lima: analyzeText -l eng -p main ne_test.txt > ne_test.txt.lima
+
+-Pour stanford : java -mx600m -cp stanford-ner-2018-10-16/stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz -textFile ne_test.txt > ne_test.txt.ne.stanford.wrongformat 
 
 
 
