@@ -505,6 +505,7 @@ the	O
 Senate	B-ORG
 was	O
 52	O
+35	O
 ,	O
 eight	O
 short	O
@@ -764,6 +765,7 @@ ground	O
 with	O
 the	O
 FTSE	O
+100	O
 index	O
 of	O
 leading	O
@@ -895,6 +897,7 @@ other	O
 options	O
 if	O
 necessary	O
+including	O
 use	O
 of	O
 the	O
@@ -905,6 +908,7 @@ Relief	O
 Program	O
 ]	O
 programme	O
+to	O
 prevent	O
 a	O
 collapse	O
@@ -969,12 +973,14 @@ Three	O
 '	O
 '	O
 automakers	O
+Ford	O
 ,	O
 Chrysler	B-PER
 ,	O
 and	O
 General	B-ORG
 Motors	I-ORG
+had	O
 pleaded	O
 before	O
 Congress	B-ORG
@@ -1010,6 +1016,7 @@ a	O
 vote	O
 of	O
 52	O
+35	O
 .	O
 Part	B-PER
 of	O
@@ -1180,6 +1187,7 @@ UAW	O
 )	O
 union	O
 members	O
+62,000	O
 at	O
 GM	O
 ,	O
@@ -2155,8 +2163,10 @@ States	I-ORG
 ``	O
 These	O
 companies	O
+and	O
 this	O
 industry	O
+must	O
 ultimately	O
 stand	O
 on	O
@@ -3438,6 +3448,8 @@ very	O
 short	O
 ,	O
 30	O
+to	O
+60	O
 day	O
 bankruptcy	O
 process	O
@@ -3934,6 +3946,7 @@ to	O
 see	O
 a	O
 60	O
+80	O
 percent	O
 chance	O
 of	O
@@ -3961,6 +3974,7 @@ stronger	O
 from	O
 a	O
 bankruptcy	O
+provided	O
 the	O
 Chapter	O
 11	O
@@ -3970,6 +3984,7 @@ not	O
 overly	O
 drawn	O
 out	O
+particularly	O
 given	O
 the	O
 scope	O
@@ -8051,6 +8066,7 @@ other	O
 products	O
 and	O
 locations	O
+we	O
 are	O
 entitled	O
 to	O

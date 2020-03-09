@@ -897,6 +897,7 @@ other	O
 options	O
 if	O
 necessary	O
+including	O
 use	O
 of	O
 the	O
@@ -907,6 +908,7 @@ Relief	O
 Program	O
 ]	O
 programme	O
+to	O
 prevent	O
 a	O
 collapse	O
@@ -971,12 +973,14 @@ Three	O
 '	O
 '	O
 automakers	O
+Ford	O
 ,	O
 Chrysler	O
 ,	O
 and	O
 General	O
 Motors	O
+had	O
 pleaded	O
 before	O
 Congress	O
@@ -1183,6 +1187,7 @@ UAW	O
 )	O
 union	O
 members	O
+62,000	O
 at	O
 GM	O
 ,	O
@@ -2158,8 +2163,10 @@ States	O
 ``	O
 These	O
 companies	O
+and	O
 this	O
 industry	O
+must	O
 ultimately	O
 stand	O
 on	O
@@ -2178,7 +2185,8 @@ state	O
 Chrysler	O
 will	O
 receive	O
-CA$	O
+CA	O
+$	O
 1	O
 billion	O
 and	O
@@ -2191,7 +2199,8 @@ for	O
 as	O
 much	O
 as	O
-CA$	O
+CA	O
+$	O
 4	O
 billion	O
 .	O
@@ -2332,7 +2341,8 @@ all	O
 in	O
 costs	O
 by	O
-CA$	O
+CA	O
+$	O
 19	O
 per	O
 hour	O
@@ -2375,7 +2385,8 @@ to	O
 receive	O
 up	O
 to	O
-CA$	O
+CA	O
+$	O
 7.5	O
 billion	O
 .	O
@@ -3961,6 +3972,7 @@ stronger	O
 from	O
 a	O
 bankruptcy	O
+provided	O
 the	O
 Chapter	O
 11	O
@@ -3970,6 +3982,7 @@ not	O
 overly	O
 drawn	O
 out	O
+particularly	O
 given	O
 the	O
 scope	O
@@ -8040,6 +8053,7 @@ other	O
 products	O
 and	O
 locations	O
+we	O
 are	O
 entitled	O
 to	O

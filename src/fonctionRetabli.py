@@ -121,8 +121,10 @@ def retablissement4(entree,sortie):
 
 	resultat = ""
 	suppr = 1
+	key = 0
 	for i in entree:
 		temp = i.split()
+		key += 1
 		if len(temp)!=0:
 			#print(len(temp[0].split("-")))
 			if temp[0] == "I'":
@@ -137,8 +139,12 @@ def retablissement4(entree,sortie):
 			elif temp[0] == "US$":
 				resultat += "US" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"
-			elif temp[0] == "-":
-				suppr = 0
+			elif temp[0] == "CA$":
+				resultat += "CA" + "	" + temp[1] + "\n"
+				resultat += "$" + "	" + temp[1] + "\n"
+			#elif temp[0] == "-":
+			#	suppr = 0
+			#	print(key)
 			elif suppr == 0:
 				suppr = 1
 			elif suppr == 1:
