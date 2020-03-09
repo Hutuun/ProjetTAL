@@ -414,9 +414,6 @@ Three	I-ORG
 United	I-ORG
 States	I-ORG
 automakers	I-ORG
-	O
-	O
-	O
 Chrysler	B-ORG
 ,	O
 Ford	B-ORG
@@ -424,9 +421,6 @@ Ford	B-ORG
 and	O
 General	B-ORG
 Motors	I-ORG
-	O
-	O
-	O
 has	O
 been	O
 rejected	O
@@ -2934,9 +2928,6 @@ again	O
 .	O
 But	O
 importantly	O
-	O
-	O
-	O
 and	O
 this	O
 is	O
@@ -2946,9 +2937,6 @@ particularly	O
 like	O
 about	O
 it	O
-	O
-	O
-	O
 it	O
 really	O
 helps	O
@@ -4747,9 +4735,6 @@ in	O
 recent	O
 U.S.	O
 history	O
-	O
-	O
-	O
 after	O
 the	O
 bankruptcies	O
@@ -5272,9 +5257,6 @@ financial	O
 hardship	O
 that	O
 some	O
-	O
-	O
-	O
 shareholders	O
 ,	O
 communities	O
@@ -5288,9 +5270,6 @@ dealers	O
 ,	O
 and	O
 others	O
-	O
-	O
-	O
 would	O
 undergo	O
 as	O

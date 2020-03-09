@@ -139,17 +139,18 @@ def retablissement4(entree,sortie):
 				resultat += "$" + "	" + temp[1] + "\n"
 			elif temp[0] == "-":
 				suppr = 0
+			elif suppr == 0:
+				suppr = 1
 			elif suppr == 1:
 				if len(temp[0].split("-")) != 1:
-					print(len(temp[0].split("-")))
+					#print(len(temp[0].split("-")))
 					temp2 = temp[0].split("-")
-					print(temp2)
+					#print(temp2)
 					for j in range(len(temp2)):
-						resultat += temp2[j] + "	" + temp[-1] + "\n"
+						if temp2[j] != "":
+							resultat += temp2[j] + "	" + temp[-1] + "\n"
 				else:
 					resultat += temp[0] + "	" + temp[1] + "\n"
-			else:
-				suppr = 1
 
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)
