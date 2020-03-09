@@ -144,8 +144,8 @@ def retablissement4(entree,sortie):
 					print(len(temp[0].split("-")))
 					temp2 = temp[0].split("-")
 					print(temp2)
-				#	for j in range(len(temp2)-1):
-				#		resultat = i[j] + "	" + i[-1] + "\n"
+					for j in range(len(temp2)):
+						resultat += temp2[j] + "	" + temp[-1] + "\n"
 				else:
 					resultat += temp[0] + "	" + temp[1] + "\n"
 			else:

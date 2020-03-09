@@ -309,6 +309,8 @@ of	O
 Akerson	O
 ,	O
 and	O
+re	O
+entered	O
 the	O
 stock	O
 market	O
@@ -412,6 +414,9 @@ Three	I-ORG
 United	I-ORG
 States	I-ORG
 automakers	I-ORG
+	O
+	O
+	O
 Chrysler	B-ORG
 ,	O
 Ford	B-ORG
@@ -419,6 +424,9 @@ Ford	B-ORG
 and	O
 General	B-ORG
 Motors	I-ORG
+	O
+	O
+	O
 has	O
 been	O
 rejected	O
@@ -502,6 +510,8 @@ in	O
 the	B-ORG
 Senate	I-ORG
 was	O
+52	O
+35	O
 ,	O
 eight	O
 short	O
@@ -531,6 +541,8 @@ Three	O
 Democrats	O
 voted	O
 with	O
+thirty	O
+one	O
 Republicans	O
 against	O
 it	O
@@ -758,6 +770,8 @@ ground	O
 ,	O
 with	O
 the	O
+FTSE	O
+100	O
 index	O
 of	O
 leading	O
@@ -1003,6 +1017,8 @@ with	O
 a	O
 vote	O
 of	O
+52	O
+35	O
 .	O
 Part	O
 of	O
@@ -1278,6 +1294,9 @@ attempting	O
 to	O
 engineer	O
 a	O
+debt	O
+for	O
+equity	O
 swap	O
 ,	O
 reducing	O
@@ -1538,6 +1557,8 @@ also	O
 been	O
 plummeting	O
 .	O
+Industry	O
+wide	O
 US	O
 car	O
 sales	O
@@ -2067,6 +2088,8 @@ or	O
 Canada	B-LOC
 a	O
 catastrophic	O
+short	O
+term	O
 collapse	O
 .	O
 '	O
@@ -2231,6 +2254,8 @@ a	O
 supplier	O
 of	O
 smaller	O
+fuel	O
+efficient	O
 vehicles	O
 ,	O
 and	O
@@ -2309,6 +2334,8 @@ CAW	O
 contract	O
 to	O
 reduce	O
+all	O
+in	O
 costs	O
 by	O
 CA$	O
@@ -2581,6 +2608,8 @@ the	O
 restructuring	O
 process	O
 and	O
+re	O
+negotiate	O
 their	O
 agreement	O
 .	O
@@ -2878,6 +2907,8 @@ their	O
 vehicle	O
 for	O
 a	O
+fuel	O
+efficient	O
 car	O
 .	O
 ``	O
@@ -2903,6 +2934,9 @@ again	O
 .	O
 But	O
 importantly	O
+	O
+	O
+	O
 and	O
 this	O
 is	O
@@ -2912,6 +2946,9 @@ particularly	O
 like	O
 about	O
 it	O
+	O
+	O
+	O
 it	O
 really	O
 helps	O
@@ -3410,6 +3447,10 @@ a	O
 very	O
 short	O
 ,	O
+30	O
+to	O
+60	O
+day	O
 bankruptcy	O
 process	O
 ,	O
@@ -3546,6 +3587,8 @@ build	O
 the	O
 clean	O
 ,	O
+fuel	O
+efficient	O
 cars	O
 that	O
 are	O
@@ -3901,6 +3944,8 @@ continue	O
 to	O
 see	O
 a	O
+60	O
+80	O
 percent	O
 chance	O
 of	O
@@ -4702,6 +4747,9 @@ in	O
 recent	O
 U.S.	O
 history	O
+	O
+	O
+	O
 after	O
 the	O
 bankruptcies	O
@@ -5159,6 +5207,8 @@ quality	O
 safe	O
 ,	O
 and	O
+fuel	O
+efficient	O
 cars	O
 of	O
 tomorrow	O
@@ -5179,6 +5229,8 @@ better	O
 '	O
 and	O
 ``	O
+fuel	O
+efficient	O
 '	O
 '	O
 cars	O
@@ -5220,6 +5272,9 @@ financial	O
 hardship	O
 that	O
 some	O
+	O
+	O
+	O
 shareholders	O
 ,	O
 communities	O
@@ -5233,6 +5288,9 @@ dealers	O
 ,	O
 and	O
 others	O
+	O
+	O
+	O
 would	O
 undergo	O
 as	O
@@ -5283,6 +5341,10 @@ the	O
 maxim	O
 (	O
 a	O
+widely	O
+repeated	O
+mis	O
+quotation	O
 of	O
 what	O
 Charles	O
@@ -5682,6 +5744,8 @@ the	O
 sale	O
 of	O
 more	O
+fuel	O
+efficient	O
 and	O
 green	O
 vehicles	O
@@ -5802,6 +5866,8 @@ focus	O
 upon	O
 ``	O
 highly	O
+fuel	O
+efficient	O
 and	O
 green	O
 technology	O
@@ -6049,6 +6115,8 @@ rather	O
 to	O
 lower	O
 the	O
+break	O
+even	O
 EBIT	O
 point	O
 for	O
@@ -6481,6 +6549,8 @@ analysts	O
 .	O
 ``	O
 Our	O
+third	O
+quarter	O
 results	O
 clearly	O
 show	O
@@ -6740,6 +6810,8 @@ German	O
 state	O
 of	O
 North	O
+Rhine	O
+Westphalia	O
 remarked	O
 that	O
 ``	O
@@ -6752,6 +6824,8 @@ the	O
 ugly	O
 face	O
 of	O
+turbo	O
+capitalism	O
 .	O
 That	O
 is	O
@@ -7190,6 +7264,8 @@ stock	O
 rose	O
 to	O
 a	O
+five	O
+year	O
 high	O
 in	O
 morning	O
@@ -7669,6 +7745,8 @@ Motor	I-ORG
 Company	I-ORG
 ,	O
 the	O
+second	O
+largest	O
 car	O
 manufacturer	O
 in	O
@@ -8079,6 +8157,8 @@ may	O
 be	O
 just	O
 a	O
+short	O
+term	O
 reprieve	O
 ,	O
 it	O
@@ -8894,6 +8974,8 @@ region	O
 which	O
 will	O
 bring	O
+spin	O
+off	O
 benefits	O
 for	O
 the	O
@@ -9083,12 +9165,16 @@ the	O
 world	O
 '	O
 s	O
+third	O
+largest	O
 automaker	O
 and	O
 the	O
 U.S.	B-LOC
 '	O
 s	O
+second	O
+largest	O
 .	O
 However	O
 it	O
@@ -9130,6 +9216,8 @@ and	O
 a	O
 34	O
 %	O
+year	O
+year	O
 decline	O
 in	O
 sales	O
@@ -9173,6 +9261,8 @@ sales	O
 leader	O
 ,	O
 the	O
+F	O
+series	O
 pickup	O
 truck	O
 as	O
@@ -9502,6 +9592,8 @@ It	O
 '	O
 s	O
 the	O
+best	O
+selling	O
 car	O
 in	O
 America	O
@@ -9594,6 +9686,8 @@ part	O
 ways	O
 with	O
 the	O
+loss	O
+making	O
 business	O
 .	O
 It	O
@@ -9670,6 +9764,8 @@ restructuring	O
 move	O
 and	O
 a	O
+much	O
+needed	O
 one	O
 at	O
 Chrysler	O
@@ -9694,7 +9790,11 @@ speculation	O
 that	O
 the	O
 companies	O
+Daimler	O
+Benz	O
 (	O
+Mercedes	O
+Benz	O
 )	O
 and	O
 Chrysler	O
@@ -9775,6 +9875,8 @@ it	O
 to	O
 New	B-ORG
 York	I-ORG
+City	I-ORG
+based	I-ORG
 private	I-ORG
 equity	I-ORG
 firm	I-ORG
@@ -10068,6 +10170,8 @@ government	O
 bought	O
 back	O
 the	O
+Craiova	O
+based	O
 car	O
 maker	O
 from	O
@@ -10124,6 +10228,8 @@ Washington	O
 Post	O
 ,	O
 many	O
+auto	O
+part	O
 makers	O
 have	O
 set	O

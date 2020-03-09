@@ -309,6 +309,8 @@ of	O
 Akerson	B-PER
 ,	O
 and	O
+re	O
+entered	O
 the	O
 stock	O
 market	O
@@ -532,6 +534,8 @@ Three	O
 Democrats	I-ORG
 voted	O
 with	O
+thirty	O
+one	O
 Republicans	O
 against	O
 it	O
@@ -1544,6 +1548,8 @@ also	O
 been	O
 plummeting	O
 .	O
+Industry	O
+wide	O
 US	B-LOC
 car	O
 sales	O
@@ -2073,6 +2079,8 @@ or	O
 Canada	B-LOC
 a	O
 catastrophic	O
+short	O
+term	O
 collapse	O
 .	O
 '	O
@@ -7245,6 +7253,8 @@ stock	O
 rose	O
 to	O
 a	O
+five	O
+year	O
 high	O
 in	O
 morning	O
@@ -8137,6 +8147,8 @@ may	O
 be	O
 just	O
 a	O
+short	O
+term	O
 reprieve	O
 ,	O
 it	O
