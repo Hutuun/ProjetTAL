@@ -73,7 +73,6 @@ said	O
 in	O
 a	O
 statement	O
-:	O
 ``	O
 With	O
 an	O
@@ -178,7 +177,6 @@ employees	O
 ,	O
 he	O
 said	O
-:	O
 ``	O
 I	O
 will	O
@@ -3135,7 +3133,6 @@ their	O
 car	O
 sales	O
 slip	O
-:	O
 Chrysler	B-PER
 and	O
 the	O
@@ -4701,7 +4698,6 @@ its	O
 creditors	O
 at	O
 12	O
-:	O
 00	O
 UTC	O
 Monday	O
@@ -4806,7 +4802,6 @@ White	B-ORG
 House	I-ORG
 at	O
 16	O
-:	O
 00	O
 UTC	O
 today	O
@@ -4825,7 +4820,6 @@ plan	O
 following	O
 the	O
 12	O
-:	O
 00	O
 UTC	O
 announcement	O
@@ -5420,7 +5414,6 @@ press	O
 conference	O
 at	O
 16	O
-:	O
 15	O
 UTC	O
 ,	O
@@ -9298,7 +9291,6 @@ thought	O
 to	O
 be	O
 affected	O
-:	O
 *	O
 St.	O
 Thomas	B-PER

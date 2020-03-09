@@ -148,6 +148,9 @@ def retablissement4(entree,sortie):
 			elif temp[0] == "CA$":
 				resultat += "CA" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"
+			elif temp[0] == "AU$":
+				resultat += "AU" + "	" + temp[1] + "\n"
+				resultat += "$" + "	" + temp[1] + "\n"
 			#elif temp[0] == "-":
 			#	suppr = 0
 			#	print(key)
@@ -157,6 +160,13 @@ def retablissement4(entree,sortie):
 				if len(temp[0].split("-")) != 1:
 					#print(len(temp[0].split("-")))
 					temp2 = temp[0].split("-")
+					#print(temp2)
+					for j in range(len(temp2)):
+						if temp2[j] != "":
+							resultat += temp2[j] + "	" + temp[-1] + "\n"
+				elif len(temp[0].split(":")) != 1:
+					#print(len(temp[0].split("-")))
+					temp2 = temp[0].split(":")
 					#print(temp2)
 					for j in range(len(temp2)):
 						if temp2[j] != "":
