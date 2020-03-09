@@ -133,12 +133,18 @@ def retablissement4(entree,sortie):
 			elif temp[0] == "'s":
 				resultat += "'" + "	" + temp[1] + "\n"
 				resultat += "s" + "	" + temp[1] + "\n"
+			elif temp[0] == "'re":
+				resultat += "'" + "	" + temp[1] + "\n"
+				resultat += "re" + "	" + temp[1] + "\n"
 			elif temp[0] == "''":
 				resultat += "'" + "	" + temp[1] + "\n"
 				resultat += "'" + "	" + temp[1] + "\n"
 			elif temp[0] == "US$":
 				resultat += "US" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"
+			elif temp[0] == "Jr.":
+				resultat += "Jr" + "	" + temp[1] + "\n"
+				resultat += "." + "	" + temp[1] + "\n"
 			elif temp[0] == "CA$":
 				resultat += "CA" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"

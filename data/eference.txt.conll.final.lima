@@ -2966,7 +2966,8 @@ said	O
 William	O
 Clay	O
 Ford	O
-Jr.	O
+Jr	O
+.	O
 ,	O
 executive	O
 chairman	O
@@ -3894,7 +3895,8 @@ protection	O
 .	O
 ``	O
 We	O
-'re	O
+'	O
+re	O
 focusing	O
 very	O
 much	O
@@ -4369,7 +4371,8 @@ dealers	O
 '	O
 ``	O
 They	O
-'re	O
+'	O
+re	O
 dealerships	O
 that	O
 are	O
@@ -4642,7 +4645,8 @@ That	O
 s	O
 why	O
 they	O
-'re	O
+'	O
+re	O
 going	O
 to	O
 have	O
@@ -7797,7 +7801,8 @@ Officer	O
 William	B-PER
 Clay	I-PER
 Ford	I-PER
-Jr.	I-PER
+Jr	I-PER
+.	I-PER
 ,	O
 is	O
 to	O
