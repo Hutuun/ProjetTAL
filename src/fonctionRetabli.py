@@ -151,6 +151,10 @@ def retablissement4(entree,sortie):
 			elif temp[0] == "AU$":
 				resultat += "AU" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"
+			elif temp[0] == "R&D":
+				resultat += "R" + "	" + temp[1] + "\n"
+				resultat += "&" + "	" + temp[1] + "\n"
+				resultat += "D" + "	" + temp[1] + "\n"
 			#elif temp[0] == "-":
 			#	suppr = 0
 			#	print(key)
