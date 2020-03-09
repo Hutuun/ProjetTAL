@@ -120,10 +120,11 @@ def retablissement3(entree,sortie):
 def retablissement4(entree,sortie):
 
 	resultat = ""
-
+	suppr = 1
 	for i in entree:
 		temp = i.split()
 		if len(temp)!=0:
+			#print(len(temp[0].split("-")))
 			if temp[0] == "I'":
 				resultat += "I" + "	" + temp[1] + "\n"
 				resultat += "'" + "	" + temp[1] + "\n"
@@ -136,12 +137,19 @@ def retablissement4(entree,sortie):
 			elif temp[0] == "US$":
 				resultat += "US" + "	" + temp[1] + "\n"
 				resultat += "$" + "	" + temp[1] + "\n"
-			elif temp[0] == "52-35":
-				resultat += "52" + "	" + temp[1] + "\n"
-				resultat += "-" + "	" + temp[1] + "\n"
-				resultat += "32" + "	" + temp[1] + "\n"
+			elif temp[0] == "-":
+				suppr = 0
+			elif suppr == 1:
+				if len(temp[0].split("-")) != 1:
+					print(len(temp[0].split("-")))
+					temp2 = temp[0].split("-")
+					print(temp2)
+				#	for j in range(len(temp2)-1):
+				#		resultat = i[j] + "	" + i[-1] + "\n"
+				else:
+					resultat += temp[0] + "	" + temp[1] + "\n"
 			else:
-				resultat += temp[0] + "	" + temp[1] + "\n"
+				suppr = 1
 
 	# print(pandas.DataFrame({'Resultat':resultat}))
 	#print(resultat)

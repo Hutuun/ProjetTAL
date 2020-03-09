@@ -21,10 +21,10 @@ import NE.Compte as staformat
 
 print("Debut du programme")
 
+k = 0
 
-
-
-print("Etape 1")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/POSTags_PTB_Universal_Linux.txt","r")
 entree = open("../data/pos_reference.txt.lima","r")
@@ -36,13 +36,14 @@ fctConv.convertisseur(source,entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 1 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
-print("Etape 2")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_reference.txt.univ","r")
 
@@ -52,14 +53,15 @@ fctRet.retablissement(entree,sortie)
 
 entree.close()
 
-print("Etape 2 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
 
-print("Etape 3")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/eference.txt.conll","r")
 
@@ -69,14 +71,15 @@ fctRet.retablissement2(entree,sortie)
 
 entree.close()
 
-print("Etape 3 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
 
-print("Etape 4")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/POSTags_PTB_Universal_Linux.txt","r")
 entree = open("../data/pos_test.txt.pos.nltk","r")
@@ -88,13 +91,14 @@ fctConv.convertisseur(source,entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 4 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
-print("Etape 5")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_test.txt.pos.stanford","r")
 
@@ -104,14 +108,15 @@ fctForm.formatage(entree,sortie)
 
 entree.close()
 
-print("Etape 5 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
 
-print("Etape 6")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/POSTags_PTB_Universal_Linux.txt","r")
 entree = open("../data/pos_test.txt.pos.stanford.univ","r")
@@ -123,13 +128,14 @@ fctConv.convertisseur(source,entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 6 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
-print("Etape 7")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/pos_reference.txt.univ","r")
 entree = open("../data/pos_test.txt.pos.stanford.univ","r")
@@ -142,13 +148,14 @@ sortie2 = "../data/pos_reference.txt.univ2"
 source.close()
 entree.close()
 
-print("Etape 7 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
-print("Etape 8")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/pos_reference.txt.univ","r")
 entree = open("../data/pos_test.txt.pos.nltk.univ","r")
@@ -161,11 +168,12 @@ sortie2 = "../data/pos_reference.txt.univ3"
 source.close()
 entree.close()
 
-print("Etape 8 finie")
+print("Etape " + str(k) + " finie")
 
 
 
-print("Etape 9")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_reference.txt.univ","r")
 
@@ -175,11 +183,12 @@ fctDec.decoupe(entree,sortie)
 
 entree.close()
 
-print("Etape 9 finie")
+print("Etape " + str(k) + " finie")
 
 
 
-print("Etape 10")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_reference.txt.univ","r")
 
@@ -189,12 +198,13 @@ fctDec.decoupe2(entree,sortie)
 
 entree.close()
 
-print("Etape 10 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
-print("Etape 11")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_test.txt.pos.stanford.univ","r")
 
@@ -204,12 +214,13 @@ fctDec.decoupe6(entree,sortie)
 
 entree.close()
 
-print("Etape 11 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
-print("Etape 12")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/pos_reference.txt.univ.stanford","r")
 
@@ -219,7 +230,7 @@ fctDec.decoupe3(entree,sortie)
 
 entree.close()
 
-print("Etape 12 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -227,7 +238,8 @@ print("Etape 12 finie")
 
 
 
-print("Etape de generation")
+k+=1
+print("Etape " + str(k))
 
 entree = "../data/est.txt.lima"
 
@@ -261,7 +273,7 @@ sortie = "../data/est.txt.ne.stanford.conll"
 
 stco.stanfordCo(entree,sortie)
 
-print("Etape de generation finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -271,7 +283,8 @@ print("Etape de generation finie")
 
 
 
-print("Etape 13")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/est.txt.ne.nltk","r")
 
@@ -281,14 +294,15 @@ fctDec.decoupe4(entree,sortie)
 
 entree.close()
 
-print("Etape 13 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
 
-print("Etape 14")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/eference.txt.conll","r")
 
@@ -298,14 +312,15 @@ fctRet.retablissement3(entree,sortie)
 
 entree.close()
 
-print("Etape 14 finie")
+print("Etape " + str(k) + " finie")
 
 
 
 
 
 
-print("Etape 15")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/est.txt.ne.stanford.conll","r")
 
@@ -315,7 +330,7 @@ fctRet.retablissement3(entree,sortie)
 
 entree.close()
 
-print("Etape 15 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -323,7 +338,8 @@ print("Etape 15 finie")
 
 
 
-print("Etape 16")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/PosTag_CONLL.txt","r")
 entree = open("../data/est.txt.ne.nltk.bis","r")
@@ -335,7 +351,7 @@ fctConv.convertisseur(source,entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 16 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -343,7 +359,8 @@ print("Etape 16 finie")
 
 
 
-print("Etape 17")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/est.txt.ne.nltk.bis.conll","r")
 
@@ -353,7 +370,7 @@ fctDec.decoupe5(entree,sortie)
 
 entree.close()
 
-print("Etape 17 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -363,7 +380,8 @@ print("Etape 17 finie")
 
 
 
-print("Etape 18")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/eference.txt.conll.final","r")
 
@@ -373,7 +391,7 @@ fctDec.decoupe5(entree,sortie)
 
 entree.close()
 
-print("Etape 18 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -383,7 +401,8 @@ print("Etape 18 finie")
 
 
 
-print("Etape 19")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/est.txt.ne.lima.conll","r")
 
@@ -393,7 +412,7 @@ fctRet.retablissement4(entree,sortie)
 
 entree.close()
 
-print("Etape 19 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -402,7 +421,8 @@ print("Etape 19 finie")
 
 
 
-print("Etape 20")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/est.txt.ne.lima.conll","r")
 
@@ -413,7 +433,7 @@ fctDec.decoupe(entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 20 finie")
+print("Etape " + str(k) + " finie")
 
 
 
@@ -427,7 +447,8 @@ print("Etape 20 finie")
 
 
 
-print("Etape 21")
+k+=1
+print("Etape " + str(k))
 
 source = open("../data/PosTag_CONLL.txt","r")
 entree = open("../data/est.txt.ne.lima.conll","r")
@@ -439,7 +460,32 @@ fctConv.convertisseur(source,entree,sortie)
 source.close()
 entree.close()
 
-print("Etape 21 finie")
+print("Etape " + str(k) + " finie")
+
+
+
+
+
+
+
+
+
+
+
+
+k+=1
+print("Etape " + str(k))
+
+entree = open("../data/est.txt.ne.lima.conll","r")
+
+sortie = "../data/est.txt.ne.lima.conll"
+
+fctRet.retablissement4(entree,sortie)
+
+source.close()
+entree.close()
+
+print("Etape " + str(k) + " finie")
 
 
 
@@ -453,11 +499,8 @@ print("Etape 21 finie")
 
 
 
-
-
-
-
-print("Etape 22")
+k+=1
+print("Etape " + str(k))
 
 entree = open("../data/eference.txt.conll.final","r")
 
@@ -467,7 +510,7 @@ fctRet.retablissement4(entree,sortie)
 
 entree.close()
 
-print("Etape 22 finie")
+print("Etape " + str(k) + " finie")
 
 
 print("Fin du programme")
